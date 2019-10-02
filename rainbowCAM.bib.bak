@@ -593,4 +593,47 @@
   slaccitation = {%%CITATION = PHRVA,D48,3467;%%},
 }
 
+@Article{Andersson:1995ez,
+  author        = {Andersson, Nils and Kojima, Yasufumi and Kokkotas, Kostas D.},
+  title         = {{On the oscillation spectra of ultracompact stars: An Extensive survey of gravitational wave modes}},
+  journal       = {Astrophys. J.},
+  year          = {1996},
+  volume        = {462},
+  pages         = {855},
+  archiveprefix = {arXiv},
+  doi           = {10.1086/177199},
+  eprint        = {gr-qc/9512048},
+  primaryclass  = {gr-qc},
+  slaccitation  = {%%CITATION = GR-QC/9512048;%%},
+}
+
+@Article{1989AnPCS..14..117J,
+  author   = {{Jensen}, B.~P.},
+  title    = {{The quasi-normal modes of a simple system.}},
+  journal  = {Annales de Physique Colloque Supplement},
+  year     = {1989},
+  volume   = {14},
+  pages    = {117-121},
+  month    = {Dec},
+  adsnote  = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl   = {https://ui.adsabs.harvard.edu/abs/1989AnPCS..14..117J},
+  keywords = {Gravitational Collapse: Gravitational Radiation, Gravitational Collapse: Black Holes, Gravitational Collapse: Stellar Evolution},
+}
+
+@Article{Andersson1996,
+  author   = {Andersson, Nils},
+  title    = {Two simple models for gravitational-wave modes of compact stars},
+  journal  = {General Relativity and Gravitation},
+  year     = {1996},
+  volume   = {28},
+  number   = {12},
+  pages    = {1433--1445},
+  month    = {Dec},
+  issn     = {1572-9532},
+  abstract = {Two simple model problems relevant for the gravitational-wave modes of relativistic stars are discussed. It is shown that the entire mode-spectrum can be obtained if one considers the modes as arising because of the trapping of gravitational waves by the spacetime curvature. The stellar fluid need play no dynamic role. Furthermore, it is shown that two distinct families of gravitational-wave modes exist. The first corresponds to waves trapped inside the star, while the second is similar to acoustic waves scattered off a hard sphere. An infinite number of the first kind of modes exist, but the latter family will only have a few members.},
+  day      = {01},
+  doi      = {10.1007/BF02113773},
+  url      = {https://doi.org/10.1007/BF02113773},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
