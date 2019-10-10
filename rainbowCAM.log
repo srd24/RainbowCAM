@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.22)  1 OCT 2019 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.22)  10 OCT 2019 17:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -882,24 +882,36 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 84.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./
-rainbowCAM.bbl
-[2]) [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+(./rainbowCAM.bbl [3]
+Underfull \hbox (badness 10000) in paragraph at lines 325--333
+[]\OT1/cmr/m/n/10 S. Chan-drasekhar and V. Fer-rari, [][]Pro-ceed-ings of the R
+oyal So-ci-ety of Lon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--333
+\OT1/cmr/m/n/10 don A: Math-e-mat-i-cal, Phys-i-cal and En-gi-neer-ing Sci-ence
+s \OT1/cmr/bx/n/10 434\OT1/cmr/m/n/10 , 449 (1991)[][],
+ []
+
+) [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./rainbowCAM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `rainbowCAM.out' has not changed.
-(rerunfilecheck)             Checksum: 4D7C30553D95CAFBB25ECDACA64F7076;353.
+(rerunfilecheck)             Checksum: 35EB3A8B5725FC113291C1AA940DA6C7;434.
  ) 
 Here is how much of TeX's memory you used:
- 11537 strings out of 493089
- 166264 string characters out of 6134842
- 300707 words of memory out of 5000000
- 14756 multiletter control sequences out of 15000+600000
+ 11580 strings out of 493089
+ 167054 string characters out of 6134842
+ 301974 words of memory out of 5000000
+ 14788 multiletter control sequences out of 15000+600000
  18072 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,38p,562b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,38p,1230b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -913,10 +925,10 @@ xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on rainbowCAM.pdf (3 pages, 150844 bytes).
+Output written on rainbowCAM.pdf (4 pages, 158427 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
