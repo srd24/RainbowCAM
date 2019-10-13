@@ -51,8 +51,6 @@
 \newcommand{\cS}{\mathcal{S}}
 \newcommand{\lmws}{{\ell m \omega s}}
 \newcommand{\nn}{\nonumber}
-\newcommand{\be}{\begin{equation}}
-\newcommand{\ee}{\end{equation}}
 
 \newcommand*\widefbox[1]{\fbox{\rule[-2cm]{0pt}{4cm}\hspace{2em}#1\hspace{2em}}}
 
@@ -68,7 +66,7 @@
 
 
 \usepackage{threeparttable}
- 
+
 
 \begin{document}
 
@@ -165,7 +163,7 @@ the potential inside the star ($r<R$) and  $V_{\ell}(r)$ reduces to the Regge-Wh
 \end{equation}
 and the tortoise coordinates $r^\ast$ reduces to $r^\ast = r+ 2M \ln [r/(2M) -1]+\mathrm{const}$.
 
-It is important to recall that the modes $\phi_{\omega \ell}^{in}$ have a regular behavior at the origin $r \to 0$  
+It is important to recall that the modes $\phi_{\omega \ell}^{in}$ have a regular behavior at the origin $r \to 0$
 \begin{equation}\label{bc_1_in}
 \phi^\mathrm{in}_{\omega  \ell}(r) \scriptstyle{\underset{r \to 0}{\sim}}
 \displaystyle{r^{\ell}}.
@@ -315,6 +313,7 @@ To construct the scattering amplitude \eqref{Scalar_Scattering_amp}, the back gr
 
 
 \begingroup
+\squeezetable
 \begin{table*}[htp]
 \begin{threeparttable}[htp]
 %\captionsetup{font=small}
@@ -327,7 +326,7 @@ To construct the scattering amplitude \eqref{Scalar_Scattering_amp}, the back gr
  \\ \hline
 $1$  & $3$  & $ 9.14850+2.76784 i$  & $1.06219+2.33072 i$  & $-12.41483-0.10424 i$  & $ -0.184457+0.480330 i$    \\
      & $16$  & $55.50945+5.71038 i$  & $ 0.12529+3.27098 i$  & $-447.5395+25.2912 i$  & $-0.322061-0.088002 i $  \\
-     
+
 $2$  & $3$  & $ 10.21986+5.16209 i $  & $3.31484+2.48159 i$  & $13.8486+24.3824 i$  & $0.290952+1.043116 i$    \\
      & $16$  & $ 57.94656+9.18793 i$  & $2.14868+3.31439 i$  & $5188.750-859.909 i$  & $ -0.381581-0.077583 i$    \\
 
@@ -339,7 +338,7 @@ $4$  & $3$  & $ 11.9297+8.9960 i$  & $/$  & $ 12.7301-50.8802 i$ & $/$    \\
 
 $5$  & $3$  & $12.6734+10.6929 i$  & $/$  & $-33.7366-51.7404 i$ & $/$     \\
      & $16$  & $62.48626+17.37165 i$  & $8.39270+3.44762 i$  & $589920.5-79507.8 i$  & $-0.550038+0.330275 i$    \\
-     
+
 $6$  & $3$  & $13.3709+12.2989 i$  & $/$   & $-66.4436-20.7767 i$ & $/$    \\
      & $16$  & $ 63.68605+19.76911 i$  & $10.53720+3.49356 i$  & $-360464.-1.797518\times 10^6 i$  & $ -0.426365+0.639191 i$    \\
 
@@ -388,25 +387,25 @@ $3$  & $3$  & $ 5.424546+4.705899 i $  & $  4.60229+1.29099 i$  & $ 7.45763+0.01
 
 $4$  & $3$  & $ 5.644986+6.043188 i $  & $ /$  & $/ $  & $ -471.5443+314.3116 i  $ & $ /$ & $/ $  \\
      & $6$  & $ 12.114598+6.503749 i  $  & $ 6.67509+1.78279 i $  & $15.0621+0.0422 i  $  & $39281.5-229393.2 i  $ & $39.6176+33.5152 i  $ & $0.1011154+0.0020569 i $  \\
-     
+
 $5$  & $3$  & $5.898427+7.281723 i $  & $ /$  & $/ $  & $37.8777+546.8945 i $ & $ /$ & $/ $  \\
      & $6$  & $  12.21646+7.95208 i $  & $ 8.28112+1.67243 i  $  & $ /$  & $ -356055.5+34945.9 i$ & $ 2.1175+134.5962 i $ & $/ $  \\
-     
+
 $6$  & $3$  & $ 6.166837+8.447532 i $  & $/ $  & $ /$  & $418.7890+315.4209 i$ & $/ $ & $/ $  \\
      & $6$  & $ 12.37420+9.33552 i $  & $ 9.82300+1.56317 i$  & $/ $  & $45934.6+468157.5 i $ & $ 66.944+324.598 i$ & $/ $  \\
-     
+
 $7$  & $3$  & $ 6.441642+9.557619 i $  & $ /$  & $/ $  & $499.2703-37.6476 i $ & $ /$ & $ /$  \\
      & $6$  & $12.56993+10.66226 i $  & $ 11.30630+1.45720 i  $  & $ /$  & $558619.4+61956.5 i $ & $ 833.855+78.332 i $ & $/ $  \\
-     
+
 $8$  & $3$  & $6.718463+10.623548 i $  & $ /$  & $/ $  & $ 367.2578-307.7533 i  $ & $ /$ & $/ $  \\
      & $6$  & $12.79184+11.93979 i $  & $/ $  & $/ $  & $ 293571.8-559756.8 i $ & $/ $ & $/ $  \\
-     
+
 $9$  & $3$  & $ 6.994953+11.653498 i $  & $/ $  & $/ $  & $147.3038-435.8160 i  $ & $ /$ & $/ $  \\
      & $6$  & $ 13.03197+13.17461 i  $  & $/ $  & $/ $  & $ -376511.5-570254.0 i  $ & $/$ & $ /$  \\
-     
+
 $10$ & $3$  & $7.26982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ & $/ $ & $ /$  \\
      & $6$  & $ 13.28485+14.37216 i$  & $ /$  & $/ $  & $ -719306.1-20011.7 i $ & $ /$ & $/ $  \\
-     
+
 \end{tabular}
 \end{ruledtabular}
 \begin{tablenotes}
@@ -417,12 +416,6 @@ $10$ & $3$  & $7.26982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ &
 \end{threeparttable}
 \end{table*}
 \endgroup
-
-\be
-\cos \left( \tfrac{1}{2} \theta_R \right) = \frac{1}{n^2} \left[ \frac{4 - n^2}{3} \right]^{3/2}
-\ee
-(Huygens 1652). 
-
 
 
 \section{Classification of quasinormal modes}
@@ -436,7 +429,6 @@ We consider the massless scalar field which only couples to the body via gravita
 		\item Trapped modes: These are the scalar analogue of the axial trapped modes considered by Chandrasekhar and Ferrari \cite{Chandrasekhar449}. They exist for bodies with $R/M < 3$. These models have an effective radial potential with a local minimum somewhere inside the star, and local maximum at the photon sphere $r=3M$. The trapped modes are essentially the first few curvature modes with energy less than the potential barrier. There are a finite number of them, and the number increases with the depth of the potential well.
 		\item Interface modes: also known as $\omega_{\text{II}}$-modes, these were discovered by Leins \textit{et al.} \cite{Leins:1993zz}. They used a generalisation of Leaver's continued fraction  method as well as a `Wronskain method' that allowed them to accurately compute these modes which are characterised by very rapid damping (large imaginary part). This second branch of modes is the most similar to the Schwarzschild black hole quasinormal modes. We have taken their continued fraction method one step further (see section...) in order to be confident with our results.
 	\end{enumerate}
->>>>>>> 8b666c5c215fddaf7f72884caa26962c43500921
 
 
 \acknowledgments
