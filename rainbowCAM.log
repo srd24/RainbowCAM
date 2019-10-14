@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  13 OCT 2019 21:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  14 OCT 2019 15:24
 entering extended mode
 **./rainbowCAM.tex
 (rainbowCAM.tex
@@ -941,7 +941,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  12085 strings out of 492895
- 179307 string characters out of 3124669
+ 179223 string characters out of 3124669
  347617 words of memory out of 3000000
  15654 multiletter control sequences out of 15000+200000
  18403 words of font info for 69 fonts, out of 3000000 for 9000
@@ -970,7 +970,7 @@ cm/cmsy6.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on rainbowCAM.pdf (8 pages, 1524070 bytes).
+Output written on rainbowCAM.pdf (8 pages, 1524084 bytes).
 PDF statistics:
  733 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)

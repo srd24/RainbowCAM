@@ -1,5 +1,5 @@
 SyncTeX Version:1
-Input:1:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\Brouillons_Rainbow_CAM\rainbowCAM.tex
+Input:1:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\RainbowCAM\rainbowCAM.tex
 Input:2:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls
 Input:3:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx
 Input:4:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\revtex\aps10pt4-1.rtx
@@ -73,14 +73,14 @@ Input:71:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xifthen\xifthe
 Input:72:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifmtarg\ifmtarg.sty
 Input:73:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
 Input:74:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty
-Input:75:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\Brouillons_Rainbow_CAM\rainbowCAM.aux
+Input:75:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\RainbowCAM\rainbowCAM.aux
 Input:76:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 Input:77:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
 Input:78:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
 Input:79:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 Input:80:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
-Input:81:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\Brouillons_Rainbow_CAM\rainbowCAM.out
-Input:82:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\Brouillons_Rainbow_CAM\rainbowCAM.out
+Input:81:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\RainbowCAM\rainbowCAM.out
+Input:82:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\RainbowCAM\rainbowCAM.out
 Input:83:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 Input:84:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 Input:85:C:\Users\Med\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd
@@ -90,7 +90,7 @@ Unit:1
 X Offset:0
 Y Offset:0
 Content:
-!7440
+!7392
 {1
 [1,163:4736286,49431838:32239289,44695552,0
 h1,163:4736286,4736286:0,0,0
@@ -2675,50 +2675,50 @@ $1,166:13904032,11348551
 k1,167:19674071,11348551:5770039
 g1,167:19674071,11348551
 )
-(1,170:9882510,12914876:9791561,589170,353165
-(1,170:9882510,12914876:3461266,589170,353165
-h1,170:9882510,12914876:0,0,0
-(1,167:9882510,12914876:0,0,0
-$1,167:9882510,12914876
-(1,167:9882510,12010482:0,0,0
+(1,170:9550733,12914876:10123338,589170,353165
+(1,170:9550733,12914876:4124821,589170,353165
+h1,170:9550733,12914876:0,0,0
+(1,167:9550733,12914876:0,0,0
+$1,167:9550733,12914876
+(1,167:9550733,12010482:0,0,0
 )
-$1,167:9882510,12914876
+$1,167:9550733,12914876
 )
-x1,167:10272996,12914876
-[1,170:10272996,13076892:598749,741175,0
-(1,170:10272996,12644283:470587,308566,0
-x1,170:10710815,12644283
+x1,167:9941219,12914876
+[1,170:9941219,13076892:598749,741175,0
+(1,170:9941219,12644283:470587,308566,0
+x1,170:10379038,12644283
 )
-(1,170:10272996,13076892:598749,318577,0
-x1,170:10603151,13076892
-x1,170:10838977,13076892
-)
-]
-x1,170:11422279,12914876
-x1,170:11695347,12914876
-(1,170:11695347,12914876:900374,176197,353165
-(1,170:11695347,12914876:900374,176197,353165
-[1,170:11695347,12914876:900374,176197,353165
-(1,170:11695347,12914876:900374,176197,0
-k1,170:11940734,12914876:245387
-k1,168:11940734,12914876:0
-x1,168:12350335,12914876
-k1,170:12595721,12914876:245386
-)
-(1,170:11695347,13202505:900374,211171,0
-x1,170:11915320,13202505
-x1,170:12595721,13202505
+(1,170:9941219,13076892:598749,318577,0
+x1,170:10271374,13076892
+x1,170:10507200,13076892
 )
 ]
+x1,170:11090502,12914876
+x1,170:11363570,12914876
+(1,170:11363570,12914876:900374,176197,353165
+(1,170:11363570,12914876:900374,176197,353165
+[1,170:11363570,12914876:900374,176197,353165
+(1,170:11363570,12914876:900374,176197,0
+k1,170:11608957,12914876:245387
+k1,168:11608957,12914876:0
+x1,168:12018558,12914876
+k1,170:12263944,12914876:245386
+)
+(1,170:11363570,13202505:900374,211171,0
+x1,170:11583543,13202505
+x1,170:12263944,13202505
+)
+]
 )
 )
-(1,170:12595721,12914876:566010,589170,0
-x1,170:12891392,12914876
-(1,170:12909597,12644283:252134,318577,0
-x1,170:13128963,12644283
+(1,170:12263944,12914876:1229565,589170,0
+x1,170:12559615,12914876
+(1,170:12577820,12644283:915689,318577,54614
+x1,170:13460741,12644283
 )
 )
-x1,170:13343776,12914876
+x1,170:13675554,12914876
 )
 (1,170:18836664,12914876:837407,491520,163840
 (1,170:18836664,12914876:837407,491520,163840
@@ -5139,7 +5139,7 @@ h1,245:3552215,49431838:33423360,0,0
 ]
 ]
 ]
-!70045
+!70047
 }2
 !10
 {3
@@ -11495,8 +11495,8 @@ h1,425:3552215,49431838:33423360,0,0
 ]
 !115210
 }4
-Input:86:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\Brouillons_Rainbow_CAM\rainbowCAM.bbl
-!110
+Input:86:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\RainbowCAM\rainbowCAM.bbl
+!98
 {5
 [86,147:4736286,49431838:32239289,44695552,0
 [86,147:4736286,4736286:0,0,0
@@ -13401,7 +13401,7 @@ h86,147:3552215,49431838:33423360,0,0
 ]
 ]
 ]
-!49953
+!49952
 }5
 !10
 {6
@@ -15828,9 +15828,9 @@ h1,442:3552215,49431838:33423360,0,0
 ]
 !51668
 }8
-Input:87:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\Brouillons_Rainbow_CAM\rainbowCAM.aux
-!109
+Input:87:D:\Recherche_Septembre_2017_2019\_Articles_Sam_Team\RainbowCAM\rainbowCAM.aux
+!97
 Postamble:
 Count:10371
-!28
+!27
 Post scriptum:
