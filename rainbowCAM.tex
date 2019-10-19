@@ -417,6 +417,31 @@ $10$ & $3$  & $7.76982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ &
 \end{table*}
 \endgroup
 
+\section{WKB ?}
+\label{SecIII}
+
+The WKB approach developed in the context of the determination of the QNMs by Zhang, Wu and Leung~\cite{Zhang:2011pq} can be adapted in order to obtain analytical approximations for the ``Broad Regge poles''. Indeed, Regge modes and QNMs both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency.  By using WKB approximation for the Regge modes, we can find that the Regge pole $\lambda$ are the complex solutions  of the equation 
+\begin{equation}\label{WKB_1}
+  e^{-2 i R_*\omega} = a \omega^{-2} e^{-i \pi (\lambda+1/2)}
+\end{equation}
+with 
+\begin{equation}\label{Def_a}
+  a= \frac{3M \left(R-2M\right)^2}{4 R^5\omega}
+\end{equation}
+and
+\begin{equation}\label{R_star}
+  R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
+\end{equation}
+We then solve Eq.~\eqref{WKB_1} and we obtain for the lowest ``Broad Regge poles''  
+\begin{equation}\label{lambda_Approx} 
+  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
+\end{equation}
+
+%\begin{eqnarray}\label{lambda_Approx}
+%% \nonumber % Remove numbering (before each equation)
+%  \lambda_n \approx & & \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\Im [2 i\omega R_*]}{2\pi} \right\rfloor\nonumber\\
+%   &-& \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
+%\end{eqnarray}
 
 \section{Classification of quasinormal modes}
 

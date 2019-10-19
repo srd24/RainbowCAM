@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  18 OCT 2019 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  19 OCT 2019 12:15
 entering extended mode
 **./rainbowCAM.tex
 (rainbowCAM.tex
@@ -611,10 +611,16 @@ Class revtex4-1 Info: mcite was not loaded (OK!) on input line 71.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 71.
 (rainbowCAM.aux
 
+LaTeX Warning: Label `SecIII' multiply defined.
+
+
 LaTeX Warning: Label `tab:table2' multiply defined.
 
 
 LaTeX Warning: Label `RP_approx_2Mw_3_6_s_1' multiply defined.
+
+
+LaTeX Warning: Label `lambda_Approx' multiply defined.
 
 
 LaTeX Warning: Label `S_0_2Mw_01_Exact_vs_CAM' multiply defined.
@@ -732,7 +738,7 @@ Overfull \hbox (10.23909pt too wide) in alignment at lines 234--237
  []
 
 [2]
-<RP_R_6_2Mw_3_16.pdf, id=169, 501.875pt x 576.1525pt>
+<RP_R_6_2Mw_3_16.pdf, id=173, 501.875pt x 576.1525pt>
 File: RP_R_6_2Mw_3_16.pdf Graphic file (type pdf)
 <use RP_R_6_2Mw_3_16.pdf>
 Package pdftex.def Info: RP_R_6_2Mw_3_16.pdf  used on input line 265.
@@ -742,7 +748,7 @@ Overfull \hbox (4.93687pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
-<RP_R_2_dot_26_2Mw_3_6.pdf, id=170, 501.875pt x 576.1525pt>
+<RP_R_2_dot_26_2Mw_3_6.pdf, id=174, 501.875pt x 576.1525pt>
 File: RP_R_2_dot_26_2Mw_3_6.pdf Graphic file (type pdf)
 <use RP_R_2_dot_26_2Mw_3_6.pdf>
 Package pdftex.def Info: RP_R_2_dot_26_2Mw_3_6.pdf  used on input line 272.
@@ -752,33 +758,33 @@ Overfull \hbox (4.93687pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
-<Scattering_Cross_Section_R_6_2Mw_3.pdf, id=171, 1011.78pt x 575.14874pt>
+<Scattering_Cross_Section_R_6_2Mw_3.pdf, id=175, 1011.78pt x 575.14874pt>
 File: Scattering_Cross_Section_R_6_2Mw_3.pdf Graphic file (type pdf)
 <use Scattering_Cross_Section_R_6_2Mw_3.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_6_2Mw_3.pdf  used on input 
 line 278.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
-<Scattering_Cross_Section_R_6_2Mw_16.pdf, id=172, 1011.78pt x 575.14874pt>
+<Scattering_Cross_Section_R_6_2Mw_16.pdf, id=176, 1011.78pt x 575.14874pt>
 File: Scattering_Cross_Section_R_6_2Mw_16.pdf Graphic file (type pdf)
 <use Scattering_Cross_Section_R_6_2Mw_16.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_6_2Mw_16.pdf  used on input
  line 283.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
-<Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf, id=173, 1011.78pt x 575.14874pt
+<Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf, id=177, 1011.78pt x 575.14874pt
 >
 File: Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf Graphic file (type pdf)
 <use Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf  used on
  input line 289.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
-<Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf, id=174, 1011.78pt x 575.14874pt
+<Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf, id=178, 1011.78pt x 575.14874pt
 >
 File: Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf Graphic file (type pdf)
 <use Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf  used on
  input line 296.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
-<Rainbow_Cross_Section_R_6_2Mw_16.pdf, id=175, 501.875pt x 303.1325pt>
+<Rainbow_Cross_Section_R_6_2Mw_16.pdf, id=179, 501.875pt x 303.1325pt>
 File: Rainbow_Cross_Section_R_6_2Mw_16.pdf Graphic file (type pdf)
 <use Rainbow_Cross_Section_R_6_2Mw_16.pdf>
 Package pdftex.def Info: Rainbow_Cross_Section_R_6_2Mw_16.pdf  used on input li
@@ -789,7 +795,7 @@ Overfull \hbox (4.93687pt too wide) in paragraph at lines 303--304
  [][] 
  []
 
-<Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6.pdf, id=176, 501.875pt x 299.
+<Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6.pdf, id=180, 501.875pt x 299.
 1175pt>
 File: Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6.pdf Graphic file (type p
 df)
@@ -802,86 +808,87 @@ Overfull \hbox (4.93687pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
+
+Overfull \hbox (9.0772pt too wide) detected at line 438
+[][]\OML/cmm/m/it/10 [] \OMS/cmsy/m/n/10  [] \OT1/cmr/m/n/10 + 2 [] + 2 [] \O
+MS/cmsy/m/n/10   [] [] []
+ []
+
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.425 W
-       e consider the massless scalar field which only couples to the body v...
- <./RP_R_6_2Mw_3_16.pdf>] [4pdfTeX warning (ext4): destination with the same id
-entifier (name{table.1}) has been already used, duplicate ignored
+l.438 \end{equation}
+                     <./RP_R_6_2Mw_3_16.pdf>] [4pdfTeX warning (ext4): destinat
+ion with the same identifier (name{table.1}) has been already used, duplicate i
+gnored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.425 W
-       e consider the massless scalar field which only couples to the body v...
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
- been already used, duplicate ignored
+l.438 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{table.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.425 W
-       e consider the massless scalar field which only couples to the body v...
-]
+l.438 \end{equation}
+                    ]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 425.
+ on input line 438.
 
-(rainbowCAM.bbl [5pdfTeX warning (ext4): destination with the same identifier (
-name{figure.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.147 ...ont {Andersson}(1995)}]{Andersson:1995vi}
-                                                  % <./RP_R_2_dot_26_2Mw_3_6.pd
-f>] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3}) has been already used, duplicate ignored
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.147 ...ont {Andersson}(1995)}]{Andersson:1995vi}
-                                                  %pdfTeX warning (ext4): desti
-nation with the same identifier (name{figure.4}) has been already used, duplica
-te ignored
+l.461 
+       <./RP_R_2_dot_26_2Mw_3_6.pdf>] [6pdfTeX warning (ext4): destination with
+ the same identifier (name{figure.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.147 ...ont {Andersson}(1995)}]{Andersson:1995vi}
-                                                  % <./Scattering_Cross_Section
-_R_6_2Mw_3.pdf> <./Scattering_Cross_Section_R_6_2Mw_16.pdf
+l.461 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.461 
+       <./Scattering_Cross_Section_R_6_2Mw_3.pdf> <./Scattering_Cross_Section_R
+_6_2Mw_16.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Scattering_Cross_Section_R_6_2Mw_16.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 147.
+ on input line 461.
 
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.147 ...ont {Andersson}(1995)}]{Andersson:1995vi}
-                                                  %pdfTeX warning (ext4): desti
-nation with the same identifier (name{figure.6}) has been already used, duplica
-te ignored
+l.461 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.147 ...ont {Andersson}(1995)}]{Andersson:1995vi}
-                                                  % <./Scattering_Cross_Section
-_R_2-dot-26_2Mw_3.pdf> <./Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf
+l.461 
+       <./Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf> <./Scattering_Cross_Se
+ction_R_2-dot-26_2Mw_6.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Scattering_Cross_Section_R_2-dot-26_2Mw_6.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 147.
+ on input line 461.
 
-
+(rainbowCAM.bbl
 Underfull \hbox (badness 6910) in paragraph at lines 181--187
  []\OT1/cmr/m/n/9 S. R. Dolan, [][]Phys. Rev. \OT1/cmr/bx/n/9 D77\OT1/cmr/m/n/9
  , 044004 (2008)[][],
@@ -892,61 +899,61 @@ Underfull \hbox (badness 3989) in paragraph at lines 256--261
  []\OT1/cmr/m/n/9 Y. Nambu, S. Noda,  and Y. Sakai,  (2019),
  []
 
-
-Underfull \hbox (badness 3503) in paragraph at lines 400--408
- []\OT1/cmr/m/n/9 S. Chan-drasekhar and V. Fer-rari, [][]Pro-ceed-ings of
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 400--408
- \OT1/cmr/m/n/9 the Royal So-ci-ety of Lon-don A: Math-e-mat-i-cal,
- []
-
-
-Overfull \hbox (54.22163pt too wide) in paragraph at lines 400--408
- [][]\OT1/cmr/m/n/9 http://rspa.royalsocietypublishing.org/content/434/1891/449
-.full.pdf[][]. 
- []
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 442.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
- has been already used, duplicate ignored
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.442 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.8}) has been already used, duplicate ignored
+l.325   {Stegun}(1965)}]{AS65}
+                              %pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.442 \end{document}
-                     <./Rainbow_Cross_Section_R_6_2Mw_16.pdf> <./Diff_Contribut
-ion_Cross_Section_R_2-dot-26_2Mw_6.pdf
+l.325   {Stegun}(1965)}]{AS65}
+                              % <./Rainbow_Cross_Section_R_6_2Mw_16.pdf> <./Dif
+f_Contribution_Cross_Section_R_2-dot-26_2Mw_6.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Diff_Contribution_Cross_Section_R_2-dot-26
 _2Mw_6.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
+Underfull \hbox (badness 3503) in paragraph at lines 411--419
+ []\OT1/cmr/m/n/9 S. Chan-drasekhar and V. Fer-rari, [][]Pro-ceed-ings of
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 411--419
+ \OT1/cmr/m/n/9 the Royal So-ci-ety of Lon-don A: Math-e-mat-i-cal,
+ []
+
+
+Overfull \hbox (54.22163pt too wide) in paragraph at lines 411--419
+ [][]\OT1/cmr/m/n/9 http://rspa.royalsocietypublishing.org/content/434/1891/449
+.full.pdf[][]. 
+ []
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
  (rainbowCAM.aux)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 442.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
 Package rerunfilecheck Info: File `rainbowCAM.out' has not changed.
-(rerunfilecheck)             Checksum: 82FD8C406D5CFB32B5E3C7F84FE0C3E0;1132.
+(rerunfilecheck)             Checksum: B3BBDA983E691B729EBCE4C1EDEA3BB1;1186.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12085 strings out of 492895
- 179223 string characters out of 3124669
- 347617 words of memory out of 3000000
- 15654 multiletter control sequences out of 15000+200000
+ 12099 strings out of 492895
+ 179409 string characters out of 3124669
+ 347784 words of memory out of 3000000
+ 15661 multiletter control sequences out of 15000+200000
  18403 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,19n,38p,1255b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,19n,38p,1255b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx9.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
@@ -970,9 +977,9 @@ cm/cmsy6.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on rainbowCAM.pdf (8 pages, 1524068 bytes).
+Output written on rainbowCAM.pdf (9 pages, 1529970 bytes).
 PDF statistics:
- 733 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 752 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

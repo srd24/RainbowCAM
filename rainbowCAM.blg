@@ -1,0 +1,20 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: rainbowCAM.aux
+The style file: apsrev4-1.bst
+Database file #1: rainbowCAMNotes.bib
+Database file #2: rainbowCAM.bib
+Repeated entry---line 458 of file rainbowCAM.bib
+ : @article{Dolan:2017rtj
+ :                       ,
+I'm skipping whatever remains of this entry
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing school in Hildreth1964PhDT64
+Warning--missing journal in Nambu:2019sqn
+Warning--empty year in Mathematica
+(There was 1 error message)
