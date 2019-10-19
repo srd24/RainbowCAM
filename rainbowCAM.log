@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  19 OCT 2019 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  19 OCT 2019 12:19
 entering extended mode
 **./rainbowCAM.tex
 (rainbowCAM.tex
@@ -618,9 +618,6 @@ LaTeX Warning: Label `tab:table2' multiply defined.
 
 
 LaTeX Warning: Label `RP_approx_2Mw_3_6_s_1' multiply defined.
-
-
-LaTeX Warning: Label `lambda_Approx' multiply defined.
 
 
 LaTeX Warning: Label `S_0_2Mw_01_Exact_vs_CAM' multiply defined.
