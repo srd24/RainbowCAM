@@ -148,7 +148,7 @@ where
 \begin{equation}\label{Scalar_Scattering_amp}
  \hat{f}(\omega,\theta) = \frac{1}{2 i \omega} \sum_{\ell = 0}^{\infty} (2\ell+1)[S_{\ell}(\omega)-1]P_{\ell}(\cos\theta)
 \end{equation}
-denotes the scattering amplitude.  In Eqs.~(\ref{Scalar_Scattering_amp}), the functions $P_{\ell}(\cos\theta)$ are the Legendre polynomials \cite{AS65}.  We also recall that the $S$-matrix elements $S_{\ell}(\omega)$ appearing in Eqs.~(\ref{Scalar_Scattering_amp}) can be defined from the modes $\phi_{\omega \ell}^{in}$ solutions of the homogenous radial equation
+denotes the scattering amplitude.  In Eqs.~(\ref{Scalar_Scattering_amp}), the functions $P_{\ell}(\cos\theta)$ are the Legendre polynomials \cite{AS65}.  We also recall that the $S$-matrix elements $S_{\ell}(\omega)$ appearing in Eqs.~(\ref{Scalar_Scattering_amp}) can be defined from the modes $\phi_{\omega \ell}$ solutions of the homogenous radial equation
 \begin{equation}
 \label{H_Radial_equation}
 \left[\frac{d^{2}}{dr_{\ast}^{2}}+\omega^{2}-V_{\ell}(r)\right]\phi_{\omega\ell}= 0
@@ -163,14 +163,14 @@ the potential inside the star ($r<R$) and  $V_{\ell}(r)$ reduces to the Regge-Wh
 \end{equation}
 and the tortoise coordinates $r^\ast$ reduces to $r^\ast = r+ 2M \ln [r/(2M) -1]+\mathrm{const}$.
 
-It is important to recall that the modes $\phi_{\omega \ell}^{in}$ have a regular behavior at the origin $r \to 0$
+It is important to recall that the modes $\phi_{\omega \ell}$ have a regular behavior at the origin $r \to 0$
 \begin{equation}\label{bc_1_in}
-\phi^\mathrm{in}_{\omega  \ell}(r) \scriptstyle{\underset{r \to 0}{\sim}}
+\phi_{\omega  \ell}(r) \scriptstyle{\underset{r \to 0}{\sim}}
 \displaystyle{r^{\ell+1}}.
 \end{equation}
 of the compact body and an asymptotic behavior at spatial infinity $r \to +\infty$ (i.e., for $r_\ast \to +\infty$) of the form
 \begin{equation}\label{bc_2_in}
-\phi^\mathrm{in}_{\omega  \ell}(r) \scriptstyle{\underset{r_\ast \to +\infty}{\sim}}
+\phi_{\omega  \ell}(r) \scriptstyle{\underset{r_\ast \to +\infty}{\sim}}
 \displaystyle{ A^{(-)}_\ell (\omega) e^{-i\omega r_\ast} + A^{(+)}_\ell (\omega) e^{+i\omega r_\ast}}.
 \end{equation}
 In this last equation, the coefficients $A^{(-)}_\ell (\omega)$ and  $A^{(+)}_\ell (\omega)$ are complex amplitudes and we have
@@ -204,7 +204,7 @@ In Eq.~(\ref{SW_Scalar_Scattering_amp}), $S_{\lambda -1/2} (\omega)$ denotes ``t
 \begin{equation}\label{Matrix_S_CAM}
   S_{\lambda -1/2}(\omega) =  e^{i(\lambda + 1/2)\pi} \, \frac{A_{\lambda -1/2}^{(+)}(\omega)}{A_{\lambda -1/2}^{(-)}(\omega)}
 \end{equation}
-where the complex amplitudes $A^{(-)}_{\lambda -1/2} (\omega)$ and  $A^{(+)}_{\lambda -1/2} (\omega)$ are defined from the analytic extension of the modes $\phi_{\omega \ell}^{in}$, i.e., from the function $\phi_{\omega ,\lambda -1/2}^{in}$.
+where the complex amplitudes $A^{(-)}_{\lambda -1/2} (\omega)$ and  $A^{(+)}_{\lambda -1/2} (\omega)$ are defined from the analytic extension of the modes $\phi_{\omega \ell}$, i.e., from the function $\phi_{\omega ,\lambda -1/2}$.
 
 It is important to note that the poles of  $S_{\lambda -1/2} (\omega)$ in the complex $\lambda$ plan (i.e., the Regge poles) are defined  as  the zeros $\lambda_n(\omega)$ with $n=1,2,3,\ldots$ of the coefficient  $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~(\ref{Matrix_S_CAM})]
 \begin{equation}\label{PR_def_Am}
@@ -420,28 +420,61 @@ $10$ & $3$  & $7.76982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ &
 \section{WKB ?}
 \label{SecIII}
 
-The WKB approach developed in the context of the determination of the QNMs by Zhang, Wu and Leung~\cite{Zhang:2011pq} can be adapted in order to obtain analytical approximations for the ``Broad Regge poles''. Indeed, Regge modes and QNMs both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency.  By using WKB approximation for the Regge modes, we can find that the Regge pole $\lambda$ are the complex solutions  of the equation 
-\begin{equation}\label{WKB_1}
-  e^{-2 i R_*\omega} = a \omega^{-2} e^{-i \pi (\lambda+1/2)}
+The WKB approach developed in the context of the determination of the \textit{w}-modes QNMs by Zhang, Wu and Leung~\cite{Zhang:2011pq} can be adapted in order to obtain analytical approximations for the ``broad Regge poles''. Indeed, Regge modes and QNMs both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency. Indeed, they satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition~\eqref{bc_2_in} at the spatial infinity, thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phi^{(r_*\to 0)}_{\omega\ell}$ and $\phi^{(r_*\to \infty)}_{\omega\ell}$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$)
+\begin{equation}\label{Wronskian}
+  W[\phi^{(r_*\to 0)}_{\omega\ell},\phi^{(r_*\to \infty)}_{\omega\ell}]= 0
+\end{equation} 
+It has been shown that, the asymptotic expressions of $\phi^{(r_*\to 0)}_{\omega\ell}$ and $\phi^{(r_*\to \infty)}_{\omega\ell}$ can be derived, buy using the standard WKB approximation, in the high-frequency domain and we have (see Refs \ldots)
+\begin{equation}\label{Approx_origin}
+  \phi^{(r_* \to 0)}_{\omega\ell} \underset{\omega \to \infty}{=} \omega r_* j_\ell(\omega r_*) \quad\quad 0\leq r_*\leq R_*
 \end{equation}
-with 
-\begin{equation}\label{Def_a}
-  a= \frac{3M \left(R-2M\right)^2}{4 R^5\omega}
+and 
+\begin{equation}
+\label{Approx_infinity}
+\phi^{(r_* \to \infty)}_{\omega\ell}\scriptstyle{\underset{\omega \to \infty}{=}}
+\left\{
+\begin{aligned}
+&e^{i\omega(r_*-R_*)}+\mathcal{R} e^{-i\omega (r_*-R_*)}& \scriptstyle{1/\omega\leq r_{*} < R_*,}\\
+&\left(1+\mathcal{R}\right) e^{i\omega(r_*-R_*)}        & \scriptstyle{R_*\leq r_{*}<\infty.}
+\end{aligned}
+\right.
 \end{equation}
-and
+Here 
 \begin{equation}\label{R_star}
   R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
 \end{equation}
-We then solve Eq.~\eqref{WKB_1} and we obtain for the lowest ``Broad Regge poles''  
-\begin{equation}\label{lambda_Approx} 
-  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
+where $\mathcal{R}$ is the standard reflection coefficient as defined in (Ref\ldots)
+Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \ldots for more details), we have for our model (\textit{i.e.}, compact body with a constant density)
+\begin{equation}\label{R_reflection_1}
+  \mathcal{R} = a \omega^{-2}
+\end{equation}
+with 
+\begin{equation}\label{a_def}
+a= \frac{3M \left(R-2M\right)^2}{4 R^5}
+\end{equation}
+Now, by inserting~\eqref{Approx_origin}, or more precisely his expansion series when $\omega \to \infty$, \textit{i.e.},
+\begin{equation}\label{Approx_origin_bis}
+  \phi^{(r_* \to 0)}_{\omega\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*)\quad\quad 0\leq r_*\leq R_*
+\end{equation}
+and \eqref{Approx_infinity} into  \eqref{Wronskian}, we obtain 
+
+\begin{equation}\label{WKB_1}
+   e^{\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}=-\mathcal{R} e^{-\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}
 \end{equation}
 
-%\begin{eqnarray}\label{lambda_Approx}
-%% \nonumber % Remove numbering (before each equation)
-%  \lambda_n \approx & & \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\Im [2 i\omega R_*]}{2\pi} \right\rfloor\nonumber\\
-%   &-& \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
-%\end{eqnarray}
+We then solve Eq.~\eqref{WKB_1} and we obtain for the lowest ``Broad Regge poles''
+
+\begin{equation}\label{lambda_Approx}
+  \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)-\frac{i}{\pi} \ln\left(\mathcal{R}\right)
+\end{equation}
+
+
+
+%\begin{equation}\label{lambda_Approx}
+%  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
+%\end{equation}
+
+
 
 \section{Classification of quasinormal modes}
 
