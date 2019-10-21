@@ -423,12 +423,12 @@ $10$ & $3$  & $7.76982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ &
 The WKB approach developed in the context of the determination of the \textit{w}-modes QNMs by Zhang, Wu and Leung~\cite{Zhang:2011pq} can be adapted in order to obtain analytical approximations for the ``broad Regge poles''. Indeed, Regge modes and QNMs both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency. Indeed, they satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition~\eqref{bc_2_in} at the spatial infinity, thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phi^{(r_*\to 0)}_{\omega\ell}$ and $\phi^{(r_*\to \infty)}_{\omega\ell}$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$)
 \begin{equation}\label{Wronskian}
   W[\phi^{(r_*\to 0)}_{\omega\ell},\phi^{(r_*\to \infty)}_{\omega\ell}]= 0
-\end{equation} 
+\end{equation}
 It has been shown that, the asymptotic expressions of $\phi^{(r_*\to 0)}_{\omega\ell}$ and $\phi^{(r_*\to \infty)}_{\omega\ell}$ can be derived, buy using the standard WKB approximation, in the high-frequency domain and we have (see Refs \ldots)
 \begin{equation}\label{Approx_origin}
   \phi^{(r_* \to 0)}_{\omega\ell} \underset{\omega \to \infty}{=} \omega r_* j_\ell(\omega r_*) \quad\quad 0\leq r_*\leq R_*
 \end{equation}
-and 
+and
 \begin{equation}
 \label{Approx_infinity}
 \phi^{(r_* \to \infty)}_{\omega\ell}\scriptstyle{\underset{\omega \to \infty}{=}}
@@ -439,7 +439,7 @@ and
 \end{aligned}
 \right.
 \end{equation}
-Here 
+Here
 \begin{equation}\label{R_star}
   R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
 \end{equation}
@@ -448,27 +448,31 @@ Because the potential has a direct discontinuity at the surface of the compact b
 \begin{equation}\label{R_reflection_1}
   \mathcal{R} = a \omega^{-2}
 \end{equation}
-with 
+with
 \begin{equation}\label{a_def}
 a= \frac{3M \left(R-2M\right)^2}{4 R^5}
 \end{equation}
 Now, by inserting~\eqref{Approx_origin}, or more precisely his expansion series when $\omega \to \infty$, \textit{i.e.},
 \begin{equation}\label{Approx_origin_bis}
-  \phi^{(r_* \to 0)}_{\omega\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*)\quad\quad 0\leq r_*\leq R_*
+  \phi^{(r_* \to 0)}_{\omega\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right)\quad\quad 0\leq r_*\leq R_*
 \end{equation}
-and \eqref{Approx_infinity} into  \eqref{Wronskian}, we obtain 
-
+and \eqref{Approx_infinity} into  \eqref{Wronskian}, we obtain
 \begin{equation}\label{WKB_1}
-   e^{\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}=-\mathcal{R} e^{-\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}
+   e^{\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}=-\mathcal{R}\, e^{-\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}
 \end{equation}
-
-We then solve Eq.~\eqref{WKB_1} and we obtain for the lowest ``Broad Regge poles''
-
+We then solve Eq.~\eqref{WKB_1} and we obtain
 \begin{equation}\label{lambda_Approx}
-  \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)-\frac{i}{\pi} \ln\left(\mathcal{R}\right)
+  \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)+\frac{i}{\pi} \ln\left(\frac{1}{\mathcal{R}}\right)
 \end{equation}
-
-
+This corresponds to the series of Regge poles with spacing $|\Delta \lambda_n|\approx 2$ with the almost constant  imaginary part. Of course, they lies in the first quadrant of the CAM plan with a positive real part
+\begin{equation}\label{Real_Part}
+  \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)>0
+\end{equation}
+where $n =1,2,\ldots$ correspond to the overtones and has an upper limit
+\begin{equation}\label{Limit_Broad_RP}
+n < \left\lfloor \frac{\omega R_*}{\pi} - \frac{1}{4}\right\rfloor
+\end{equation} 
+This is means, in other words, that there is a finite number of the ``broad Regge poles''. These poles are associated with the broad resonances above the top of the centrifugal barrier!
 
 %\begin{equation}\label{lambda_Approx}
 %  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
