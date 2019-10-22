@@ -3,13 +3,24 @@
 \linespread{1.2}
 
 
+
 \usepackage{graphicx, epsfig, amssymb}
 \usepackage{amsmath, amsfonts}
 \usepackage{bm}
 \usepackage{enumitem}
 \usepackage[usenames]{color}
 \definecolor{navyblue}{rgb}{0.0, 0.0, 0.5}
-\usepackage[linktocpage,colorlinks=true,allcolors=navyblue]{hyperref}
+\usepackage[pdftex]{hyperref}
+\hypersetup
+	{
+		colorlinks,%
+		citecolor=blue,%
+		linkcolor=red,%
+		urlcolor=blue,%
+	}
+
+
+%\usepackage[linktocpage,colorlinks=true,linkcolor=red]{hyperref}
 \usepackage[caption=false]{subfig}
 \usepackage[utf8]{inputenc}
 \usepackage{tensor}
@@ -32,6 +43,8 @@
 \usepackage{wasysym}
 %\usepackage{caption}
 %\usepackage{subcaption}
+
+
 
 \DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
 \newcommand{\ff}{\hat{f}}
@@ -102,6 +115,7 @@ To be written
 
 \maketitle
 
+\tableofcontents
 
 \section{Introduction}
 Blah. hello. some more text.
@@ -460,23 +474,9 @@ and \eqref{Approx_infinity} into  \eqref{Wronskian}, we obtain
 \begin{equation}\label{WKB_1}
    e^{\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}=-\mathcal{R}\, e^{-\left(\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*\right)}
 \end{equation}
-We then solve Eq.~\eqref{WKB_1} and we obtain
-\begin{equation}\label{lambda_Approx}
-  \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)+\frac{i}{\pi} \ln\left(\frac{1}{\mathcal{R}}\right)
-\end{equation}
-This corresponds to the series of Regge poles with spacing $|\Delta \lambda_n|\approx 2$ with the almost constant  imaginary part. Of course, they lies in the first quadrant of the CAM plan with a positive real part
-\begin{equation}\label{Real_Part}
-  \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)>0
-\end{equation}
-where $n =1,2,\ldots$ correspond to the overtones and has an upper limit
-\begin{equation}\label{Limit_Broad_RP}
-n < \left\lfloor \frac{\omega R_*}{\pi} - \frac{1}{4}\right\rfloor
-\end{equation}
-This is means, in other words, that there is a finite number of the ``broad Regge poles''. These poles are associated with the broad resonances above the top of the centrifugal barrier!
+We then solve Eq.~\eqref{WKB_1} and we obtain \dots 
 
-%\begin{equation}\label{lambda_Approx}
-%  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
-%\end{equation}
+To be completed after checking 
 
 
 
