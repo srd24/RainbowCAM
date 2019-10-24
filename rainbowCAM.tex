@@ -10,7 +10,7 @@
 \usepackage{enumitem}
 \usepackage[usenames]{color}
 \definecolor{navyblue}{rgb}{0.0, 0.0, 0.5}
-\usepackage[pdftex]{hyperref}
+\usepackage{hyperref}
 \hypersetup
 	{
 		colorlinks,%
@@ -179,7 +179,7 @@ and the tortoise coordinates $r^\ast$ reduces to $r^\ast = r+ 2M \ln [r/(2M) -1]
 
 It is important to recall that the modes $\phi_{\omega \ell}$ should have a regular behaviour at the origin $r \to 0$
 \begin{equation}\label{bc_1_in}
-\phi_{\omega  \ell}(r) \scriptstyle{\underset{r \to 0}{\sim}}.
+\phi_{\omega  \ell}(r) \scriptstyle{\underset{r \to 0}{\sim}}
 \displaystyle{r^{\ell+1}}.
 \end{equation}
 The asymptotic behaviour of the modes at spatial infinity $r \to +\infty$ (i.e., for $r_\ast \to +\infty$) is 
@@ -210,7 +210,7 @@ with a function $F$ without any singularities on the real $\lambda$ axis, we rep
 In Eqs.~(\ref{SWT_gen}) and (\ref{SW_Scalar_Scattering_amp}), the integration contour encircles counterclockwise the positive real axis of the complex $\lambda$ plane, i.e., we take ${\cal C}=]+\infty +i\epsilon,+i\epsilon] \cup
 [+i\epsilon,-i\epsilon] \cup [-i\epsilon, +\infty -i\epsilon[$ with $\epsilon \to 0_+$ (see Fig.1 Ref~\cite{Folacci:2019cmc}).
 
-The Legendre function of first kind $P_{\lambda -1/2} (z)$ denotes the analytic extension of the Legendre polynomials $P_\ell (z)$. It is defined in terms of hypergeometric functions by \cite{AS65}
+The Legendre function of the first kind $P_{\lambda -1/2} (z)$ denotes the analytic extension of the Legendre polynomials $P_\ell (z)$. It is defined in terms of hypergeometric functions by \cite{AS65}
 \begin{equation}\label{Def_ext_LegendreP}
 P_{\lambda -1/2} (z) = F[1/2-\lambda,1/2+\lambda;1;(1-z)/2].
 \end{equation}
@@ -248,7 +248,7 @@ is a background integral contribution with
 and
 \begin{eqnarray}\label{CAM_Scalar_Scattering_amp_decomp_Background_b}
 \hat{f}^\text{\tiny{B},\tiny{Im}} && (\omega, \theta) = \frac{1}{2 \omega}\left(\int_{+i\infty}^{0} d\lambda \, \left[S_{\lambda -1/2}(\omega) P_{\lambda_n(\omega) -1/2} (-\cos \theta) \right. \right.\nonumber \\
-&& -\left. \left. S_{-\lambda -1/2}(\omega) e^{i \pi \left(\lambda+1/2\right)}P_{\lambda_n(\omega) -1/2} (\cos \theta) \right]\lambda\right)
+&& -\left. \left. S_{-\lambda -1/2}(\omega) e^{i \pi \left(\lambda+1/2\right)}P_{\lambda_n(\omega) -1/2} (\cos \theta) \right]\lambda\right).
 \end{eqnarray}
 \end{subequations}
 The second term in Eq.~(\ref{CAM_Scalar_Scattering_amp_tot}) ,
@@ -435,31 +435,33 @@ $10$ & $3$  & $7.76982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ &
 \section{WKB ?}
 \label{SecIII}
 
-The WKB approach developed by Zhang, Wu and Leung~\cite{Zhang:2011pq} to determine the axial \textit{w}-modes of a variety of stellar models can be adapted in order to obtain analytical approximations for the ``broad Regge poles'' for a scalar wave on a stellar background. The radial equation for axial gravitational perturbations is identical to Eq.~(\ref{H_Radial_equation}) but with the potential replaced by $V_{\ell}(r) \rightarrow V_{\ell}^{\text{ax}}$ where 
+The WKB approach developed by Zhang, Wu and Leung~\cite{Zhang:2011pq} to determine the axial \textit{w}-modes of a variety of stellar models can be adapted in order to obtain analytical approximations for the ``broad Regge poles'' for a scalar wave on a stellar background. The radial equation for axial gravitational perturbations is identical to Eq.~(\ref{H_Radial_equation}) but with the potential replaced by $V_{\ell} \rightarrow V_{\ell}^{\text{ax}}$ where \cite{Cardoso:2014sna}
 \begin{eqnarray}\label{RW_Potentiel_axialGW}
-V_{\ell}^{\text{ax}} = f(r)\bigg[\frac{\ell(\ell+1)}{r^2}  +\dfrac{h(r)}{2r}\left(\dfrac{f'(r)}{f(r)}+\dfrac{h'(r)}{h(r)}\right) & \nonumber \\
+V_{\ell}^{\text{ax}}(r) = f(r)\bigg[\frac{\ell(\ell+1)}{r^2}  - \dfrac{3 h(r)}{2r}\left(\dfrac{f'(r)}{f(r)}+\dfrac{h'(r)}{h(r)}\right) & \nonumber \\
 	 + 8 \pi (p - \rho) & \bigg] .
 \end{eqnarray}
 %
 We can expect then that Regge poles for axial gravitational perturbations are qualitatively the same as for scalar perturbations, and the methods discussed can be easily adapted to deal with either case.  
 
-\newcommand{\phiout}{\phi^{\text{out}}_{\omega\ell}}
+\newcommand{\phiout}{\phi^{\text{out}}_{\omega, \lambda-1/2}}
+\newcommand{\phireg}{\phi^{}_{\omega, \lambda-1/2}}
+
 Regge poles and quasinormal modes for relativistic stellar models (of which \textit{w}-modes are a sub-category for gravitational perturbations) both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency. Both types of pole satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition of a purely outgoing wave in the far field
 %
 \begin{equation}\label{bc_pole_inf}
 \phiout (r) \scriptstyle{\underset{r_\ast \to +\infty}{\sim}}
-\displaystyle{  A^{(+)}_\ell (\omega) e^{+i\omega r_\ast}}.
+\displaystyle{  A^{(+)}_{\lambda-1/2} (\omega) e^{+i\omega r_\ast}}.
 \end{equation}
 %
-Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phi_{\omega\ell}$ and $\phiout$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$)
+Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phireg$ and $\phiout$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$)
 \begin{equation}\label{Wronskian}
-  W[\phi^{}_{\omega\ell}, \phiout ]= 0
+  W[\phireg, \phiout ]= 0
 \end{equation}
-It has been shown that, the asymptotic expressions of $\phi_{\omega\ell}$ and $\phiout$ can be derived in certain regions, buy using the standard WKB approximation. In the high-frequency domain and we have (see Refs \ldots)
+It has been shown that, the asymptotic expressions of $\phireg$ and $\phiout$ can be derived in certain regions, buy using the standard WKB approximation. In the high-frequency domain we have (see Refs \ldots)
 \begin{equation}\label{Approx_origin}
-  \phi_{\omega\ell} \underset{\omega \to \infty}{=} \omega r_* j_\ell(\omega r_*) \quad\quad 0\leq r_*\leq R_*
+  \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*) \quad\quad 0\leq r_*\leq R_*
 \end{equation}
-and
+where $j_{\lambda-1/2}$ is the spherical Bessel function of the first kind and
 \begin{equation}
 \label{Approx_infinity}
 \phiout  \scriptstyle{\underset{\omega \to \infty}{=}}
@@ -474,8 +476,8 @@ Here
 \begin{equation}\label{R_star}
   R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
 \end{equation}
-and calligraphic $\mathcal{R}$ is a reflection coefficient as defined in (Ref\ldots)
-Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \ldots for more details), we have for our model (\textit{i.e.}, compact body with a constant density)
+and $\mathcal{R}$ is a reflection coefficient with the defintion given in Ref.~\cite{Berry_1982}.
+Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \cite{Zhang:2011pq,Berry_1982} for more details), we have for our model (\textit{i.e.}, compact body with a constant density)
 \begin{equation}\label{R_reflection_1}
   \mathcal{R} = a \omega^{-2}
 \end{equation}
@@ -483,17 +485,38 @@ with
 \begin{equation}\label{a_def}
 a= \frac{3M \left(R-2M\right)^2}{4 R^5}.
 \end{equation}
-Now, by inserting the high frequency approximation for Eq.~\eqref{Approx_origin},
+Now, by inserting the high frequency approximation for $j_{\lambda-1/2} (\omega r_*)$ into Eq.~\eqref{Approx_origin} \cite{nist},
 \begin{equation}\label{Approx_origin_bis}
   \phi^{}_{\omega,\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right)\quad\quad 0\leq r_*\leq R_*
 \end{equation}
 and Eq. \eqref{Approx_infinity} into the condition  \eqref{Wronskian}, we obtain
 \begin{equation}\label{WKB_1}
-   e^{\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}=-\mathcal{R}\, e^{-\left(\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*\right)}.
+   e^{ i\pi (\lambda-1/2)- 2 i \omega R_*}=-\mathcal{R}.
 \end{equation}
-We then solve Eq.~\eqref{WKB_1} and we obtain \dots 
+%
+We then solve Eq.~\eqref{WKB_1} and we obtain
+\begin{equation}\label{lambda_Approx}
+  \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)+\frac{i}{\pi} \ln\left(\frac{1}{\mathcal{R}}\right)
+\end{equation}
+This corresponds to the series of Regge poles with spacing $|\Delta \lambda_n|\approx 2$ with the almost constant  imaginary part. Of course, they lie in the first quadrant of the CAM plan with a positive real part
+%
+\begin{equation}\label{Real_Part}
+  \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)>0.
+\end{equation}
+%
+The overtones are labelled by $n =1,2,\ldots$ and $n$ has an upper limit
+%
+\begin{equation}\label{Limit_Broad_RP}
+n < \left\lfloor \frac{\omega R_*}{\pi} - \frac{1}{4}\right\rfloor.
+\end{equation}
+%
+In other words, there is a finite number of the ``broad Regge poles''.
 
-To be completed after checking 
+%\begin{equation}\label{lambda_Approx}
+
+%  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
+
+%\end{equation}
 
 
 

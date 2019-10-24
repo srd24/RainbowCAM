@@ -13,5 +13,5 @@
 \contentsline {subsection}{\numberline {B}Results and comments}{3}{section*.11}% 
 \contentsline {section}{\numberline {IV}WKB ?}{5}{section*.12}% 
 \contentsline {section}{\numberline {V}Classification of quasinormal modes}{8}{section*.13}% 
-\contentsline {section}{\numberline {}Acknowledgments}{8}{section*.14}% 
+\contentsline {section}{\numberline {}Acknowledgments}{9}{section*.14}% 
 \contentsline {section}{\numberline {}References}{9}{section*.15}% 
