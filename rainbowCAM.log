@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  24 OCT 2019 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  24 OCT 2019 20:33
 entering extended mode
 **./rainbowCAM.tex
 (rainbowCAM.tex
@@ -631,6 +631,9 @@ LaTeX Warning: Label `S_0_2Mw_06_Exact_vs_CAM' multiply defined.
 
 LaTeX Warning: Label `S_0_2Mw_06_Exact_vs_CAM' multiply defined.
 
+
+LaTeX Warning: Label `tab:table2' multiply defined.
+
 )
 \openout1 = `rainbowCAM.aux'.
 
@@ -895,15 +898,21 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.533 	\end{enumerate}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{figure.8}) has been already used, duplicate ignored
+l.572 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.533 	\end{enumerate}
-                       <./Rainbow_Cross_Section_R_6_2Mw_16.pdf> <./Diff_Contrib
-ution_Cross_Section_R_2-dot-26_2Mw_6.pdf
+l.572 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.572 
+       <./Rainbow_Cross_Section_R_6_2Mw_16.pdf> <./Diff_Contribution_Cross_Sect
+ion_R_2-dot-26_2Mw_6.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Diff_Contribution_Cross_Section_R_2-dot-26
 _2Mw_6.pdf): PDF inclusion: multiple pdfs with page group included in a single 
@@ -936,11 +945,11 @@ Overfull \hbox (54.22163pt too wide) in paragraph at lines 444--452
  []
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 544.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 588.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 544.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 588.
  (rainbowCAM.aux)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 544.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 588.
 Package rerunfilecheck Info: File `rainbowCAM.out' has not changed.
 (rerunfilecheck)             Checksum: 1209B38AC26326EE4C97189B9EE8D2E2;1243.
 
@@ -949,13 +958,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12153 strings out of 492895
- 180243 string characters out of 3124669
- 351194 words of memory out of 3000000
- 15698 multiletter control sequences out of 15000+200000
+ 12156 strings out of 492895
+ 180272 string characters out of 3124669
+ 351175 words of memory out of 3000000
+ 15700 multiletter control sequences out of 15000+200000
  18403 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,19n,38p,1232b,572s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,19n,38p,1232b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx9.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
@@ -980,9 +989,9 @@ ublic/amsfonts/cm/cmsy6.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Med/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Med/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on rainbowCAM.pdf (10 pages, 1554834 bytes).
+Output written on rainbowCAM.pdf (10 pages, 1556698 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
