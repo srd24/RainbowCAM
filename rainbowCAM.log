@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  24 OCT 2019 20:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.6.24)  24 OCT 2019 20:49
 entering extended mode
 **./rainbowCAM.tex
 (rainbowCAM.tex
@@ -631,9 +631,6 @@ LaTeX Warning: Label `S_0_2Mw_06_Exact_vs_CAM' multiply defined.
 
 LaTeX Warning: Label `S_0_2Mw_06_Exact_vs_CAM' multiply defined.
 
-
-LaTeX Warning: Label `tab:table2' multiply defined.
-
 )
 \openout1 = `rainbowCAM.aux'.
 
@@ -918,30 +915,30 @@ pdfTeX warning: pdflatex.exe (file ./Diff_Contribution_Cross_Section_R_2-dot-26
 _2Mw_6.pdf): PDF inclusion: multiple pdfs with page group included in a single 
 page
 >] (rainbowCAM.bbl
-Underfull \hbox (badness 6910) in paragraph at lines 181--187
- []\OT1/cmr/m/n/9 S. R. Dolan, [][]Phys. Rev. \OT1/cmr/bx/n/9 D77\OT1/cmr/m/n/9
- , 044004 (2008)[][],
+Underfull \hbox (badness 1448) in paragraph at lines 193--200
+ []\OT1/cmr/m/n/9 Sam Dolan, Chris Do-ran,  and An-thony Lasenby,
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 256--261
- []\OT1/cmr/m/n/9 Y. Nambu, S. Noda,  and Y. Sakai,  (2019),
+Underfull \hbox (badness 2418) in paragraph at lines 203--211
+ \OT1/cmr/m/n/9 i-ta-tional waves,'' [][]Phys. Rev. \OT1/cmr/bx/n/9 D77\OT1/cmr
+/m/n/9 , 044004 (2008)[][],
  []
 
 [9]
-Underfull \hbox (badness 3503) in paragraph at lines 444--452
- []\OT1/cmr/m/n/9 S. Chan-drasekhar and V. Fer-rari, [][]Pro-ceed-ings of
+Underfull \hbox (badness 1320) in paragraph at lines 229--239
+ []\OT1/cmr/m/n/9 Luis C. B. Crispino, Sam R. Dolan,  and Ed-nil-
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 444--452
- \OT1/cmr/m/n/9 the Royal So-ci-ety of Lon-don A: Math-e-mat-i-cal,
+Underfull \hbox (badness 1454) in paragraph at lines 264--273
+ []\OT1/cmr/m/n/9 Alexander Gu-mann, ``Scat-ter-ing of mass-less scalar
  []
 
 
-Overfull \hbox (54.22163pt too wide) in paragraph at lines 444--452
- [][]\OT1/cmr/m/n/9 http://rspa.royalsocietypublishing.org/content/434/1891/449
-.full.pdf[][]. 
+Underfull \hbox (badness 1769) in paragraph at lines 264--273
+ \OT1/cmr/m/n/9 Yang--Mills--Higgs the-ory,'' [][]Class. Quant. Grav. \OT1/cmr/
+bx/n/9 34\OT1/cmr/m/n/9 ,
  []
 
 )
@@ -958,13 +955,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12156 strings out of 492895
- 180272 string characters out of 3124669
- 351175 words of memory out of 3000000
- 15700 multiletter control sequences out of 15000+200000
+ 12160 strings out of 492895
+ 180312 string characters out of 3124669
+ 351387 words of memory out of 3000000
+ 15704 multiletter control sequences out of 15000+200000
  18403 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,19n,38p,1232b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,19n,38p,1232b,526s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx9.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
@@ -989,9 +986,9 @@ ublic/amsfonts/cm/cmsy6.pfb><C:/Users/Med/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Med/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Med/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on rainbowCAM.pdf (10 pages, 1556698 bytes).
+Output written on rainbowCAM.pdf (10 pages, 1560128 bytes).
 PDF statistics:
- 817 PDF objects out of 1000 (max. 8388607)
+ 818 PDF objects out of 1000 (max. 8388607)
  122 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,15 +6,24 @@ Repeated entry---line 458 of file rainbowCAM.bib
  : @article{Dolan:2017rtj
  :                       ,
 I'm skipping whatever remains of this entry
+You're missing a field name---line 690 of file rainbowCAM.bib
+ :   
+ :   %eprint     = {http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev41Control}, control.key{N/A}, control.author{00}, control.editor{1}, control.title{0}, control.pages{1}, control.year{0}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Warning--dotless (dependency: not initials) set 1
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 Control: key (0) 
-Control: author (72) initials jnrlst
+Control: author (0) dotless jnrlst
 Control: editor formatted (1) identically to author
-Control: production of article title (-1) disabled
-Control: page (0) single
-Control: year (1) truncated
+Control: production of article title (0) allowed
+Control: page (1) range
+Control: year (0) verbatim
 Control: production of eprint (0) enabled
 Warning--missing school in Hildreth1964PhDT64
 Warning--missing journal in Nambu:2019sqn
 Warning--empty year in Mathematica
-(There was 1 error message)
+(There were 2 error messages)
