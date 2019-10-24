@@ -435,18 +435,34 @@ $10$ & $3$  & $7.76982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ &
 \section{WKB ?}
 \label{SecIII}
 
-The WKB approach developed by Zhang, Wu and Leung~\cite{Zhang:2011pq} to determine the \textit{w}-modes of a variety of stellar models can be adapted in order to obtain analytical approximations for the ``broad Regge poles''. Indeed, Regge poles and quasinormal modes for relativistic stellar models (of which \textit{w}-modes are a sub-category) both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency. Indeed, they satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition~\eqref{bc_2_in} at the spatial infinity, thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phi^{(r_*\to 0)}_{\omega\ell}$ and $\phi^{(r_*\to \infty)}_{\omega\ell}$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$)
-\begin{equation}\label{Wronskian}
-  W[\phi^{(r_*\to 0)}_{\omega\ell},\phi^{(r_*\to \infty)}_{\omega\ell}]= 0
+The WKB approach developed by Zhang, Wu and Leung~\cite{Zhang:2011pq} to determine the axial \textit{w}-modes of a variety of stellar models can be adapted in order to obtain analytical approximations for the ``broad Regge poles'' for a scalar wave on a stellar background. The radial equation for axial gravitational perturbations is identical to Eq.~(\ref{H_Radial_equation}) but with the potential replaced by $V_{\ell}(r) \rightarrow V_{\ell}^{\text{ax}}$ where 
+\begin{eqnarray}\label{RW_Potentiel_axialGW}
+V_{\ell}^{\text{ax}} = f(r)\bigg[\frac{\ell(\ell+1)}{r^2}  +\dfrac{h(r)}{2r}\left(\dfrac{f'(r)}{f(r)}+\dfrac{h'(r)}{h(r)}\right) & \nonumber \\
+	 + 8 \pi (p - \rho) & \bigg] .
+\end{eqnarray}
+%
+We can expect then that Regge poles for axial gravitational perturbations are qualitatively the same as for scalar perturbations, and the methods discussed can be easily adapted to deal with either case.  
+
+\newcommand{\phiout}{\phi^{\text{out}}_{\omega\ell}}
+Regge poles and quasinormal modes for relativistic stellar models (of which \textit{w}-modes are a sub-category for gravitational perturbations) both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency. Both types of pole satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition of a purely outgoing wave in the far field
+%
+\begin{equation}\label{bc_pole_inf}
+\phiout (r) \scriptstyle{\underset{r_\ast \to +\infty}{\sim}}
+\displaystyle{  A^{(+)}_\ell (\omega) e^{+i\omega r_\ast}}.
 \end{equation}
-It has been shown that, the asymptotic expressions of $\phi^{(r_*\to 0)}_{\omega\ell}$ and $\phi^{(r_*\to \infty)}_{\omega\ell}$ can be derived, buy using the standard WKB approximation, in the high-frequency domain and we have (see Refs \ldots)
+%
+Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phi_{\omega\ell}$ and $\phiout$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$)
+\begin{equation}\label{Wronskian}
+  W[\phi^{}_{\omega\ell}, \phiout ]= 0
+\end{equation}
+It has been shown that, the asymptotic expressions of $\phi_{\omega\ell}$ and $\phiout$ can be derived in certain regions, buy using the standard WKB approximation. In the high-frequency domain and we have (see Refs \ldots)
 \begin{equation}\label{Approx_origin}
-  \phi^{(r_* \to 0)}_{\omega\ell} \underset{\omega \to \infty}{=} \omega r_* j_\ell(\omega r_*) \quad\quad 0\leq r_*\leq R_*
+  \phi_{\omega\ell} \underset{\omega \to \infty}{=} \omega r_* j_\ell(\omega r_*) \quad\quad 0\leq r_*\leq R_*
 \end{equation}
 and
 \begin{equation}
 \label{Approx_infinity}
-\phi^{(r_* \to \infty)}_{\omega\ell}\scriptstyle{\underset{\omega \to \infty}{=}}
+\phiout  \scriptstyle{\underset{\omega \to \infty}{=}}
 \left\{
 \begin{aligned}
 &e^{i\omega(r_*-R_*)}+\mathcal{R} e^{-i\omega (r_*-R_*)}& \scriptstyle{1/\omega\leq r_{*} < R_*,}\\
@@ -458,22 +474,22 @@ Here
 \begin{equation}\label{R_star}
   R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
 \end{equation}
-where $\mathcal{R}$ is the standard reflection coefficient as defined in (Ref\ldots)
+and calligraphic $\mathcal{R}$ is a reflection coefficient as defined in (Ref\ldots)
 Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \ldots for more details), we have for our model (\textit{i.e.}, compact body with a constant density)
 \begin{equation}\label{R_reflection_1}
   \mathcal{R} = a \omega^{-2}
 \end{equation}
 with
 \begin{equation}\label{a_def}
-a= \frac{3M \left(R-2M\right)^2}{4 R^5}
+a= \frac{3M \left(R-2M\right)^2}{4 R^5}.
 \end{equation}
-Now, by inserting~\eqref{Approx_origin}, or more precisely his expansion series when $\omega \to \infty$, \textit{i.e.},
+Now, by inserting the high frequency approximation for Eq.~\eqref{Approx_origin},
 \begin{equation}\label{Approx_origin_bis}
-  \phi^{(r_* \to 0)}_{\omega\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right)\quad\quad 0\leq r_*\leq R_*
+  \phi^{}_{\omega,\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right)\quad\quad 0\leq r_*\leq R_*
 \end{equation}
-and \eqref{Approx_infinity} into  \eqref{Wronskian}, we obtain
+and Eq. \eqref{Approx_infinity} into the condition  \eqref{Wronskian}, we obtain
 \begin{equation}\label{WKB_1}
-   e^{\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}=-\mathcal{R}\, e^{-\left(\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*\right)}
+   e^{\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*}=-\mathcal{R}\, e^{-\left(\frac{i\pi}{2}(\lambda-1/2)-i \omega R_*\right)}.
 \end{equation}
 We then solve Eq.~\eqref{WKB_1} and we obtain \dots 
 
