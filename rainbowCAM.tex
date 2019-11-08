@@ -139,59 +139,92 @@ Finally a paragraph on the connections to Mie scattering by a transparent sphere
 
 
 
-\section{Differential scattering cross sections for scalar waves, their CAM representation and their Regge pole approximations}
+%\section{Differential scattering cross sections for scalar waves, their CAM representation and their Regge pole approximations}
+\section{The Regge pole spectrum of a compact body}
 \label{SecII}
 
 
 In this section we describe the model for our compact object. Then we recall the partial wave expansions of the differential scattering cross section for plane monochromatic scalar waves impinging upon a compact body. Finally we apply the CAM-approach developed for black-hole scattering in \cite{Folacci:2019cmc} and \cite{Folacci:2019vtt}.
 
-\subsection{Our model}
+\subsection{The model}
 \label{SecIIa}
 
-  We consider that the gravitating source is a spherically symmetric incompressible perfect fluid ball of uniform
-density (see Ref~\cite{Dolan:2017rtj} and references therein). In a coordinate system $\{t,r,\theta,\varphi\}$, the object is described by the metric
+The gravitating source is assumed to be spherically-symmetric, such that in a coordinate system $\{t,r,\theta,\varphi\}$, the object is described by a diagonal metric $g_{\mu \nu}$ and the line element
 \begin{equation}\label{Line_elem}
-  ds^2= -f(r) dt^2+h(r)^{-1}dr^2+r^2d\sigma_2^2
+ ds^2 = g_{\mu \nu} dx^\mu dx^\nu = -f(r) dt^2+h(r)^{-1}dr^2+r^2d\sigma_2^2
 \end{equation}
-where $d\sigma_2^2$ denotes the metric on the unit 2-sphere $S^2$. Here, the radial function $h(r)$ is continuous but not differentiable across the surface of the star $r=R$ and the function $f(r)$ is one, but not twice, differentiable. We recall that, in the exterior of the star (i.e., $r>R$), we have $f(r)=h(r)=a-2M/r$ by Birkhoff's theorem~\cite{VojeJohansen:2005nd}. In the interior of the star (i.e. $r<R$), we use the Schwarzschild solution for an incompressible fluid~\cite{Shapiro1983}
+where $d\sigma_2^2$ denotes the metric on the unit 2-sphere $S^2$. In the vacuum exterior of the star (i.e., $r>R$), the radial functions $f(r)$ and $h(r)$ depend only on $M$, the total mass of body: $f(r)=h(r)=1-2M/r$ by Birkhoff's theorem~\cite{VojeJohansen:2005nd}. In the interior, $f(r)$ and $h(r)$ depend on the matter distribution and equation of state (EoS). 
 
+A widely-studied model is that of a polytropic star, with an EoS $p(\rho) = \kappa \rho^{1+1/n}$, where $n$ is the polytropic index (see e.g.~\cite{Stratton:2019deq}). Here we shall consider an incompressible perfect fluid ball of uniform density described by Schwarzschild's interior solution for an incompressible fluid \cite{Shapiro1983}, with
+\begin{subequations}
+\begin{align}
+\rho &= \frac{M}{\frac{4}{3} \pi R^3} , \\
+p &= \rho \frac{\beta(R) - \beta(r)}{ \beta(r) - 3 \beta(R)} , \\
+\beta(x) &= \sqrt{3 - 8 \pi \rho x^2}
+\end{align}
+\end{subequations}
+and
+%
 \begin{subequations}\label{Interior_Solution}
 \begin{align}\label{Interior_Solution_f}
-    f(r) =\frac{1}{4}\left(1-\frac{2 M r^2}{R^3}\right)+\frac{9}{4}\left(1-\frac{2M}{R}\right) \nonumber\\ -\frac{3}{2}
-                \sqrt{\left(1-\frac{2M}{R}\right)\left(1-\frac{2 M r^2}{R^3}\right)},
+ f(r) &= \frac{1}{4}\left(1-\frac{2 M r^2}{R^3}\right)+\frac{9}{4}\left(1-\frac{2M}{R}\right) \nn \\ 
+       & \quad -\frac{3}{2} \sqrt{\left(1-\frac{2M}{R}\right)\left(1-\frac{2 M r^2}{R^3}\right)}, \\
+ h(r) &= 1-\frac{2 M r^2}{R^3} . \label{Interior_Solution_h}
 \end{align}
-\begin{equation}\label{Interior_Solution_h}
- h(r) =1-\frac{2 M r^2}{R^3}
-\end{equation}
 \end{subequations}
+The constant-density model can be thought of as representing the $n=0$ limit of the polytropes. 
+The radial function $h(r)$ is $C^0$ (i.e.~continuous but not differentiable) at the surface of the star $r=R$, and the radial function $f(r)$ is $C^1$ there (i.e.~once but not twice differentiable). In the polytropic cases $n > 0$, the functions are more regular at the surface, but not $C^\infty$ (i.e.~not smooth). As we shall see, the breakdown of smoothness leads to consequences for the Regge pole spectrum. 
 
-
-\subsection{Partial wave expansions of differential scattering cross sections}
-\label{SecIIb}
-
-We recall that, for the scalar field, the differential scattering cross section is given by (see, e.g.,\cite{Dolan:2017rtj} and references therein)
-\begin{equation}\label{Scalar_Scattering_diff}
-  \frac{d\sigma}{d\Omega} = |\hat{f}(\omega,\theta)|^2
+We shall consider a scalar wave $\Phi(x)$ on the compact body spacetime governed by the Klein-Gordon equation
+\begin{equation}
+\Box \Phi \equiv \frac{1}{\sqrt{-g}} \partial_{\mu} \left( \sqrt{-g} g^{\mu \nu} \partial_{\nu} \Phi \right) = 0
 \end{equation}
-where
-\begin{equation}\label{Scalar_Scattering_amp}
- \hat{f}(\omega,\theta) = \frac{1}{2 i \omega} \sum_{\ell = 0}^{\infty} (2\ell+1)[S_{\ell}(\omega)-1]P_{\ell}(\cos\theta)
+where $g^{\mu \nu}$ is the inverse metric 
+$
+g = - f(r) h^{-1}(r) r^4 \sin^2 \theta
+$
+and is the metric determinant. Performing a standard separation of variables,
+\begin{equation}
+\Phi = \frac{1}{r} \sum_{\omega \ell m} \phi_{\omega \ell}(r)  Y_{lm}(\theta, \phi) e^{-i \omega t} ,
 \end{equation}
-denotes the scattering amplitude.  In Eq.~(\ref{Scalar_Scattering_amp}), the functions $P_{\ell}(\cos\theta)$ are the Legendre polynomials \cite{AS65}.  We also recall that the $S$-matrix elements $S_{\ell}(\omega)$ appearing in Eq.~(\ref{Scalar_Scattering_amp}) can be defined from the modes $\phi_{\omega \ell}$ that solve the homogenous radial equation
+leads to a radial equation of the form
 \begin{equation}
 \label{H_Radial_equation}
 \left[\frac{d^{2}}{dr_{\ast}^{2}}+\omega^{2}-V_{\ell}(r)\right]\phi_{\omega\ell}= 0,
 \end{equation}
-where $r^\ast$ denotes the tortoise coordinate defined by  $dr/dr^\ast =\sqrt{f(r)h(r)}$, and
-\begin{equation}\label{Inside_Potentiel}
-  V_{\ell}(r) =f(r)\left[\frac{\ell(\ell+1)}{r^2}+\frac{h(r)}{2r}\left(\frac{f'(r)}{f(r)}+\frac{h'(r)}{h(r)}\right)\right]
-\end{equation}
-is the effective potential. Outside the star ($r>R$), $V_{\ell}(r)$ reduces to the Regge-Wheeler potential
-\begin{equation}\label{RW_Potentiel}
-  V_{\ell}(r) =\left(1-\frac{2M}{r}\right)\left(\frac{\ell(\ell+1)}{r^2}+\frac{2M}{r^3}\right)
-\end{equation}
-and the tortoise coordinates $r^\ast$ reduces to $r^\ast = r+ 2M \ln [r/(2M) -1]+\mathrm{const}$.
+where $r^\ast$ denotes the \emph{tortoise coordinate} defined by  $dr/dr^\ast =\sqrt{f(r)h(r)}$, and $V_{\ell}(r)$
+is the effective potential. 
 
+\subsection{Effective potentials}
+The effective potential for the scalar field is $V_{\ell}(r) = V_{\ell}^{(s=0)}(r)$, where
+\begin{equation}\label{Inside_Potentiel}
+  V_{\ell}^{(s)}(r) \equiv f(r)\left[\frac{\ell(\ell+1)}{r^2}+\frac{(1-s^2) h(r)}{2r}\left(\frac{f'(r)}{f(r)}+\frac{h'(r)}{h(r)}\right)\right]
+\end{equation}
+Remarkably, the radial equation for axial gravitational perturbations is identical to Eq.~(\ref{H_Radial_equation}) but with the potential replaced by $V_{\ell}(r) \rightarrow V_{\ell}^{\text{ax}}(r)$ where \cite{Cardoso:2014sna}
+\begin{eqnarray}\label{RW_Potentiel_axialGW}
+V_{\ell}^{\text{ax}}(r) = V_{\ell}^{(s=2)} + 8 \pi f(r) (p - \rho)  .
+\end{eqnarray}
+%
+Outside the star in the vacuum region ($r>R$), $V_{\ell}(r)$ reduces to the Regge-Wheeler potential ,
+\begin{equation}\label{RW_Potentiel}
+  V_{\ell}(r) =\left(1-\frac{2M}{r}\right)\left(\frac{\ell(\ell+1)}{r^2}+\frac{2M(1-s^2)}{r^3}\right)
+\end{equation}
+with $s=0$ in the scalar-field case, and $s=2$ in the axial gravitational-wave case. In the exterior, the tortoise coordinates $r^\ast$ reduces to $r^\ast = r+ 2M \ln [r/(2M) -1]+\mathrm{const}$.
+
+Effective potentials for the incompressible model are shown in Fig.~\ref{}, for two cases: (i) a neutron-star model with $R = 6M$, and (ii) a ultra-compact object with $R = 2.26M$ (i.e.~close to the Buchdahl bound). In both cases we observe a discontinuity in $V_{\ell}(r)$ across the star's surface, due to the $C^0$ behaviour of $h(r)$. The jump in the potential takes opposite signs in the scalar-field and gravitational-wave cases, with
+\begin{subequations}
+\begin{align}
+\Delta V^{(s=0)} &= + \frac{3Mf(R)}{R^3} , \\
+\Delta V^{(ax)} &= - \frac{3Mf(R)}{R^3} , 
+\end{align}
+\end{subequations}
+where
+\begin{equation}
+\Delta V \equiv \lim_{\epsilon \rightarrow 0} \left\{ V(R + \epsilon) - V(R - \epsilon) \right\} . 
+\end{equation}
+
+
+\subsection{Boundary conditions}
 It is important to recall that the modes $\phi_{\omega \ell}$ should have a regular behaviour at the origin $r \to 0$
 \begin{equation}\label{bc_1_in}
 \phi_{\omega  \ell}(r) \scriptstyle{\underset{r \to 0}{\sim}}
@@ -206,6 +239,25 @@ In this last equation, the coefficients $A^{(-)}_\ell (\omega)$ and  $A^{(+)}_\e
 \begin{equation}\label{Matrix_S}
   S_{\ell}(\omega) =  e^{i(\ell+1)\pi} \, \frac{A_{\ell}^{(+)}(\omega)}{A_{\ell}^{(-)}(\omega)}.
 \end{equation}
+
+
+We can expect then that Regge poles for axial gravitational perturbations are qualitatively the same as for scalar perturbations, and the methods discussed can be easily adapted to deal with either case.
+
+\subsection{Partial wave expansions of differential scattering cross sections}
+\label{SecIIb}
+
+
+
+\subsection{Scattering theory}
+We recall that, for the scalar field, the differential scattering cross section is given by (see, e.g.,\cite{Dolan:2017rtj} and references therein)
+\begin{equation}\label{Scalar_Scattering_diff}
+  \frac{d\sigma}{d\Omega} = |\hat{f}(\omega,\theta)|^2
+\end{equation}
+where
+\begin{equation}\label{Scalar_Scattering_amp}
+ \hat{f}(\omega,\theta) = \frac{1}{2 i \omega} \sum_{\ell = 0}^{\infty} (2\ell+1)[S_{\ell}(\omega)-1]P_{\ell}(\cos\theta)
+\end{equation}
+denotes the scattering amplitude.  In Eq.~(\ref{Scalar_Scattering_amp}), the functions $P_{\ell}(\cos\theta)$ are the Legendre polynomials \cite{AS65}.  We also recall that the $S$-matrix elements $S_{\ell}(\omega)$ appearing in Eq.~(\ref{Scalar_Scattering_amp}) can be defined from the modes $\phi_{\omega \ell}$ that solve the homogenous radial equation
 
 \subsection{CAM representation of the scattering amplitude}
 \label{SecIIc}
@@ -281,7 +333,7 @@ In this section,  we compare the partial wave expansions of the differential sca
 \subsection{Computational methods}
 \label{SecIIIa}
 
-To construct the scattering amplitude \eqref{Scalar_Scattering_amp}, the back ground integrals~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} and~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_b} as well as the Regge pole contribution~\eqref{CAM_Scalar_Scattering_amp_decomp_RP}, we use, \textit{mutatis mutandis} the computational methods that permitted one of us, in Refs~\cite{Folacci:2019cmc,Folacci:2019vtt} to consider the CAM representation for scattering of the scalar, electromagnetic and gravitational waves by Schwarzschild BH (see also Ref~\cite{Dolan:2017rtj}). It is important to remark that, duo to the long rang nature of the field propagating on the Schwarzschild BH (outside the compact body), the scattering amplitude~\eqref{Scalar_Scattering_amp} and the background integral~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} suffer a lack of convergence and to overcome this problem, i.e., to accelerate the convergence of this sum and integral, we have used the method described in the Appendix of Ref~\cite{Folacci:2019cmc}. We have performed all the numerical calculations by using {\it Mathematica} \cite{Mathematica}.
+To construct the scattering amplitude \eqref{Scalar_Scattering_amp}, the back ground integrals~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} and~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_b} as well as the Regge pole contribution~\eqref{CAM_Scalar_Scattering_amp_decomp_RP}, we use, \textit{mutatis mutandis} the computational methods that permitted one of us, in Refs~\cite{Folacci:2019cmc,Folacci:2019vtt} to consider the CAM representation for scattering of the scalar, electromagnetic and gravitational waves by Schwarzschild BH (see also Ref~\cite{Dolan:2017rtj}). It is important to remark that, due to the long rang nature of the field propagating on the Schwarzschild BH (outside the compact body), the scattering amplitude~\eqref{Scalar_Scattering_amp} and the background integral~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} suffer a lack of convergence and to overcome this problem, i.e., to accelerate the convergence of this sum and integral, we have used the method described in the Appendix of Ref~\cite{Folacci:2019cmc}. We have performed all the numerical calculations by using {\it Mathematica} \cite{Mathematica}.
 
 
 \subsection{Results and comments}
