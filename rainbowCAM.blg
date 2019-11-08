@@ -1,20 +1,27 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: rainbowCAM.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: rainbowCAM.aux
 The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: rainbowCAMNotes.bib
 Database file #2: rainbowCAM.bib
-Repeated entry---line 458 of file rainbowCAM.bib
- : @article{Dolan:2017rtj
- :                       ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 690 of file rainbowCAM.bib
+You're missing a field name---line 710 of file rainbowCAM.bib
  :   
  :   %eprint     = {http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev41Control}, control.key{N/A}, control.author{00}, control.editor{1}, control.title{0}, control.pages{1}, control.year{0}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
 Warning--dotless (dependency: not initials) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 Control: key (0) 
 Control: author (0) dotless jnrlst
@@ -26,4 +33,45 @@ Control: production of eprint (0) enabled
 Warning--missing school in Hildreth1964PhDT64
 Warning--missing journal in Nambu:2019sqn
 Warning--empty year in Mathematica
-(There were 2 error messages)
+You've used 53 entries,
+            5847 wiz_defined-function locations,
+            2039 strings with 24677 characters,
+and the built_in function-call counts, 50472 in all, are:
+= -- 3564
+> -- 1031
+< -- 315
++ -- 328
+- -- 236
+* -- 7716
+:= -- 5132
+add.period$ -- 95
+call.type$ -- 53
+change.case$ -- 251
+chr.to.int$ -- 64
+cite$ -- 56
+duplicate$ -- 4887
+empty$ -- 3909
+format.name$ -- 583
+if$ -- 9782
+int.to.chr$ -- 3
+int.to.str$ -- 61
+missing$ -- 611
+newline$ -- 241
+num.names$ -- 153
+pop$ -- 1902
+preamble$ -- 1
+purify$ -- 204
+quote$ -- 0
+skip$ -- 1825
+stack$ -- 0
+substring$ -- 1435
+swap$ -- 4524
+text.length$ -- 108
+text.prefix$ -- 0
+top$ -- 10
+type$ -- 675
+warning$ -- 5
+while$ -- 160
+width$ -- 0
+write$ -- 552
+(There was 1 error message)
