@@ -10,11 +10,11 @@
 \contentsline {subsection}{\numberline {C}Boundary conditions}{3}{section*.8}
 \contentsline {subsection}{\numberline {D}Partial wave expansions of differential scattering cross sections}{3}{section*.9}
 \contentsline {subsection}{\numberline {E}Scattering theory}{3}{section*.10}
-\contentsline {subsection}{\numberline {F}CAM representation of the scattering amplitude}{3}{section*.11}
+\contentsline {subsection}{\numberline {F}CAM representation of the scattering amplitude}{4}{section*.11}
 \contentsline {section}{\numberline {III}Reconstruction of differential scattering cross sections from Regge pole sums}{4}{section*.12}
-\contentsline {subsection}{\numberline {A}Computational methods}{4}{section*.13}
-\contentsline {subsection}{\numberline {B}Results and comments}{6}{section*.14}
-\contentsline {section}{\numberline {IV}WKB ?}{6}{section*.15}
-\contentsline {section}{\numberline {V}Classification of quasinormal modes}{9}{section*.16}
+\contentsline {subsection}{\numberline {A}Computational methods}{5}{section*.13}
+\contentsline {subsection}{\numberline {B}Results and comments}{5}{section*.14}
+\contentsline {section}{\numberline {IV}WKB ?}{5}{section*.15}
+\contentsline {section}{\numberline {V}Classification of quasinormal modes}{10}{section*.16}
 \contentsline {section}{\numberline {}Acknowledgments}{10}{section*.17}
-\contentsline {section}{\numberline {}References}{10}{section*.18}
+\contentsline {section}{\numberline {}References}{11}{section*.18}

@@ -192,8 +192,10 @@ leads to a radial equation of the form
 \label{H_Radial_equation}
 \left[\frac{d^{2}}{dr_{\ast}^{2}}+\omega^{2}-V_{\ell}(r)\right]\phi_{\omega\ell}= 0,
 \end{equation}
-where $r^\ast$ denotes the \emph{tortoise coordinate} defined by  $dr/dr^\ast =\sqrt{f(r)h(r)}$, and $V_{\ell}(r)$
-is the effective potential. 
+where $V_{\ell}(r)$ is the effective potential, and $r^\ast$ denotes the \emph{tortoise coordinate} defined by  
+\begin{equation}
+dr/dr^\ast =\sqrt{f(r)h(r)} .  \label{eq:tortoise}
+\end{equation}
 
 \subsection{Effective potentials}
 The effective potential for the scalar field is $V_{\ell}(r) = V_{\ell}^{(s=0)}(r)$, where
@@ -211,7 +213,7 @@ Outside the star in the vacuum region ($r>R$), $V_{\ell}(r)$ reduces to the Regg
 \end{equation}
 with $s=0$ in the scalar-field case, and $s=2$ in the axial gravitational-wave case. In the exterior, the tortoise coordinates $r^\ast$ reduces to $r^\ast = r+ 2M \ln [r/(2M) -1]+\mathrm{const}$.
 
-Effective potentials for the incompressible model are shown in Fig.~\ref{}, for two cases: (i) a neutron-star model with $R = 6M$, and (ii) a ultra-compact object with $R = 2.26M$ (i.e.~close to the Buchdahl bound). In both cases we observe a discontinuity in $V_{\ell}(r)$ across the star's surface, due to the $C^0$ behaviour of $h(r)$. The jump in the potential takes opposite signs in the scalar-field and gravitational-wave cases, with
+Effective potentials for the incompressible model are shown in Fig.~\ref{fig:Veff}, for two cases: (i) a neutron-star model with $R = 6M$, and (ii) a ultra-compact object with $R = 2.26M$ (i.e.~close to the Buchdahl bound). In both cases we observe a discontinuity in $V_{\ell}(r)$ across the star's surface, due to the $C^0$ behaviour of $h(r)$. The jump in the potential takes opposite signs in the scalar-field and gravitational-wave cases, with
 \begin{subequations}
 \begin{align}
 \Delta V^{(s=0)} &= + \frac{3Mf(R)}{R^3} , \\
@@ -222,6 +224,15 @@ where
 \begin{equation}
 \Delta V \equiv \lim_{\epsilon \rightarrow 0} \left\{ V(R + \epsilon) - V(R - \epsilon) \right\} . 
 \end{equation}
+
+
+ \begin{figure}[htb]
+\centering
+ \includegraphics[scale=0.50]{potentials_s02_CD_R6L2_v2} \\ \vspace{0.2cm}
+ \includegraphics[scale=0.50]{potentials_s02_CD_R2p26L2}
+\caption{\label{RP_approx_2Mw_3_6_s_1} The effective potential $V_\ell$ for a quadrupole ($\ell =2$) perturbation of a compact body of constant density and tenuity $R/M = 6$ (upper) and $R /M = 2.26$ (lower). The scalar field and axial gravitational-wave potentials are indicated as solid/black lines and dotted/red lines, respectively. The horizontal axis is the tortoise coordinate $r_\ast$ defined in Eq.~(\ref{eq:tortoise}).}
+\label{fig:Veff}
+\end{figure}
 
 
 \subsection{Boundary conditions}
