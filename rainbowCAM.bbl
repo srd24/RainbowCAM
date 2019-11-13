@@ -55,7 +55,8 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~W.}\ \bibnamefont
   {{Hildreth}}},\ }\emph {\bibinfo {title} {{The Interaction of Scalar
   Gravitational Waves with the Schwarzschild Metric.}}},\ \href@noop {} {Ph.D.
-  thesis} (\bibinfo {year} {1964})\BibitemShut {NoStop}%
+  thesis},\ \bibinfo  {school} {Princeton University} (\bibinfo {year}
+  {1964})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Matzner}(1968)}]{Matzner:1968}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Richard~A}\
@@ -401,8 +402,10 @@
   the axial modes},}\ }\href {\doibase 10.1098/rspa.1991.0104} {\bibfield
   {journal} {\bibinfo  {journal} {Proceedings of the Royal Society of London A:
   Mathematical, Physical and Engineering Sciences}\ }\textbf {\bibinfo {volume}
-  {434}},\ \bibinfo {pages} {449--457} (\bibinfo {year} {1991})}\BibitemShut
-  {NoStop}%
+  {434}},\ \bibinfo {pages} {449--457} (\bibinfo {year} {1991})},\ \Eprint
+  {http://arxiv.org/abs/http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf}
+  {http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf}
+  \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kokkotas}\ and\ \citenamefont
   {Schutz}(1992)}]{Kokkotas:1992ka}%
   \BibitemOpen
@@ -553,6 +556,49 @@
   (\bibinfo {year} {2018})},\ \Eprint {http://arxiv.org/abs/1807.04762}
   {arXiv:1807.04762 [gr-qc]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1807.04762;%%
+\bibitem [{\citenamefont {Thorne}\ and\ \citenamefont
+  {Campolattaro}(1967)}]{thorne1967non}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kip~S}\ \bibnamefont
+  {Thorne}}\ and\ \bibinfo {author} {\bibfnamefont {Alfonso}\ \bibnamefont
+  {Campolattaro}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Non-Radial Pulsation of General-Relativistic Stellar Models. I. Analytic
+  Analysis for L>= 2}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume} {149}},\
+  \bibinfo {pages} {591} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2011)\citenamefont {Zhang},
+  \citenamefont {Wu},\ and\ \citenamefont {Leung}}]{Zhang:2011pq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~J.}\ \bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {P.~T.}\ \bibnamefont {Leung}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{High-frequency behavior of w-mode
+  pulsations of compact stars}},}\ }\href {\doibase 10.1103/PhysRevD.83.064012}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {D83}},\ \bibinfo {pages} {064012} (\bibinfo {year} {2011})},\
+  \Eprint {http://arxiv.org/abs/1101.0319} {arXiv:1101.0319 [gr-qc]}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1101.0319;%%
+\bibitem [{\citenamefont {Berry}(1982)}]{Berry_1982}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M~V}\ \bibnamefont
+  {Berry}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Semiclassically
+  weak reflections above analytic and non-analytic potential barriers},}\
+  }\href {\doibase 10.1088/0305-4470/15/12/021} {\bibfield  {journal} {\bibinfo
+   {journal} {Journal of Physics A: Mathematical and General}\ }\textbf
+  {\bibinfo {volume} {15}},\ \bibinfo {pages} {3693--3704} (\bibinfo {year}
+  {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Olver}\ \emph {et~al.}(2010)\citenamefont {Olver},
+  \citenamefont {Lozier}, \citenamefont {Boisvert},\ and\ \citenamefont
+  {Clark}}]{nist}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~W.~J.}\
+  \bibnamefont {Olver}}, \bibinfo {author} {\bibfnamefont {D.~W.}\ \bibnamefont
+  {Lozier}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
+  {Boisvert}}, \ and\ \bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Clark}},\ }\href@noop {} {\emph {\bibinfo {title} {{NIST Handbook of
+  Mathematical Functions}}}}\ (\bibinfo  {publisher} {Cambridge University
+  Press},\ \bibinfo {year} {2010})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Abramowitz}\ and\ \citenamefont
   {Stegun}(1965)}]{AS65}%
   \BibitemOpen
@@ -588,47 +634,4 @@
   \bibnamefont {Inc.}},\ }\href@noop {} {\enquote {\bibinfo {title} {{\it
   Mathematica}, {V}ersion 10.0},}\ }\bibinfo {note} {(Wolfram Research{,} Inc.,
   Champaign, IL, 2014)}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2011)\citenamefont {Zhang},
-  \citenamefont {Wu},\ and\ \citenamefont {Leung}}]{Zhang:2011pq}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~J.}\ \bibnamefont
-  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wu}}, \ and\
-  \bibinfo {author} {\bibfnamefont {P.~T.}\ \bibnamefont {Leung}},\ }\bibfield
-  {title} {\enquote {\bibinfo {title} {{High-frequency behavior of w-mode
-  pulsations of compact stars}},}\ }\href {\doibase 10.1103/PhysRevD.83.064012}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
-  {volume} {D83}},\ \bibinfo {pages} {064012} (\bibinfo {year} {2011})},\
-  \Eprint {http://arxiv.org/abs/1101.0319} {arXiv:1101.0319 [gr-qc]}
-  \BibitemShut {NoStop}%
-%%CITATION = ARXIV:1101.0319;%%
-\bibitem [{\citenamefont {Berry}(1982)}]{Berry_1982}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M~V}\ \bibnamefont
-  {Berry}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Semiclassically
-  weak reflections above analytic and non-analytic potential barriers},}\
-  }\href {\doibase 10.1088/0305-4470/15/12/021} {\bibfield  {journal} {\bibinfo
-   {journal} {Journal of Physics A: Mathematical and General}\ }\textbf
-  {\bibinfo {volume} {15}},\ \bibinfo {pages} {3693--3704} (\bibinfo {year}
-  {1982})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Olver}\ \emph {et~al.}(2010)\citenamefont {Olver},
-  \citenamefont {Lozier}, \citenamefont {Boisvert},\ and\ \citenamefont
-  {Clark}}]{nist}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~W.~J.}\
-  \bibnamefont {Olver}}, \bibinfo {author} {\bibfnamefont {D.~W.}\ \bibnamefont
-  {Lozier}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
-  {Boisvert}}, \ and\ \bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
-  {Clark}},\ }\href@noop {} {\emph {\bibinfo {title} {{NIST Handbook of
-  Mathematical Functions}}}}\ (\bibinfo  {publisher} {Cambridge University
-  Press},\ \bibinfo {year} {2010})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Thorne}\ and\ \citenamefont
-  {Campolattaro}(1967)}]{thorne1967non}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kip~S}\ \bibnamefont
-  {Thorne}}\ and\ \bibinfo {author} {\bibfnamefont {Alfonso}\ \bibnamefont
-  {Campolattaro}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Non-Radial Pulsation of General-Relativistic Stellar Models. I. Analytic
-  Analysis for L>= 2}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume} {149}},\
-  \bibinfo {pages} {591} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
 \end{thebibliography}%

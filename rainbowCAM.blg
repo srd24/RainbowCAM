@@ -11,11 +11,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: rainbowCAMNotes.bib
 Database file #2: rainbowCAM.bib
-You're missing a field name---line 743 of file rainbowCAM.bib
- :   
- :   %eprint     = {http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev41Control}, control.key{N/A}, control.author{00}, control.editor{1}, control.title{0}, control.pages{1}, control.year{0}, control.eprint{N/A}, 
@@ -30,48 +25,47 @@ Control: production of article title (0) allowed
 Control: page (1) range
 Control: year (0) verbatim
 Control: production of eprint (0) enabled
-Warning--missing school in Hildreth1964PhDT64
 Warning--missing journal in Nambu:2019sqn
 Warning--empty year in Mathematica
 You've used 54 entries,
             5847 wiz_defined-function locations,
-            2049 strings with 24907 characters,
-and the built_in function-call counts, 51696 in all, are:
-= -- 3642
+            2053 strings with 25071 characters,
+and the built_in function-call counts, 51771 in all, are:
+= -- 3650
 > -- 1065
 < -- 322
 + -- 338
 - -- 244
-* -- 7925
-:= -- 5247
+* -- 7945
+:= -- 5253
 add.period$ -- 97
 call.type$ -- 54
 change.case$ -- 256
 chr.to.int$ -- 65
-cite$ -- 57
-duplicate$ -- 5002
-empty$ -- 4001
+cite$ -- 56
+duplicate$ -- 5011
+empty$ -- 4007
 format.name$ -- 602
-if$ -- 10021
+if$ -- 10035
 int.to.chr$ -- 3
 int.to.str$ -- 62
 missing$ -- 625
 newline$ -- 245
 num.names$ -- 156
-pop$ -- 1942
+pop$ -- 1943
 preamble$ -- 1
 purify$ -- 208
 quote$ -- 0
-skip$ -- 1866
+skip$ -- 1868
 stack$ -- 0
 substring$ -- 1466
-swap$ -- 4641
+swap$ -- 4650
 text.length$ -- 112
 text.prefix$ -- 0
 top$ -- 10
 type$ -- 690
-warning$ -- 5
+warning$ -- 4
 while$ -- 163
 width$ -- 0
-write$ -- 563
-(There was 1 error message)
+write$ -- 565
+(There were 5 warnings)
