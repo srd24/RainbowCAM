@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{51}%
+\begin{thebibliography}{52}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -521,6 +521,38 @@
   {Teukolsky}},\ }\href@noop {} {\emph {\bibinfo {title} {Black Holes, White
   Dwarfs, and Neutron Stars: The Physics of Compact Objects}}}\ (\bibinfo
   {publisher} {Wiley, New-York},\ \bibinfo {year} {1983})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cardoso}\ \emph {et~al.}(2014)\citenamefont
+  {Cardoso}, \citenamefont {Crispino}, \citenamefont {Macedo}, \citenamefont
+  {Okawa},\ and\ \citenamefont {Pani}}]{Cardoso:2014sna}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Vitor}\ \bibnamefont
+  {Cardoso}}, \bibinfo {author} {\bibfnamefont {Lu{\'\i}s C.~B.}\ \bibnamefont
+  {Crispino}}, \bibinfo {author} {\bibfnamefont {Caio F.~B.}\ \bibnamefont
+  {Macedo}}, \bibinfo {author} {\bibfnamefont {Hirotada}\ \bibnamefont
+  {Okawa}}, \ and\ \bibinfo {author} {\bibfnamefont {Paolo}\ \bibnamefont
+  {Pani}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Light rings as
+  observational evidence for event horizons: long-lived modes, ergoregions and
+  nonlinear instabilities of ultracompact objects}},}\ }\href {\doibase
+  10.1103/PhysRevD.90.044069} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. D}\ }\textbf {\bibinfo {volume} {D90}},\ \bibinfo {pages} {044069}
+  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1406.5510}
+  {arXiv:1406.5510 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1406.5510;%%
+\bibitem [{\citenamefont {Macedo}\ \emph {et~al.}(2018)\citenamefont {Macedo},
+  \citenamefont {Stratton}, \citenamefont {Dolan},\ and\ \citenamefont
+  {Crispino}}]{Macedo:2018yoi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Caio F.~B.}\
+  \bibnamefont {Macedo}}, \bibinfo {author} {\bibfnamefont {Tom}\ \bibnamefont
+  {Stratton}}, \bibinfo {author} {\bibfnamefont {Sam}\ \bibnamefont {Dolan}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Lu\'is C.~B.}\ \bibnamefont
+  {Crispino}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Spectral
+  lines of extreme compact objects}},}\ }\href {\doibase
+  10.1103/PhysRevD.98.104034} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D98}},\ \bibinfo {pages} {104034}
+  (\bibinfo {year} {2018})},\ \Eprint {http://arxiv.org/abs/1807.04762}
+  {arXiv:1807.04762 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1807.04762;%%
 \bibitem [{\citenamefont {Abramowitz}\ and\ \citenamefont
   {Stegun}(1965)}]{AS65}%
   \BibitemOpen
@@ -569,23 +601,6 @@
   \Eprint {http://arxiv.org/abs/1101.0319} {arXiv:1101.0319 [gr-qc]}
   \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1101.0319;%%
-\bibitem [{\citenamefont {Cardoso}\ \emph {et~al.}(2014)\citenamefont
-  {Cardoso}, \citenamefont {Crispino}, \citenamefont {Macedo}, \citenamefont
-  {Okawa},\ and\ \citenamefont {Pani}}]{Cardoso:2014sna}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Vitor}\ \bibnamefont
-  {Cardoso}}, \bibinfo {author} {\bibfnamefont {Lu{\'\i}s C.~B.}\ \bibnamefont
-  {Crispino}}, \bibinfo {author} {\bibfnamefont {Caio F.~B.}\ \bibnamefont
-  {Macedo}}, \bibinfo {author} {\bibfnamefont {Hirotada}\ \bibnamefont
-  {Okawa}}, \ and\ \bibinfo {author} {\bibfnamefont {Paolo}\ \bibnamefont
-  {Pani}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Light rings as
-  observational evidence for event horizons: long-lived modes, ergoregions and
-  nonlinear instabilities of ultracompact objects}},}\ }\href {\doibase
-  10.1103/PhysRevD.90.044069} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {D90}},\ \bibinfo {pages} {044069}
-  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1406.5510}
-  {arXiv:1406.5510 [gr-qc]} \BibitemShut {NoStop}%
-%%CITATION = ARXIV:1406.5510;%%
 \bibitem [{\citenamefont {Berry}(1982)}]{Berry_1982}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M~V}\ \bibnamefont

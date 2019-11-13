@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: rainbowCAMNotes.bib
 Database file #2: rainbowCAM.bib
-You're missing a field name---line 710 of file rainbowCAM.bib
+You're missing a field name---line 743 of file rainbowCAM.bib
  :   
  :   %eprint     = {http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf},
 (Error may have been on previous line)
@@ -33,45 +33,45 @@ Control: production of eprint (0) enabled
 Warning--missing school in Hildreth1964PhDT64
 Warning--missing journal in Nambu:2019sqn
 Warning--empty year in Mathematica
-You've used 53 entries,
+You've used 54 entries,
             5847 wiz_defined-function locations,
-            2039 strings with 24677 characters,
-and the built_in function-call counts, 50472 in all, are:
-= -- 3564
-> -- 1031
-< -- 315
-+ -- 328
-- -- 236
-* -- 7716
-:= -- 5132
-add.period$ -- 95
-call.type$ -- 53
-change.case$ -- 251
-chr.to.int$ -- 64
-cite$ -- 56
-duplicate$ -- 4887
-empty$ -- 3909
-format.name$ -- 583
-if$ -- 9782
+            2049 strings with 24907 characters,
+and the built_in function-call counts, 51696 in all, are:
+= -- 3642
+> -- 1065
+< -- 322
++ -- 338
+- -- 244
+* -- 7925
+:= -- 5247
+add.period$ -- 97
+call.type$ -- 54
+change.case$ -- 256
+chr.to.int$ -- 65
+cite$ -- 57
+duplicate$ -- 5002
+empty$ -- 4001
+format.name$ -- 602
+if$ -- 10021
 int.to.chr$ -- 3
-int.to.str$ -- 61
-missing$ -- 611
-newline$ -- 241
-num.names$ -- 153
-pop$ -- 1902
+int.to.str$ -- 62
+missing$ -- 625
+newline$ -- 245
+num.names$ -- 156
+pop$ -- 1942
 preamble$ -- 1
-purify$ -- 204
+purify$ -- 208
 quote$ -- 0
-skip$ -- 1825
+skip$ -- 1866
 stack$ -- 0
-substring$ -- 1435
-swap$ -- 4524
-text.length$ -- 108
+substring$ -- 1466
+swap$ -- 4641
+text.length$ -- 112
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 675
+type$ -- 690
 warning$ -- 5
-while$ -- 160
+while$ -- 163
 width$ -- 0
-write$ -- 552
+write$ -- 563
 (There was 1 error message)
