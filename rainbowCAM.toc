@@ -1,20 +1,20 @@
-\contentsline {title}{Scattering from compact objects, Regge poles \\ and the Complex Angular Momentum method}{1}{section*.2}
-\contentsline {abstract}{Abstract}{1}{section*.1}
+\contentsline {title}{Scattering from compact objects, Regge poles \\ and the Complex Angular Momentum method}{1}{section*.2}% 
+\contentsline {abstract}{Abstract}{1}{section*.1}% 
 \tocdepth@munge 
-\contentsline {section}{\numberline {}Contents}{1}{section*.3}
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}% 
 \tocdepth@restore 
-\contentsline {section}{\numberline {I}Introduction}{1}{section*.4}
-\contentsline {section}{\numberline {II}The Regge pole spectrum of a compact body}{2}{section*.5}
-\contentsline {subsection}{\numberline {A}The model}{2}{section*.6}
-\contentsline {subsection}{\numberline {B}Effective potentials}{2}{section*.7}
-\contentsline {subsection}{\numberline {C}Boundary conditions}{3}{section*.8}
-\contentsline {subsection}{\numberline {D}Partial wave expansions of differential scattering cross sections}{3}{section*.9}
-\contentsline {subsection}{\numberline {E}Scattering theory}{3}{section*.10}
-\contentsline {subsection}{\numberline {F}CAM representation of the scattering amplitude}{4}{section*.11}
-\contentsline {section}{\numberline {III}Reconstruction of differential scattering cross sections from Regge pole sums}{4}{section*.12}
-\contentsline {subsection}{\numberline {A}Computational methods}{5}{section*.13}
-\contentsline {subsection}{\numberline {B}Results and comments}{5}{section*.14}
-\contentsline {section}{\numberline {IV}WKB ?}{5}{section*.15}
-\contentsline {section}{\numberline {V}Classification of quasinormal modes}{10}{section*.16}
-\contentsline {section}{\numberline {}Acknowledgments}{10}{section*.17}
-\contentsline {section}{\numberline {}References}{11}{section*.18}
+\contentsline {section}{\numberline {I}Introduction}{1}{section*.4}% 
+\contentsline {section}{\numberline {II}The Regge pole spectrum of a compact body}{2}{section*.5}% 
+\contentsline {subsection}{\numberline {A}The model}{2}{section*.6}% 
+\contentsline {subsection}{\numberline {B}Effective potentials}{2}{section*.7}% 
+\contentsline {subsection}{\numberline {C}Boundary conditions}{3}{section*.8}% 
+\contentsline {subsection}{\numberline {D}Partial wave expansions of differential scattering cross sections}{3}{section*.9}% 
+\contentsline {subsection}{\numberline {E}Scattering theory}{3}{section*.10}% 
+\contentsline {subsection}{\numberline {F}CAM representation of the scattering amplitude}{4}{section*.11}% 
+\contentsline {section}{\numberline {III}Reconstruction of differential scattering cross sections from Regge pole sums}{4}{section*.12}% 
+\contentsline {subsection}{\numberline {A}Computational methods}{5}{section*.13}% 
+\contentsline {subsection}{\numberline {B}Results and comments}{5}{section*.14}% 
+\contentsline {section}{\numberline {IV}WKB ?}{5}{section*.15}% 
+\contentsline {section}{\numberline {V}Classification of quasinormal modes}{10}{section*.16}% 
+\contentsline {section}{\numberline {}Acknowledgments}{10}{section*.17}% 
+\contentsline {section}{\numberline {}References}{11}{section*.18}% 

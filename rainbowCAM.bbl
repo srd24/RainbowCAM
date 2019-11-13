@@ -55,7 +55,8 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~W.}\ \bibnamefont
   {{Hildreth}}},\ }\emph {\bibinfo {title} {{The Interaction of Scalar
   Gravitational Waves with the Schwarzschild Metric.}}},\ \href@noop {} {Ph.D.
-  thesis} (\bibinfo {year} {1964})\BibitemShut {NoStop}%
+  thesis},\ \bibinfo  {school} {Princeton University} (\bibinfo {year}
+  {1964})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Matzner}(1968)}]{Matzner:1968}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Richard~A}\
@@ -401,8 +402,10 @@
   the axial modes},}\ }\href {\doibase 10.1098/rspa.1991.0104} {\bibfield
   {journal} {\bibinfo  {journal} {Proceedings of the Royal Society of London A:
   Mathematical, Physical and Engineering Sciences}\ }\textbf {\bibinfo {volume}
-  {434}},\ \bibinfo {pages} {449--457} (\bibinfo {year} {1991})}\BibitemShut
-  {NoStop}%
+  {434}},\ \bibinfo {pages} {449--457} (\bibinfo {year} {1991})},\ \Eprint
+  {http://arxiv.org/abs/http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf}
+  {http://rspa.royalsocietypublishing.org/content/434/1891/449.full.pdf}
+  \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kokkotas}\ and\ \citenamefont
   {Schutz}(1992)}]{Kokkotas:1992ka}%
   \BibitemOpen
@@ -521,6 +524,23 @@
   {Teukolsky}},\ }\href@noop {} {\emph {\bibinfo {title} {Black Holes, White
   Dwarfs, and Neutron Stars: The Physics of Compact Objects}}}\ (\bibinfo
   {publisher} {Wiley, New-York},\ \bibinfo {year} {1983})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cardoso}\ \emph {et~al.}(2014)\citenamefont
+  {Cardoso}, \citenamefont {Crispino}, \citenamefont {Macedo}, \citenamefont
+  {Okawa},\ and\ \citenamefont {Pani}}]{Cardoso:2014sna}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Vitor}\ \bibnamefont
+  {Cardoso}}, \bibinfo {author} {\bibfnamefont {Lu{\'\i}s C.~B.}\ \bibnamefont
+  {Crispino}}, \bibinfo {author} {\bibfnamefont {Caio F.~B.}\ \bibnamefont
+  {Macedo}}, \bibinfo {author} {\bibfnamefont {Hirotada}\ \bibnamefont
+  {Okawa}}, \ and\ \bibinfo {author} {\bibfnamefont {Paolo}\ \bibnamefont
+  {Pani}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Light rings as
+  observational evidence for event horizons: long-lived modes, ergoregions and
+  nonlinear instabilities of ultracompact objects}},}\ }\href {\doibase
+  10.1103/PhysRevD.90.044069} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. D}\ }\textbf {\bibinfo {volume} {D90}},\ \bibinfo {pages} {044069}
+  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1406.5510}
+  {arXiv:1406.5510 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1406.5510;%%
 \bibitem [{\citenamefont {Abramowitz}\ and\ \citenamefont
   {Stegun}(1965)}]{AS65}%
   \BibitemOpen
@@ -569,23 +589,6 @@
   \Eprint {http://arxiv.org/abs/1101.0319} {arXiv:1101.0319 [gr-qc]}
   \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1101.0319;%%
-\bibitem [{\citenamefont {Cardoso}\ \emph {et~al.}(2014)\citenamefont
-  {Cardoso}, \citenamefont {Crispino}, \citenamefont {Macedo}, \citenamefont
-  {Okawa},\ and\ \citenamefont {Pani}}]{Cardoso:2014sna}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Vitor}\ \bibnamefont
-  {Cardoso}}, \bibinfo {author} {\bibfnamefont {Lu{\'\i}s C.~B.}\ \bibnamefont
-  {Crispino}}, \bibinfo {author} {\bibfnamefont {Caio F.~B.}\ \bibnamefont
-  {Macedo}}, \bibinfo {author} {\bibfnamefont {Hirotada}\ \bibnamefont
-  {Okawa}}, \ and\ \bibinfo {author} {\bibfnamefont {Paolo}\ \bibnamefont
-  {Pani}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Light rings as
-  observational evidence for event horizons: long-lived modes, ergoregions and
-  nonlinear instabilities of ultracompact objects}},}\ }\href {\doibase
-  10.1103/PhysRevD.90.044069} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. D}\ }\textbf {\bibinfo {volume} {D90}},\ \bibinfo {pages} {044069}
-  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1406.5510}
-  {arXiv:1406.5510 [gr-qc]} \BibitemShut {NoStop}%
-%%CITATION = ARXIV:1406.5510;%%
 \bibitem [{\citenamefont {Berry}(1982)}]{Berry_1982}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M~V}\ \bibnamefont
