@@ -1,0 +1,25 @@
+\contentsline {title}{Scattering from compact objects: Regge poles \\ and the Complex Angular Momentum method}{1}{section*.2}% 
+\contentsline {abstract}{Abstract}{1}{section*.1}% 
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}% 
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{1}{section*.4}% 
+\contentsline {section}{\numberline {II}Waves on a compact-body spacetime}{2}{section*.5}% 
+\contentsline {subsection}{\numberline {A}The model}{2}{section*.6}% 
+\contentsline {subsection}{\numberline {B}Effective potentials}{2}{section*.7}% 
+\contentsline {subsection}{\numberline {C}Boundary conditions and scattering}{3}{section*.8}% 
+\contentsline {section}{\numberline {III}The Regge pole spectrum}{3}{section*.9}% 
+\contentsline {subsection}{\numberline {A}Regge poles and quasinormal modes}{3}{section*.10}% 
+\contentsline {subsection}{\numberline {B}Numerical method}{3}{section*.11}% 
+\contentsline {subsection}{\numberline {C}Results}{3}{section*.12}% 
+\contentsline {subsection}{\numberline {D}Classification of quasinormal modes}{3}{section*.13}% 
+\contentsline {subsection}{\numberline {E}The WKB approximation}{6}{section*.14}% 
+\contentsline {section}{\numberline {IV}Scattering and CAM theory}{7}{section*.15}% 
+\contentsline {subsection}{\numberline {A}The partial wave expansion}{7}{section*.16}% 
+\contentsline {subsection}{\numberline {B}CAM representation of the scattering amplitude}{7}{section*.17}% 
+\contentsline {section}{\numberline {V}Reconstruction of differential scattering cross sections from Regge pole sums}{8}{section*.18}% 
+\contentsline {subsection}{\numberline {A}Computational methods}{9}{section*.19}% 
+\contentsline {subsection}{\numberline {B}Results}{9}{section*.20}% 
+\contentsline {section}{\numberline {VI}Discussion and conclusions}{9}{section*.21}% 
+\contentsline {section}{\numberline {}Acknowledgments}{9}{section*.22}% 
+\contentsline {section}{\numberline {}References}{9}{section*.23}% 
