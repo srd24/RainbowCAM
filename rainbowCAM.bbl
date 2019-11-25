@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{52}%
+\begin{thebibliography}{55}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -556,6 +556,42 @@
   (\bibinfo {year} {2018})},\ \Eprint {http://arxiv.org/abs/1807.04762}
   {arXiv:1807.04762 [gr-qc]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1807.04762;%%
+\bibitem [{\citenamefont {Benhar}\ \emph {et~al.}(1999)\citenamefont {Benhar},
+  \citenamefont {Berti},\ and\ \citenamefont {Ferrari}}]{Benhar:1998au}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Omar}\ \bibnamefont
+  {Benhar}}, \bibinfo {author} {\bibfnamefont {Emanuele}\ \bibnamefont
+  {Berti}}, \ and\ \bibinfo {author} {\bibfnamefont {Valeria}\ \bibnamefont
+  {Ferrari}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The Imprint of
+  the equation of state on the axial w modes of oscillating neutron stars}},}\
+  }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{Gravitational waves: A
+  challenge to theoretical astrophysics. Proceedings, Trieste, Italy, June 6-9,
+  2000}}},\ }\href {\doibase 10.1046/j.1365-8711.1999.02983.x} {\bibfield
+  {journal} {\bibinfo  {journal} {Mon. Not. Roy. Astron. Soc.}\ }\textbf
+  {\bibinfo {volume} {310}},\ \bibinfo {pages} {797--803} (\bibinfo {year}
+  {1999})},\ \bibinfo {note} {[ICTP Lect. Notes Ser.3,35(2001)]},\ \Eprint
+  {http://arxiv.org/abs/gr-qc/9901037} {arXiv:gr-qc/9901037 [gr-qc]}
+  \BibitemShut {NoStop}%
+%%CITATION = GR-QC/9901037;%%
+\bibitem [{\citenamefont {Leaver}(1985)}]{Leaver:1985ax}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~W.}\ \bibnamefont
+  {Leaver}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{An analytic
+  representation for the quasi normal modes of Kerr black holes}},}\ }\href
+  {\doibase 10.1098/rspa.1985.0119} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proc.\ Roy.\ Soc.\ Lond.\ A}\ }\textbf {\bibinfo {volume} {402}},\ \bibinfo
+  {pages} {285--298} (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
+%%CITATION = PRSLA,A402,285;%%
+\bibitem [{\citenamefont {Majumdar}\ and\ \citenamefont
+  {Panchapakesan}(1989)}]{mp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Majumdar}}\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Panchapakesan}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Schwarzschild black-hole normal modes using the Hill determinant}},}\
+  }\href {\doibase 10.1103/PhysRevD.40.2568} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.\ Rev.\ D}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo
+  {pages} {2568} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Thorne}\ and\ \citenamefont
   {Campolattaro}(1967)}]{thorne1967non}%
   \BibitemOpen

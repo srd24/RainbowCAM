@@ -11,13 +11,13 @@
 \contentsline {section}{\numberline {III}The Regge pole spectrum}{3}{section*.9}% 
 \contentsline {subsection}{\numberline {A}Regge poles and quasinormal modes}{3}{section*.10}% 
 \contentsline {subsection}{\numberline {B}Numerical method}{3}{section*.11}% 
-\contentsline {subsection}{\numberline {C}Results}{3}{section*.12}% 
-\contentsline {subsection}{\numberline {D}Classification of quasinormal modes}{3}{section*.13}% 
+\contentsline {subsection}{\numberline {C}Results}{4}{section*.12}% 
+\contentsline {subsection}{\numberline {D}Classification of quasinormal modes}{4}{section*.13}% 
 \contentsline {subsection}{\numberline {E}The WKB approximation}{6}{section*.14}% 
 \contentsline {section}{\numberline {IV}Scattering and CAM theory}{7}{section*.15}% 
 \contentsline {subsection}{\numberline {A}The partial wave expansion}{7}{section*.16}% 
-\contentsline {subsection}{\numberline {B}CAM representation of the scattering amplitude}{7}{section*.17}% 
-\contentsline {section}{\numberline {V}Reconstruction of differential scattering cross sections from Regge pole sums}{8}{section*.18}% 
+\contentsline {subsection}{\numberline {B}CAM representation of the scattering amplitude}{8}{section*.17}% 
+\contentsline {section}{\numberline {V}Reconstruction of differential scattering cross sections from Regge pole sums}{9}{section*.18}% 
 \contentsline {subsection}{\numberline {A}Computational methods}{9}{section*.19}% 
 \contentsline {subsection}{\numberline {B}Results}{9}{section*.20}% 
 \contentsline {section}{\numberline {VI}Discussion and conclusions}{9}{section*.21}% 
