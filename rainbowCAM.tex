@@ -125,7 +125,11 @@ M \omega = \pi \frac{r_g}{\lambda},
 \end{equation}
 encapsulates the ratio of the gravitational radius $r_g = 2GM/c^2$ to the wavelength $\lambda$ (henceforth we adopt geometric units such that $G=c=1$). The long wavelength ($M \omega \ll 1$), short wavelength ($M \omega \gg 1$) and intermediate regimes have been studied with a combination of perturbative \cite{DeLogi:1977dp,Dolan:2007ut,Guadagnini:2008ha,Sorge:2015yoa}, semi-classical \cite{Matzner:1985rjn, Anninos:1992ih} and numerical methods. The $s = 0$ (scalar) \cite{Matzner:1968,Sanchez:1977vz,Andersson:1995vi,Glampedakis:2001cx,Leite:2019eis}, $s=1/2$ (fermion) \cite{Dolan:2006vj,Cotaescu:2014jca}, $s=1$ (electromagnetic) \cite{Fabbri:1975, Crispino:2009xt, Crispino:2015gua} and $s=2$ (gravitational) cases \cite{MatznerRyan1978,Handler:1980un,Dolan:2008kf} have all been covered.
 
-Time-independent scattering by a compact body with a regular centre, such as a neutron star or white dwarf, has received comparatively less attention. In such a scenario, an electromagnetic wave will not penetrate inside the compact body; but on the other hand, a gravitational wave will pass through the body without impediment from the matter distribution. Similarly, a neutron star is expected to be substantially transparent to neutrinos. Though the coupling to matter is weak, the incident wave is still strongly scattered due to the influence on the spacetime curvature. Recent work \cite{Dolan:2017rtj, Stratton:2019deq} has explored the \emph{rainbow scattering} phenomenon that arises at short wavelengths, due to a stationary point in the geodesic deflection function associated with a ray that passes somewhat inside the body. In principle, the rainbow angle is a diagnostic of the matter distribution of the body, and thus its nuclear equation of state. \cite{Nambu:2019sqn}
+Time-independent scattering by a compact body of radius $R$ with a regular centre, such as a neutron star or white dwarf, has received comparatively less attention. In such a scenario, an electromagnetic wave will not penetrate inside the compact body; but on the other hand, a gravitational wave will pass through the body without impediment from the matter distribution. Similarly, a neutron star is expected to be substantially transparent to neutrinos. Though the coupling to matter is weak, the incident wave is still strongly scattered due to the influence on the spacetime curvature. Recent work \cite{Dolan:2017rtj, Stratton:2019deq} has explored the \emph{rainbow scattering} phenomenon that arises at short wavelengths, due to a stationary point in the geodesic deflection function associated with a ray that passes somewhat inside the body. In principle, the rainbow angle is a diagnostic of the matter distribution of the body, and thus its nuclear equation of state.
+
+The tenuity (inverse compactness) . 
+
+find room for \cite{Nambu:2019sqn}
 
 Now describe the application of CAM methods to black holes, and its successes ... The aim of this work is to extend the methods to compact bodies.
 
@@ -157,7 +161,7 @@ The gravitating source is assumed to be spherically-symmetric, such that in a co
 \end{equation}
 where $d\sigma_2^2 = d\theta^2 + \sin^2 \theta d\varphi^2$ denotes the metric on the unit 2-sphere $S^2$. In the vacuum exterior of the star ($r>R$), the radial functions $f(r)$ and $h(r)$ depend only on $M$, the total mass of body: $f(r)=h(r)=1-2M/r$ by Birkhoff's theorem~\cite{VojeJohansen:2005nd}. In the interior, $f(r)$ and $h(r)$ depend on the matter distribution and equation of state (EoS).
 
-A widely-studied model is that of a polytropic star, with an EoS $p(\rho) = \kappa \rho^{1+1/n}$, where $n$ is the polytropic index (see e.g.~\cite{Stratton:2019deq}). Here we shall consider a special case: an incompressible perfect fluid ball of uniform density described by Schwarzschild's interior solution for an incompressible fluid \cite{Shapiro1983}, with
+A widely-studied model is that of a polytropic star, with an EoS $p(\rho) = \kappa \rho^{1+1/\hat{n}}$, where $\hat{n}$ is the polytropic index (see e.g.~\cite{Stratton:2019deq}). Here we shall consider a special case: an incompressible perfect fluid ball of uniform density described by Schwarzschild's interior solution for an incompressible fluid \cite{Shapiro1983}, with
 \begin{subequations}
 \begin{align}
 \rho &= \frac{M}{\frac{4}{3} \pi R^3} , \\
@@ -174,7 +178,7 @@ and metric functions
  h(r) &= 1-\frac{2 M r^2}{R^3} . \label{Interior_Solution_h}
 \end{align}
 \end{subequations}
-The constant-density model can be thought of as representing the $n \rightarrow 0$ limit of the family of polytropes.
+The constant-density model can be thought of as representing the $\hat{n} \rightarrow 0$ limit of the family of polytropes.
 The radial function $h(r)$ is $C^0$ at the surface of the star $r=R$ (i.e.~continuous but not differentiable), and the radial function $f(r)$ is $C^1$ there (i.e.~once-differentiable). In the polytropic cases $n > 0$, the functions are more regular \sam{can we make a precise statement?} at the surface, but not $C^\infty$ (i.e.~not smooth). As we shall see, the breakdown of smoothness leads to consequences for the Regge pole spectrum.
 
 We shall consider a scalar wave $\Phi(x)$ propagating on the compact body spacetime, governed by the Klein-Gordon equation
@@ -264,20 +268,20 @@ We now consider the poles of $S_{\ell}(\omega)$ in the complex plane.
 \section{The Regge pole spectrum}
 
  \subsection{Quasinormal modes and Regge poles}
- Mathematically, there is a close relationship between quasinormal modes and Regge poles; both are sets of poles of the scattering matrix. Physically, quasinormal modes are most relevant in time-dependent scattering scenarios, and Regge poles in time-independent scattering scenarios.
+ Mathematically, there is a close relationship between quasinormal modes and Regge poles; they are both sets of poles of the scattering matrix. Physically, quasinormal modes are most relevant to time-dependent scattering scenarios, and Regge poles to time-independent scattering scenarios.
  
-The \emph{quasinormal mode spectrum} is the set of frequencies $\{ \omega_{\ell \hat{n}} \}$ in the complex-$\omega$ plane at which the scattering matrix $ S_{\ell}(\omega)$ has a simple pole, for a real value of $\ell$; that is, $\ell \in \mathbb{R}$ and $\omega_{\ell \hat{n}} \in \mathbb{C}$. 
+The \emph{quasinormal mode spectrum} is the set of frequencies $\{ \omega_{\ell n} \}$ in the complex-$\omega$ plane at which the scattering matrix $ S_{\ell}(\omega)$ has a simple pole for a integer value of $\ell$ (so $\ell \in \mathbb{N}$ and $\omega_{\ell n} \in \mathbb{C}$). 
 
-The \emph{Regge pole spectrum} is the set of angular momenta $\lambda_{\omega \hat{n}} = \ell_{\hat{n}}(\omega) + 1/2$ in the complex-$\lambda$ plane at which the scattering matrix has a simple pole for real $\omega$; that is, $\omega \in \mathbb{R}$ and $\lambda_{\hat{n}}(\omega) \in \mathbb{C}$. Here $\hat{n}$ is an index for enumerating the poles (see below). In all cases considered in this work, the simple poles arise as simple zeros of $A_{\ell}^{(-)}(\omega)$. 
+The \emph{Regge pole spectrum} is the set of angular momenta $\lambda_{\omega n} = \ell_{n}(\omega) + 1/2$ in the complex-$\lambda$ plane at which the scattering matrix has a simple pole for a real value of $\omega$ (so $\omega \in \mathbb{R}$ and $\lambda_{n}(\omega) \in \mathbb{C}$). Here $n$ is an index for enumerating the discrete spectrum of poles. In all cases considered in this work, the simple poles of $S_{\ell}(\omega)$ arise as simple zeros of $A_{\ell}^{(-)}(\omega)$. 
 
-The quasinormal mode spectrum of spherically-symmetric compact objects has been studied in some detail in \cite{Kokkotas:1986gd,Kokkotas:1992ka,Andersson:1997eq,Kokkotas:1999bd,Leins:1993zz}. 
-Newly-formed neutron stars, the remnants of supernovae collapse, are predicted to pulsate with a large initial energy \cite{thorne1967non}, and fluid pulsations will surely generate gravitational waves. In 1967, Thorne and Campolattaro \cite{thorne1967non} classified the fluid modes of a relativistic body by analogy with fluid modes in a Newtonian body, with the addition of a damping time due to the emission of GWs. Two decades later, Kokkotas and Schutz showed that an additional family of modes existed \cite{Kokkotas:1986gd,Kokkotas:1992ka}, dubbed $w$-modes. These modes are characterised by a negligible excitation of fluid motion, and in the axial sector, by no fluid motion. They are highly damped and correspond to excitations of the dynamical perturbed space-time. For a review of (gravitational) quasinormal modes in relativistic stars and black holes see \cite{Kokkotas:1999bd}.
+The quasinormal mode spectrum of spherically-symmetric compact objects has been studied in some detail in Refs.~\cite{Kokkotas:1986gd,Kokkotas:1992ka,Andersson:1997eq,Kokkotas:1999bd,Leins:1993zz}. 
+Newly-formed neutron stars, the remnants of supernovae collapse, are predicted to pulsate with a large initial energy, and fluid pulsations will generate gravitational waves. In 1967, Thorne and Campolattaro \cite{thorne1967non} classified the fluid modes of a relativistic compact body by analogy with the fluid modes of a Newtonian body, with the addition of a damping time due to the emission of GWs. Two decades later, the subject was examined again \cite{Detweiler:1985zz,Kokkotas:1986gd}, and Kokkotas and Schutz \cite{Kokkotas:1992ka} showed the existence of an additional family of modes, dubbed $w$-modes. These modes are characterised by a negligible excitation of fluid motion, and in the axial sector, by no fluid motion at all. They are highly damped and correspond to excitations of the dynamical perturbed space-time. For a review of (gravitational) quasinormal modes in relativistic stars and black holes see Ref.~\cite{Kokkotas:1999bd}.
 
 The $w$-modes (quasinormal modes) may be divided into three branches:
 	\begin{enumerate}
-   \item Curvature modes, oscillations whose damping is larger for less compact bodies.
-   \item Interface modes ($\omega_{\text{II}}$-modes \cite{Leins:1993zz}), characterised by very rapid damping (i.e.~large negative imaginary part of $\omega_{\ell \hat{n}}$). This branch of modes is most similar to the Schwarzschild black hole quasinormal modes. 
-   \item Trapped modes \cite{Chandrasekhar449}: These modes exist for UCOs with $R/M < 3$, as the effective radial potential has a local minimum inside the star, and local maximum near the photon sphere $r=3M$. %The trapped modes are essentially the first few curvature modes with energy less than the potential barrier. 
+   \item Curvature modes, oscillations whose damping is larger for less compact bodies. \sam{Anything else to say on curvature modes?}
+   \item Interface modes ($\omega_{\text{II}}$-modes \cite{Leins:1993zz}), characterised by very rapid damping (i.e.~large negative imaginary part of $\omega_{\ell n}$). This branch of modes is most similar to the Schwarzschild black hole quasinormal modes. 
+   \item Trapped modes \cite{Chandrasekhar449}: These modes exist for UCOs with $R/M < 3$, because the effective radial potential has a local minimum inside the star, and local maximum near the photon sphere $r=3M$. %The trapped modes are essentially the first few curvature modes with energy less than the potential barrier. 
    The number of trapped modes increases with the depth of the potential well, and the damping rate decreases. 
 	\end{enumerate}
 For more details on quasinormal modes see \sam{Appropriate reference needed.}
@@ -288,40 +292,56 @@ We now turn our attention to calculating the Regge pole spectrum for compact bod
  \subsection{Numerical method}\label{subsec:method}
 
 
-In order to determine the Regge poles we adapt the method of Benhar, Berti and Ferrari (BBF), described in Sec.~4 of Ref.~\cite{Benhar:1998au}, who used it to determine the axial QNM frequencies of compact bodies. In turn, the BBF method is an adaptation of the \textit{continued fraction method} developed by Leaver in the case of black hole-quasinormal mode frequencies~\cite{Leaver:1985ax}. Though BBF used their method to find the QNM frequencies, their method is equally valid, \textit{mutatis mutandis}, for finding the Regge poles. We have implemented numerically this method by using the Hill determinant approach of Majumdar and Panchapakesan~\cite{mp}, or more precisely, by modifying their method and adapting it to our problem, \textit{i.e.}, using it for a 4-term recurrence relation.
+In order to determine the Regge poles we adapt the method of Benhar, Berti and Ferrari (BBF), described in Sec.~4 of Ref.~\cite{Benhar:1998au}. In turn, the BBF method is an adaptation of the \textit{continued fraction method} developed by Leaver in the case of black hole-quasinormal mode frequencies~\cite{Leaver:1985ax}. Though BBF used the method to find axial QNM frequencies, their method is equally valid, \textit{mutatis mutandis}, for finding the Regge poles. We have implemented numerically this method by using the Hill determinant approach of Majumdar and Panchapakesan~\cite{mp}, or more precisely, by modifying their method and adapting it to our problem, \textit{i.e.}, using it for a 4-term recurrence relation. We implemented the method with  \emph{Mathematica}.
 
 \sam{I think we need a little bit more detail here -- how does the four-term recurrence relation arise, and where can it be found specifically?}
 
 
  \subsection{Numerical results}\label{subsec:results}
-In this section we present numerical results for the Regge pole spectrum of a compact body, in two cases: (i) a neutron-star-like body with tenuity $R / M = 6$, and (ii) a UCO with a tenuity just above the Buchdahl bound, $R / M = 2.26$. Results for the frequencies $M \omega = 3/2$ and $M \omega = 8$ are compared, for the scalar-field ($s=0$) and axial GW ($s=2$) cases.
+In this section we show numerical results for the Regge pole spectrum of a compact body, in two particular cases: (i) a neutron-star-like body with tenuity $R / M = 6$, and (ii) a UCO with tenuity $R / M = 2.26$ close to the Buchdahl bound. Results for the frequencies $M \omega = 3/2$ and $M \omega = 8$ are compared, for the scalar-field ($s=0$) and axial GW ($s=2$) cases.
+
+Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body ($R/M = 6$). We see that there are two branches of Regge poles in the first quadrant, which meet at $\text{Re}( \lambda_n(\omega) ) \sim \omega b_0$, where $b_0$ is the impact parameter for the null ray which grazes the surface of the compact body. The axial GW $s=2$ modes (filled markers) are typically close to their scalar-field $s=0$ counterparts (unfilled markers), as might be anticipated from the similarities in the effective potentials for the two cases (see Fig.~\ref{fig:Veff}).
 
 \begin{figure}[htb]
 \centering
  \includegraphics[scale=0.50]{RP_R_6_2Mw_3_16_s_0_s_2}
 \caption{\label{RP_approx_2Mw_3_6_s_1} The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
 }
+\label{fig:rp1}
 \end{figure}
 
+Figure \ref{fig:rp2} shows the spectrum for a UCO with $R/M = 2.26$. These plots show evidence for an additional branch of modes that emerges from the point where the first two branches meet. The number of modes in this branch increases as the radius of the body approaches the Buchdahl limit $R \rightarrow \tfrac{9}{4}M$. 
 
  \begin{figure}[htb]
 \centering
  \includegraphics[scale=0.50]{RP_R_2_dot_26_2Mw_3_6_s_0_s_2}
 \caption{\label{RP_approx_2Mw_3_6_s_1}  The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
 }
+\label{fig:rp2}
 \end{figure}
+
+The Regge pole spectrum for a compact body is qualitatively similar to the Regge pole spectrum found in Mie scattering of electromagnetic waves by a transparent droplet of refractive index $\tilde{n}$. This has been studied since the 1960s; see for example Fig.~9.2 in Ref.~\cite{Nussenzveig:2006}. % In the latter case, the poles are given by the zeros of a combination of special functions. 
+Henceforth we shall adopt the terminology of Nussenzveig \cite{Nussenzveig:2006}, in which the three branches are labelled as:
+\begin{enumerate}
+ \item \emph{Broad resonances}: approximately uniformly-spaced poles above the real axis with approximately constant imaginary part; somewhat sensitive to internal structure ($r < R$);
+ \item \emph{Surface waves}: highly-damped modes that are relatively insensitive to the internal structure and which depend chiefly on the surface geometry. 
+ \item \emph{Narrow resonances}: modes approaching the real axis corresponding to trapped modes which only appear in the UCO case ($R < 3M$). 
+\end{enumerate}
+In Figs.~\ref{fig:rp1} and \ref{fig:rp2} the broad resonances, surface waves and narrow resonances are indicated by red squares, blue circles and purple triangles, respectively; and black diamonds indicate the black hole RPs. Whereas there exists an infinite number of poles of the surface-wave branch, in principle, there are no narrow-resonance poles at all in the $R/M = 6$ case, and just $\le 4$ narrow-resonance poles in the $R/M = 2.26$ case. The narrow-resonance branch is observed to end close to the start of the black-hole branch.
+
+Data for Regge poles $\lambda_n(\omega)$ is listed in Table \ref{tab:table1} (scalar field, $R/M=6$), Table \ref{tab:table2} (scalar field, $R/M = 2.26$), Table \ref{tab:table3} (axial $s=2$, $R/M = 6$) and Table \ref{tab:table4} (axial $s=2$, $R/M = 2.26$). The values are labelled by branch (broad; surface; narrow). For the scalar field, the associated residues (see Sec.~) are also presented in Tables \ref{tab:table1} and Table \ref{tab:table2}.
 
 \begingroup
 \squeezetable
 \begin{table*}[htp]
 \begin{threeparttable}[htp]
 %\captionsetup{font=small}
-\caption{\label{tab:table2} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field and the associated residues $r_{n}(\omega)$. The radius of the compact bodies is $R = 6M$ and we assume $2M=1$.}
+\caption{\label{tab:table1} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field and the associated residues $r_{n}(\omega)$. The radius of the compact bodies is $R = 6M$ and we set $2M=1$.}
 \smallskip
 \centering
 \begin{ruledtabular}
 \begin{tabular}{cccccc}
- $n$ & $\omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$ & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$ & $r^{\text{(S-W)}}_{n}(\omega)$ & $r^{\text{(B-R)}}_{n}(\omega)$
+ $n$ & $2 M \omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$ & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$ & $r^{\text{(S-W)}}_{n}(\omega)$ & $r^{\text{(B-R)}}_{n}(\omega)$
  \\ \hline
 $1$  & $3$  & $ 9.64850+2.76784 i$  & $1.56219+2.33072 i$  & $-12.41483-0.10424 i$  & $ -0.184457+0.480330 i$    \\
      & $16$  & $56.00945+5.71038 i$  & $ 0.62529+3.27098 i$  & $-447.5395+25.2912 i$  & $-0.322061-0.088002 i $  \\
@@ -368,12 +388,12 @@ $10$  & $3$  & $16.3565+18.1321 i$  & $/$   & $11.7631+90.6815 i$ & $/$     \\
 \begin{table*}[htp]
 \begin{threeparttable}[htp]
 %\captionsetup{font=small}
-\caption{\label{tab:table2} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field and the associated residues $r_{n}(\omega)$. The radius of the compact bodies is $R = 2.26M$ and we assume $2M=1$.}
+\caption{\label{tab:table2} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field and the associated residues $r_{n}(\omega)$. The radius of the compact bodies is $R = 2.26M$ and we set $2M=1$.}
 \smallskip
 \centering
 \begin{ruledtabular}
 \begin{tabular}{cccccccc}
- $n$ & $\omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$  & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$ & $\lambda^{\text{(N-R)\tnote{3}}}_n(\omega)$ & $r^{\text{(S-W)}}_{n}(\omega)$ & $r^{\text{(B-R)}}_{n}(\omega)$ & $r^{\text{(N-R)}}_{n}(\omega)$
+ $n$ & $2M\omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$  & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$ & $\lambda^{\text{(N-R)\tnote{3}}}_n(\omega)$ & $r^{\text{(S-W)}}_{n}(\omega)$ & $r^{\text{(B-R)}}_{n}(\omega)$ & $r^{\text{(N-R)}}_{n}(\omega)$
  \\ \hline
 $1$  & $3$  & $5.871590+1.553799 i$  & $1.73455+1.64951 i  $  & $ 6.48474+0.68765 i $  & $-179.7945+131.4187 i $ & $ -1.52081-2.30968 i$ & $-2.5672-15.3797 i $  \\
      & $6$  & $12.991923+1.754967 i $  & $ 1.89664+2.13696 i  $  & $ 13.34118+1.13496 i $  & $4356.193+647.790 i $ & $  -0.66176-1.31963 i$ & $  -390.218+379.906 i $  \\
@@ -423,12 +443,12 @@ $10$ & $3$  & $7.76982+12.65345 i $  & $/ $  & $/ $  & $-71.8294-437.3469 i  $ &
 \begin{table}[htp]
 \begin{threeparttable}[htp]
 %\captionsetup{font=small}
-\caption{\label{tab:table3} The lowest Regge poles $\lambda_{n}(\omega)$ for the axial gravitational waves. The radius of the compact bodies is $R = 6M$ and we assume $2M=1$.}
+\caption{\label{tab:table3} The lowest Regge poles $\lambda_{n}(\omega)$ for the axial gravitational waves. The radius of the compact bodies is $R = 6M$ and we set $2M=1$.}
 \smallskip
 \centering
 \begin{ruledtabular}
 \begin{tabular}{cccc}
- $n$ & $\omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$ & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$
+ $n$ & $2M\omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$ & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$
  \\ \hline
 $1$  & $3$  & $10.004639+2.935907 i$  & $0.461101+2.2269826 i $   \\
      & $16$ & $56.179459+5.874240 i $ & $1.624880+3.2909174 i $
@@ -480,18 +500,17 @@ $10$  & $3$  & $17.025584+18.255740 i $  & $/ $     \\
 
 
 
-
 \begingroup
 \squeezetable
 \begin{table}[htp]
 \begin{threeparttable}[htp]
 %\captionsetup{font=small}
-\caption{\label{tab:table4} The lowest Regge poles $\lambda_{n}(\omega)$ for the axial gravitational waves. The radius of the compact bodies is $R = 2.26M$ and we assume $2M=1$.}
+\caption{\label{tab:table4} The lowest Regge poles $\lambda_{n}(\omega)$ for the axial gravitational waves. The radius of the compact bodies is $R = 2.26M$ and we set $2M=1$.}
 \smallskip
 \centering
 \begin{ruledtabular}
 \begin{tabular}{ccccc}
- $n$ & $\omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$  & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$ & $\lambda^{\text{(N-R)\tnote{3}}}_n(\omega)$
+ $n$ & $2M\omega$  & $\lambda^{\text{(S-W)\tnote{1}}}_n(\omega)$  & $\lambda^{\text{(B-R)\tnote{2}}}_n(\omega)$ & $\lambda^{\text{(N-R)\tnote{3}}}_n(\omega)$
  \\ \hline
 $1$  & $3$  & $5.884755+2.047850 i $  & $0.840822+1.728755 i   $  & $8.0740924+0.022432 i   $   \\
      & $6$  & $12.796673+2.200987 i  $  & $0.959779+2.193488 i   $  & $14.247709+0.699340 i  $    \\
@@ -538,6 +557,7 @@ $10$ & $3$  & $8.113848+12.876130 i $  & $/ $  & $/ $    \\
 
 
  \subsection{The WKB approximation}
+To investigate the relationship between the qualitative features of the effective potential (Fig.~\ref{fig:Veff}) and the three branches of Regge poles revealed in Sec.~\ref{subsec:results}, we now employ the WKB method, with a view of obtain an approximation that is valid at high frequencies ($M\omega \rightarrow \infty$).
 
 The WKB approach developed by Zhang, Wu and Leung~\cite{Zhang:2011pq} to determine the axial \textit{w}-modes of a variety of stellar models can be adapted in order to obtain analytical approximations for the ``broad Regge poles'' for a scalar wave on a stellar background. The radial equation for axial gravitational perturbations is identical to Eq.~(\ref{H_Radial_equation}) but with the potential replaced by $V_{\ell} \rightarrow V_{\ell}^{\text{ax}}$ where \cite{Cardoso:2014sna}
 \begin{eqnarray}\label{RW_Potentiel_axialGW}
@@ -630,7 +650,7 @@ In other words, there is a finite number of the ``broad Regge poles''.
 \begingroup
 \squeezetable
 \begin{table}[htp]
-\caption{\label{tab:table3} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field versus WBK results given by Eq.~\eqref{lambda_Approx}. The radius of the compact bodies is $R = 6M$ and we assume $2M=1$.}
+\caption{\label{tab:table3} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field versus WKB results given by Eq.~\eqref{lambda_Approx}. The radius of the compact bodies is $R = 6M$ and we assume $2M=1$.}
 \smallskip
 \centering
 \begin{ruledtabular}

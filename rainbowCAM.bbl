@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{56}%
+\begin{thebibliography}{57}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -543,6 +543,29 @@
   (\bibinfo {year} {2018})},\ \Eprint {http://arxiv.org/abs/1807.04762}
   {arXiv:1807.04762 [gr-qc]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1807.04762;%%
+\bibitem [{\citenamefont {Andersson}\ and\ \citenamefont
+  {Kokkotas}(1998)}]{Andersson:1997eq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Nils}\ \bibnamefont
+  {Andersson}}\ and\ \bibinfo {author} {\bibfnamefont {Kostas~D.}\ \bibnamefont
+  {Kokkotas}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Pulsation
+  modes for increasingly relativistic polytropes}},}\ }\href {\doibase
+  10.1046/j.1365-8711.1998.01541.x} {\bibfield  {journal} {\bibinfo  {journal}
+  {Mon. Not. Roy. Astron. Soc.}\ }\textbf {\bibinfo {volume} {297}},\ \bibinfo
+  {pages} {493} (\bibinfo {year} {1998})},\ \Eprint
+  {http://arxiv.org/abs/gr-qc/9706010} {arXiv:gr-qc/9706010 [gr-qc]}
+  \BibitemShut {NoStop}%
+%%CITATION = GR-QC/9706010;%%
+\bibitem [{\citenamefont {Thorne}\ and\ \citenamefont
+  {Campolattaro}(1967)}]{thorne1967non}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kip~S}\ \bibnamefont
+  {Thorne}}\ and\ \bibinfo {author} {\bibfnamefont {Alfonso}\ \bibnamefont
+  {Campolattaro}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Non-Radial Pulsation of General-Relativistic Stellar Models. I. Analytic
+  Analysis for L>= 2}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume} {149}},\
+  \bibinfo {pages} {591} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Benhar}\ \emph {et~al.}(1999)\citenamefont {Benhar},
   \citenamefont {Berti},\ and\ \citenamefont {Ferrari}}]{Benhar:1998au}%
   \BibitemOpen
@@ -579,29 +602,13 @@
   }\href {\doibase 10.1103/PhysRevD.40.2568} {\bibfield  {journal} {\bibinfo
   {journal} {Phys.\ Rev.\ D}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo
   {pages} {2568} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Andersson}\ and\ \citenamefont
-  {Kokkotas}(1998)}]{Andersson:1997eq}%
+\bibitem [{\citenamefont {Nussenzveig}(2006)}]{Nussenzveig:2006}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Nils}\ \bibnamefont
-  {Andersson}}\ and\ \bibinfo {author} {\bibfnamefont {Kostas~D.}\ \bibnamefont
-  {Kokkotas}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Pulsation
-  modes for increasingly relativistic polytropes}},}\ }\href {\doibase
-  10.1046/j.1365-8711.1998.01541.x} {\bibfield  {journal} {\bibinfo  {journal}
-  {Mon. Not. Roy. Astron. Soc.}\ }\textbf {\bibinfo {volume} {297}},\ \bibinfo
-  {pages} {493} (\bibinfo {year} {1998})},\ \Eprint
-  {http://arxiv.org/abs/gr-qc/9706010} {arXiv:gr-qc/9706010 [gr-qc]}
-  \BibitemShut {NoStop}%
-%%CITATION = GR-QC/9706010;%%
-\bibitem [{\citenamefont {Thorne}\ and\ \citenamefont
-  {Campolattaro}(1967)}]{thorne1967non}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kip~S}\ \bibnamefont
-  {Thorne}}\ and\ \bibinfo {author} {\bibfnamefont {Alfonso}\ \bibnamefont
-  {Campolattaro}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Non-Radial Pulsation of General-Relativistic Stellar Models. I. Analytic
-  Analysis for L>= 2}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume} {149}},\
-  \bibinfo {pages} {591} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Herch~Moys{\'e}s}\
+  \bibnamefont {Nussenzveig}},\ }\href@noop {} {\emph {\bibinfo {title}
+  {Diffraction effects in semiclassical scattering}}},\ Vol.~\bibinfo {volume}
+  {1}\ (\bibinfo  {publisher} {Cambridge University Press},\ \bibinfo {year}
+  {2006})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2011)\citenamefont {Zhang},
   \citenamefont {Wu},\ and\ \citenamefont {Leung}}]{Zhang:2011pq}%
   \BibitemOpen
