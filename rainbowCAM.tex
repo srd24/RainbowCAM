@@ -71,6 +71,9 @@
 \newcommand{\tom}[1]{\textcolor{blue}{(Tom: #1)}}
 \newcommand{\mo}[1]{\textcolor{green}{(Mohamed: #1)}}
 
+\newcommand{\phiout}{\phi^{\text{out}}_{\omega, \lambda-1/2}}
+\newcommand{\phireg}{\phi^{}_{\omega, \lambda-1/2}}
+
 \renewcommand{\arraystretch}{1.3} % espace entre les lignes de la table
 %\setlength{\tabcolsep}{.3cm} % espace entre les colonnes de la table
 
@@ -83,7 +86,7 @@
 
 \begin{document}
 
-\title{Scattering from compact objects: Regge poles \\ and the Complex Angular Momentum method}
+\title{Scattering from compact objects: \\ Regge poles and the Complex Angular Momentum method}
 
 
 
@@ -121,7 +124,7 @@ To be written
 
 The time-independent scattering of planar waves in the gravitational field of a compact body has been studied in some detail since the 1960s \cite{Hildreth1964PhDT64, Matzner:1968, Vishveshwara:1970}. A substantial literature has developed on \emph{black hole scattering}, focussing on the canonical scenario of a planar wave of frequency $\omega$ and spin $s$ \cite{Chrzanowski:1976jb} impinging upon a black hole of mass $M$ in vacuum \cite{Hildreth1964PhDT64, Matzner:1968, Vishveshwara:1970, Mashhoon:1973zz,Fabbri:1975,Sanchez:1977vz,MatznerRyan1978,Handler:1980un,Matzner:1985rjn,Futterman:1988ni,Andersson:1995vi,Glampedakis:2001cx,Dolan:2006vj,Dolan:2007ut,Dolan:2008kf,Crispino:2009xt,Cotaescu:2014jca,Gussmann:2016mkp}. A dimensionless parameter,
 \begin{equation}
-M \omega = \pi \frac{r_g}{\lambda},
+M \omega = \frac{\pi r_g}{\lambda},
 \end{equation}
 encapsulates the ratio of the gravitational radius $r_g = 2GM/c^2$ to the wavelength $\lambda$ (henceforth we adopt geometric units such that $G=c=1$). The long wavelength ($M \omega \ll 1$), short wavelength ($M \omega \gg 1$) and intermediate regimes have been studied with a combination of perturbative \cite{DeLogi:1977dp,Dolan:2007ut,Guadagnini:2008ha,Sorge:2015yoa}, semi-classical \cite{Matzner:1985rjn, Anninos:1992ih} and numerical methods. The $s = 0$ (scalar) \cite{Matzner:1968,Sanchez:1977vz,Andersson:1995vi,Glampedakis:2001cx,Leite:2019eis}, $s=1/2$ (fermion) \cite{Dolan:2006vj,Cotaescu:2014jca}, $s=1$ (electromagnetic) \cite{Fabbri:1975, Crispino:2009xt, Crispino:2015gua} and $s=2$ (gravitational) cases \cite{MatznerRyan1978,Handler:1980un,Dolan:2008kf} have all been covered.
 
@@ -231,7 +234,7 @@ In both cases we observe a discontinuity in $V_{\ell}(r)$ across the star's surf
 \end{subequations}
 where
 \begin{equation}
-\Delta V_{\ell} \equiv \lim_{\epsilon \rightarrow 0} \left\{ V_{\ell}(R + \epsilon) - V_{\ell}(R - \epsilon) \right\} .
+\Delta V_{\ell} \equiv \lim_{\epsilon \rightarrow 0} \left\{ V_{\ell}(R + \epsilon) - V_{\ell}(R - \epsilon) \right\} . \label{def:DeltaV}
 \end{equation}
 
 
@@ -297,7 +300,7 @@ In order to determine the Regge poles we adapt the method of Benhar, Berti and F
 \sam{I think we need a little bit more detail here -- how does the four-term recurrence relation arise, and where can it be found specifically?}
 
 
- \subsection{Numerical results}\label{subsec:results}
+ \subsection{Numerical results: the spectrum}\label{subsec:results1}
 In this section we show numerical results for the Regge pole spectrum of a compact body, in two particular cases: (i) a neutron-star-like body with tenuity $R / M = 6$, and (ii) a UCO with tenuity $R / M = 2.26$ close to the Buchdahl bound. Results for the frequencies $M \omega = 3/2$ and $M \omega = 8$ are compared, for the scalar-field ($s=0$) and axial GW ($s=2$) cases.
 
 Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body ($R/M = 6$). We see that there are two branches of Regge poles in the first quadrant, which meet at $\text{Re}( \lambda_n(\omega) ) \sim \omega b_0$, where $b_0$ is the impact parameter for the null ray which grazes the surface of the compact body. The axial GW $s=2$ modes (filled markers) are typically close to their scalar-field $s=0$ counterparts (unfilled markers), as might be anticipated from the similarities in the effective potentials for the two cases (see Fig.~\ref{fig:Veff}).
@@ -559,17 +562,8 @@ $10$ & $3$  & $8.113848+12.876130 i $  & $/ $  & $/ $    \\
  \subsection{The WKB approximation}
 To investigate the relationship between the qualitative features of the effective potential (Fig.~\ref{fig:Veff}) and the three branches of Regge poles revealed in Sec.~\ref{subsec:results}, we now employ the WKB method, with a view of obtain an approximation that is valid at high frequencies ($M\omega \rightarrow \infty$).
 
-The WKB approach developed by Zhang, Wu and Leung~\cite{Zhang:2011pq} to determine the axial \textit{w}-modes of a variety of stellar models can be adapted in order to obtain analytical approximations for the ``broad Regge poles'' for a scalar wave on a stellar background. The radial equation for axial gravitational perturbations is identical to Eq.~(\ref{H_Radial_equation}) but with the potential replaced by $V_{\ell} \rightarrow V_{\ell}^{\text{ax}}$ where \cite{Cardoso:2014sna}
-\begin{eqnarray}\label{RW_Potentiel_axialGW}
-V_{\ell}^{\text{ax}}(r) = f(r)\bigg[\frac{\ell(\ell+1)}{r^2}  - \dfrac{3 h(r)}{2r}\left(\dfrac{f'(r)}{f(r)}+\dfrac{h'(r)}{h(r)}\right) & \nonumber \\
-	 + 8 \pi (p - \rho) & \bigg] .
-\end{eqnarray}
-%
-We can expect then that Regge poles for axial gravitational perturbations are qualitatively the same as for scalar perturbations, and the methods discussed can be easily adapted to deal with either case.
-
-\newcommand{\phiout}{\phi^{\text{out}}_{\omega, \lambda-1/2}}
-\newcommand{\phireg}{\phi^{}_{\omega, \lambda-1/2}}
-
+Here we follow the approach of Zhang, Wu and Leung~\cite{Zhang:2011pq}, who applied the WKB method to determine the axial \textit{w}-modes of a variety of stellar models. Here, we adapt the method to obtain analytical approximations for the ``broad resonances'' for waves on a stellar background. The starting point is with the radial equation (\ref{H_Radial_equation}) with either the effective potential for the scalar field (\ref{Inside_Potentiel}), or for axial gravitational perturbations (\ref{RW_Potentiel_axialGW}). 
+ 
 Regge poles and quasinormal modes for relativistic stellar models (of which \textit{w}-modes are a sub-category for gravitational perturbations) both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency. Both types of pole satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition of a purely outgoing wave in the far field
 %
 \begin{equation}\label{bc_pole_inf}
@@ -577,15 +571,15 @@ Regge poles and quasinormal modes for relativistic stellar models (of which \tex
 \displaystyle{  A^{(+)}_{\lambda-1/2} (\omega) e^{+i\omega r_\ast}}.
 \end{equation}
 %
-Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phireg$ and $\phiout$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$)
+Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which the  Wronskian of $\phireg$ and $\phiout$ vanishes (\textit{i.e.}, $A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0$), viz.,
 \begin{equation}\label{Wronskian}
-  W[\phireg, \phiout ]= 0
+  W[\phireg, \phiout ]= 0 .
 \end{equation}
-It has been shown that, the asymptotic expressions of $\phireg$ and $\phiout$ can be derived in certain regions, buy using the standard WKB approximation. In the high-frequency domain we have (see Refs \ldots)
+It has been shown \cite{Zhang:2011pq} that the asymptotic expressions of $\phireg$ and $\phiout$ can be derived in asymptotic regions, by using the standard WKB approximation. In the high-frequency limit, the interior solution of Eq.~(\ref{H_Radial_equation}) is (see Refs \ldots \sam{Please fill this in})
 \begin{equation}\label{Approx_origin}
-  \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*) \quad\quad 0\leq r_*\leq R_*
+  \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*),  \quad\quad 0\leq r_*\leq R_* ,
 \end{equation}
-where $j_{\lambda-1/2}$ is the spherical Bessel function of the first kind and
+where $j_{\lambda-1/2}(\cdot)$ is the spherical Bessel function of the first kind and
 \begin{equation}
 \label{Approx_infinity}
 \phiout  \scriptstyle{\underset{\omega \to \infty}{=}}
@@ -596,21 +590,21 @@ where $j_{\lambda-1/2}$ is the spherical Bessel function of the first kind and
 \end{aligned}
 \right.
 \end{equation}
-Here
+Here $R_*$ is the tortoise coordinate at the surface of the body, 
 \begin{equation}\label{R_star}
   R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
 \end{equation}
-and $\mathcal{R}$ is a reflection coefficient with the defintion given in Ref.~\cite{Berry_1982}.
-Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \cite{Zhang:2011pq,Berry_1982} for more details), we have for our model (\textit{i.e.}, compact body with a constant density)
+and $\mathcal{R}$ is a reflection coefficient with the definition given in Ref.~\cite{Berry_1982}.
+Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \cite{Zhang:2011pq,Berry_1982} for more details), we have for our model (\textit{i.e.}, a compact body with a constant density)
 \begin{equation}\label{R_reflection_1}
-  \mathcal{R} = a \omega^{-2}
+  \mathcal{R} = \alpha \omega^{-2}
 \end{equation}
 with
 \begin{eqnarray}
 % \nonumber % Remove numbering (before each equation)
-  a &=& -\left(\frac{i}{2}\right)^2 \lim_{\epsilon\to 0^{+}} \left[V_{\lambda-1/2}(r)\Bigg{|}_{r=R+\epsilon}-V_{\lambda-1/2}(r)\Bigg{|}_{r=R-\epsilon}\right] \nonumber\\
-   &=& \frac{3M(R-2M)}{4 R^4}
+  \alpha &=& \frac{1}{4} \Delta V(R) = \pm \frac{3M(R-2M)}{4 R^4} ,
 \end{eqnarray}
+where $\Delta V$ is the discontinuity in the effective potential at the surface, defined in Eq.~(\ref{def:DeltaV}), and the $+$ ($-$) sign is chosen for scalar field (axial gravitational wave) cases.
 
 %\begin{equation}\label{a_def}
 %a= \frac{3M \left(R-2M\right)^2}{4 R^5}.
@@ -624,23 +618,24 @@ and Eq. \eqref{Approx_infinity} into the condition  \eqref{Wronskian}, we obtain
    e^{ i\pi (\lambda-1/2)- 2 i \omega R_*}=-\mathcal{R}.
 \end{equation}
 %
-We then solve Eq.~\eqref{WKB_1} and we obtain
+We then solve Eq.~\eqref{WKB_1} to obtain
 \begin{equation}\label{lambda_Approx}
-  \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)+\frac{i}{\pi} \ln\left(\frac{1}{\mathcal{R}}\right)
+  \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n \pm \frac{1}{2}\right)+\frac{i}{\pi} \ln\left(\frac{2 R^2 \omega}{\sqrt{3M (R-2M)}}\right) .
 \end{equation}
-This corresponds to the series of Regge poles with spacing $|\Delta \lambda_n|\approx 2$ with the almost constant  imaginary part. Of course, they lie in the first quadrant of the CAM plan with a positive real part
-%
-\begin{equation}\label{Real_Part}
-  \frac{2 \omega R_*}{\pi}-\left(2n+\frac{1}{2}\right)>0.
-\end{equation}
-%
-The overtones are labelled by $n =1,2,\ldots$ and $n$ has an upper limit
-%
+\sam{Please double-check this formula is correct for both scalar (+) and axial GW (-) cases.}
+This corresponds to a series of Regge poles with spacing $|\Delta \lambda_n|\approx 2$ with the almost-constant imaginary part; these are the broad resonances shown in Figs.~\ref{fig:rp1} and \ref{fig:rp2}. 
+The formula also correctly accounts for the alternating sequence of the scalar-field and axial-GW modes.
+ %Of course, they lie in the first quadrant of the CAM plan with a positive real part
+ 
+The overtones are labelled by $n =1,2,\ldots$ and the condition $\text{Re} \, \lambda_n > 0$ leads to an upper limit for $n$ of %
 \begin{equation}\label{Limit_Broad_RP}
-n \leq \left\lfloor \frac{\omega R_*}{\pi} - \frac{1}{4}\right\rfloor.
+n \leq \left\lfloor \frac{\omega R_*}{\pi} \mp \frac{1}{4}\right\rfloor.
 \end{equation}
 %
-In other words, there is a finite number of the ``broad Regge poles''.
+In other words, there are a finite number of the broad resonances in the first quadrant.
+
+Table \ref{tab:table5} compares the numerically-determined Regge poles with the WKB approximation in Eq.~(\ref{lambda_Approx}),  for the scalar-field case. The data shows that, while the leading-order WKB approximation captures the essential features of the broad resonance branch, it is not particularly accurate. Higher-order extensions are possible, but not pursued here.
+
 
 %\begin{equation}\label{lambda_Approx}
 %  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
@@ -650,12 +645,12 @@ In other words, there is a finite number of the ``broad Regge poles''.
 \begingroup
 \squeezetable
 \begin{table}[htp]
-\caption{\label{tab:table3} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field versus WKB results given by Eq.~\eqref{lambda_Approx}. The radius of the compact bodies is $R = 6M$ and we assume $2M=1$.}
+\caption{\label{tab:table5} The lowest Regge poles $\lambda_{n}(\omega)$ for the scalar field versus WKB results given by Eq.~\eqref{lambda_Approx}. The radius of the compact bodies is $R = 6M$ and we set $2M=1$.}
 \smallskip
 \centering
 \begin{ruledtabular}
 \begin{tabular}{cccc}
- $n$ & $\omega$  & $\lambda^{\text{(B-R)}}_n(\omega)$ & $\lambda^{\text{(B-R, WKB)}}_n(\omega)$
+ $n$ & $2 M \omega$  & $\lambda^{\text{(B-R)}}_n(\omega)$ & $\lambda^{\text{(B-R, WKB)}}_n(\omega)$
  \\ \hline
 $1$  & $3$  & $1.56219+2.33072 i$  & $1.592793+2.189767i$   \\
      & $16$ & $ 0.62529+3.27098 i$ & $0.661564+3.255453i $   \\
@@ -694,10 +689,11 @@ $10$  & $3$  & $/$  & $/$   \\
 
 
 \section{Scattering and CAM theory}
+In this section we calculate the scattering cross section $d\sigma / d\Omega$ by means of the Complex Angular Momentum (CAM) method, and we compare with results obtained in the standard way from a partial-wave series \cite{Dolan:2017rtj}. 
 
 \subsection{The partial wave expansion}
 
-We recall that, for the scalar field, the differential scattering cross section is given by (see, e.g.,\cite{Dolan:2017rtj} and references therein)
+For a scalar field, the differential scattering cross section is given by
 \begin{equation}\label{Scalar_Scattering_diff}
   \frac{d\sigma}{d\Omega} = |\hat{f}(\omega,\theta)|^2
 \end{equation}
@@ -705,24 +701,24 @@ where
 \begin{equation}\label{Scalar_Scattering_amp}
  \hat{f}(\omega,\theta) = \frac{1}{2 i \omega} \sum_{\ell = 0}^{\infty} (2\ell+1)[S_{\ell}(\omega)-1]P_{\ell}(\cos\theta)
 \end{equation}
-denotes the scattering amplitude.  In Eq.~(\ref{Scalar_Scattering_amp}), the functions $P_{\ell}(\cos\theta)$ are the Legendre polynomials \cite{AS65}.  We also recall that the $S$-matrix elements $S_{\ell}(\omega)$ appearing in Eq.~(\ref{Scalar_Scattering_amp}) can be defined from the modes $\phi_{\omega \ell}$ that solve the homogenous radial equation
+is the scattering amplitude (for details see e.g.~\cite{Dolan:2017rtj} and references therein).  In Eq.~(\ref{Scalar_Scattering_amp}), the functions $P_{\ell}(\cos\theta)$ are the Legendre polynomials \cite{AS65}, and the $S$-matrix elements $S_{\ell}(\omega)$ appearing in Eq.~(\ref{Scalar_Scattering_amp}) were defined in Eq.~(\ref{Matrix_S}).
 
 \subsection{CAM representation of the scattering amplitude}
 \label{SecIIc}
 
-To construct the CAM representation, we follow the steps in section~II of the Ref~\cite{Folacci:2019cmc} and recall the main results.
+To construct the CAM representation of $\hat{f}(\theta)$, we follow the steps in section~II of Ref.~\cite{Folacci:2019cmc} and recall the main results below.
 
-By using the Sommerfeld-Watson transformation \cite{Watson18,Sommerfeld49,Newton:1982qc} which permits us to write
+The Sommerfeld-Watson transformation \cite{Watson18,Sommerfeld49,Newton:1982qc} permits us to replace a sum with an integral, viz.,
 \begin{equation}\label{SWT_gen}
-\sum_{\ell=0}^{+\infty} (-1)^\ell F(\ell)= \frac{i}{2} \int_{\cal C} d\lambda \, \frac{F(\lambda -1/2)}{\cos (\pi \lambda)}
+\sum_{\ell=0}^{+\infty} (-1)^\ell F(\ell)= \frac{i}{2} \int_{\cal C} d\lambda \, \frac{F(\lambda -1/2)}{\cos (\pi \lambda)} ,
 \end{equation}
-with a function $F$ without any singularities on the real $\lambda$ axis, we replace the discrete sum over the ordinary angular momentum $\ell$ in Eq.~(\ref{Scalar_Scattering_amp}) by a contour integral in the complex $\lambda$ plane (i.e., in the complex $\ell$ plane with $\lambda = \ell +1/2$). By noting that $P_\ell (\cos \theta)=(-1)^\ell P_\ell (-\cos \theta)$, we obtain
+where $F(\cdot)$ is any function without singularities on the real $\lambda$ axis. Applying this to Eq.~(\ref{Scalar_Scattering_amp}) allows us to replace the discrete sum over the ordinary angular momentum $\ell$ with a contour integral in the complex $\lambda$ plane (that is, in the complex $\ell$ plane with $\lambda = \ell +1/2$). By noting that $P_\ell (\cos \theta)=(-1)^\ell P_\ell (-\cos \theta)$, we obtain
 \begin{eqnarray}\label{SW_Scalar_Scattering_amp}
 & & \hat{f}(\omega,\theta) = \frac{1}{2 \omega}  \int_{\cal C} d\lambda \, \frac{\lambda}{\cos (\pi \lambda)} \nonumber \\
 &&  \qquad\qquad   \times \left[ S_{\lambda -1/2} (\omega) -1 \right]P_{\lambda -1/2} (-\cos \theta).
 \end{eqnarray}
 In Eqs.~(\ref{SWT_gen}) and (\ref{SW_Scalar_Scattering_amp}), the integration contour encircles counterclockwise the positive real axis of the complex $\lambda$ plane, i.e., we take ${\cal C}=]+\infty +i\epsilon,+i\epsilon] \cup
-[+i\epsilon,-i\epsilon] \cup [-i\epsilon, +\infty -i\epsilon[$ with $\epsilon \to 0_+$ (see Fig.1 Ref~\cite{Folacci:2019cmc}).
+[+i\epsilon,-i\epsilon] \cup [-i\epsilon, +\infty -i\epsilon[$ with $\epsilon \to 0_+$ (see Fig.~1 in Ref~\cite{Folacci:2019cmc}).
 
 The Legendre function of the first kind $P_{\lambda -1/2} (z)$ denotes the analytic extension of the Legendre polynomials $P_\ell (z)$. It is defined in terms of hypergeometric functions by \cite{AS65}
 \begin{equation}\label{Def_ext_LegendreP}
@@ -734,10 +730,11 @@ In Eq.~(\ref{SW_Scalar_Scattering_amp}), $S_{\lambda -1/2} (\omega)$ denotes ``t
 \end{equation}
 where the complex amplitudes $A^{(-)}_{\lambda -1/2} (\omega)$ and  $A^{(+)}_{\lambda -1/2} (\omega)$ are defined from the analytic extension of the modes $\phi_{\omega \ell}$, i.e., from the function $\phi_{\omega ,\lambda -1/2}$.
 
-It is important to note that the poles of  $S_{\lambda -1/2} (\omega)$ in the complex $\lambda$ plan (i.e., the Regge poles) are defined  as  the zeros $\lambda_n(\omega)$ with $n=1,2,3,\ldots$ of the coefficient  $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~(\ref{Matrix_S_CAM})]
+It is important to note that the poles of  $S_{\lambda -1/2} (\omega)$ in the complex $\lambda$ plan (i.e., the Regge poles) are defined  as  the zeros of the coefficient  $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~(\ref{Matrix_S_CAM})], i.e., the values $\lambda_n(\omega)$ such that
 \begin{equation}\label{PR_def_Am}
-A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0.
+A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0,
 \end{equation}
+with $n=1,2,3,\ldots$
 The residue of the matrix $S_{\lambda-1/2}(\omega)$ at the pole $\lambda=\lambda_n(\omega)$ is defined by [see Eq.~(\ref{Matrix_S_CAM})]
 \begin{equation}\label{residues_RP}
 r_n(\omega)=e^{i\pi [\lambda_n(\omega)+1/2]} \left[ \frac{A_{\lambda -1/2}^{(+)}(\omega)}{\frac{d}{d \lambda}A_{\lambda -1/2}^{(-)}(\omega)}\right]_{\lambda=\lambda_n(\omega)}.
@@ -745,7 +742,7 @@ r_n(\omega)=e^{i\pi [\lambda_n(\omega)+1/2]} \left[ \frac{A_{\lambda -1/2}^{(+)}
 These residues play a central role in the complex angular momentum paradigm.
 
 Now, we ``deform'' the contour ${\cal C}$ in Eq.~(\ref{SW_Scalar_Scattering_amp}) in order to collect, by using Cauchy's theorem, the Regge poles contributions. This is achieved by following, \textit{mutatis mutandis}, the approach developed in Ref~\cite{Folacci:2019cmc} (see more particularly Sec. IIB~3 and Fig.~1). We obtain
-
+%
 \begin{equation}\label{CAM_Scalar_Scattering_amp_tot}
 \hat{f} (\omega, \theta) =  \hat{f}^\text{\tiny{B}} (\omega, \theta) +  \hat{f}^\text{\tiny{RP}} (\omega, \theta)
 \end{equation}
@@ -769,57 +766,66 @@ The second term in Eq.~(\ref{CAM_Scalar_Scattering_amp_tot}) ,
 & & \hat{f}^\text{\tiny{RP}} (\omega, \theta) = -\frac{i \pi}{\omega}    \sum_{n=1}^{+\infty}   \frac{ \lambda_n(\omega) r_n(\omega)}{\cos[\pi \lambda_n(\omega)]}  \nonumber \\
 &&  \qquad\qquad \qquad\qquad \times  P_{\lambda_n(\omega) -1/2} (-\cos \theta),
 \end{eqnarray}
-is a sum over the Regge poles lying in the first quadrant of the CAM plane. Of course, Eqs.~(\ref{CAM_Scalar_Scattering_amp_tot}), (\ref{CAM_Scalar_Scattering_amp_decomp}) and (\ref{CAM_Scalar_Scattering_amp_decomp_RP}) provide an exact representation of the scattering amplitude $\hat{f} (\omega, \theta)$ for the scalar field, equivalent to the initial partial wave expansion (\ref{Scalar_Scattering_amp}). From this CAM representation, we can extract the contribution $\hat{f}^\text{\tiny{RP}} (\omega, \theta)$ given by (\ref{CAM_Scalar_Scattering_amp_decomp_RP}) which, as a sum over Regge poles, is only an approximation of $\hat{f} (\omega, \theta)$, and which provides us with an approximation of the differential scattering cross section (\ref{Scalar_Scattering_diff}).
-
-\section{Reconstruction of differential scattering cross sections from Regge pole sums}
-\label{SecIII}
-
-In this section,  we compare the partial wave expansions of the differential scattering cross sections with their equivalent CAM representations or, more precisely, their Regge pole approximations.
+is a sum over the Regge poles lying in the first quadrant of the CAM plane. Of course, Eqs.~(\ref{CAM_Scalar_Scattering_amp_tot}), (\ref{CAM_Scalar_Scattering_amp_decomp}) and (\ref{CAM_Scalar_Scattering_amp_decomp_RP}) provide an exact representation of the scattering amplitude $\hat{f} (\omega, \theta)$ for the scalar field, equivalent to the initial partial wave expansion (\ref{Scalar_Scattering_amp}). From this CAM representation, we can extract the contribution $\hat{f}^\text{\tiny{RP}} (\omega, \theta)$ given by (\ref{CAM_Scalar_Scattering_amp_decomp_RP}) which, as a sum over Regge poles, is only an approximation of $\hat{f} (\omega, \theta)$, and which provides us with a corresponding approximation of the differential scattering cross section via (\ref{Scalar_Scattering_diff}).
 
 \subsection{Computational methods}
 \label{SecIIIa}
 
-To construct the scattering amplitude \eqref{Scalar_Scattering_amp}, the back ground integrals~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} and~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_b} as well as the Regge pole contribution~\eqref{CAM_Scalar_Scattering_amp_decomp_RP}, we use, \textit{mutatis mutandis} the computational methods that permitted one of us, in Refs~\cite{Folacci:2019cmc,Folacci:2019vtt} to consider the CAM representation for scattering of the scalar, electromagnetic and gravitational waves by Schwarzschild BH (see also Ref~\cite{Dolan:2017rtj}). It is important to remark that, due to the long rang nature of the field propagating on the Schwarzschild BH (outside the compact body), the scattering amplitude~\eqref{Scalar_Scattering_amp} and the background integral~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} suffer a lack of convergence and to overcome this problem, i.e., to accelerate the convergence of this sum and integral, we have used the method described in the Appendix of Ref~\cite{Folacci:2019cmc}. We have performed all the numerical calculations by using {\it Mathematica} \cite{Mathematica}.
+To construct the scattering amplitude \eqref{Scalar_Scattering_amp}, the background integrals~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} and~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_b}, and the Regge pole amplitude~\eqref{CAM_Scalar_Scattering_amp_decomp_RP}, we use, \textit{mutatis mutandis}, the computational methods of Refs~\cite{Folacci:2019cmc,Folacci:2019vtt}. In these works the authors calculated the CAM representation of scattering amplitudes for scalar, electromagnetic and gravitational waves by Schwarzschild BH (see also Ref~\cite{Dolan:2017rtj}). 
+
+Due to the long rang nature of the field propagating on the Schwarzschild BH (outside the compact body), the scattering amplitude~\eqref{Scalar_Scattering_amp} and the background integral~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} both suffer a lack of convergence. To overcome this problem, i.e., to accelerate the convergence of this sum and integral, we have used the method described in the Appendix of Ref~\cite{Folacci:2019cmc}. We have performed all the numerical calculations by using {\it Mathematica}. % \cite{Mathematica}.
 
 
-\subsection{Results}
-\label{SecIIIb}
+\subsection{Numerical results: scattering cross sections}
+\label{subsec:results2}
+
+Figures \ref{S_0_R_6_2Mw_3_Exact_vs_CAM}, \ref{S_0_R_6_2Mw_16_Exact_vs_CAM}, \ref{S_0_R_2-dot-26_2Mw_3_Exact_vs_CAM}, \ref{S_0_R_2-dot-26_2Mw_6_Exact_vs_CAM}, \ref{Rainbow_Cross_Section_R_6_2Mw_16}, and \ref{Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6} show a selection of results for the scattering cross section $d\sigma / d\Omega$ computed with the CAM method, and compared with results from the standard partial-wave method. As in Sec.~\ref{subsec:results1}, we focus on two cases: a neutron-star-like object with $R/M = 6$, and an Ultra-Compact Object with $R/M = 2.26$. 
+
+Figure \ref{S_0_R_6_2Mw_3_Exact_vs_CAM} demonstrates that the CAM cross section approaches the partial-wave cross section as (i) successively more Regge poles are included in the sum (\ref{CAM_Scalar_Scattering_amp_decomp_RP}), and (ii) the background-integral contributions (\ref{CAM_Scalar_Scattering_amp_decomp_Background}) are included. The first plot shows that, at a `low' frequency of $M \omega = 3/2$ for the neutron star model ($R/M = 6$), taking a sum over just \emph{two} Regge poles in Eq.~(\ref{CAM_Scalar_Scattering_amp_decomp_RP}) captures the crude features of the cross section. The final plot shows that a cross section calculated from a sum of $15$ Regge poles and the background integral is indistinguishable (on the plot) from the partial-wave sum.
 
 \begin{figure*}%[h!]
  \includegraphics[scale=0.50]{Scattering_Cross_Section_R_6_2Mw_3}
-\caption{\label{S_0_2Mw_01_Exact_vs_CAM} The scalar cross section of a compact bodies for $2M\omega=3$ and $R=6M$, its Regge pole approximation and the background integral contribution.}
+\caption{\label{S_0_R_6_2Mw_3_Exact_vs_CAM} The scalar cross section of a compact bodies for $2M\omega=3$ and $R=6M$, its Regge pole approximation and the background integral contribution. The plots show the effect of including successively more Regge poles (plots 1--3). In the final plot, the background integral is added, giving a cross section which agrees well with the (regularized) partial-wave sum.}
 \end{figure*}
+
+Figure \ref{S_0_R_6_2Mw_16_Exact_vs_CAM} shows the neutron star model ($R/M = 6$) at the higher frequency of $M \omega = 8$. The first plot shows that, in this case, including just two Regge poles is yields a poor approximation. With 20 Regge poles, the primary peak of the rainbow, the first supernumerary, and the shadow region are well captured, but at smaller angles ($\theta  \lesssim 40^\circ$) there is no agreement. With 42 Regge poles, but no background integral, the agreement is excellent for $\theta \gtrsim 30^\circ$. Finally, with 81 Regge poles and the background integral included, the CAM result is again indistinguishable from the partial-wave result on the plot.
 
 \begin{figure*}%[h!]
  \includegraphics[scale=0.50]{Scattering_Cross_Section_R_6_2Mw_16}
-\caption{\label{S_0_2Mw_01_Exact_vs_CAM} The scalar cross section of a compact bodies for $2M\omega=16$ and $R=6M$, its Regge pole approximation and the background integral contribution.}
+\caption{\label{S_0_R_6_2Mw_16_Exact_vs_CAM} The scalar cross section of a compact bodies for $2M\omega=16$ and $R=6M$, its Regge pole approximation and the background integral contribution.}
 \end{figure*}
+
+Figure \ref{S_0_R_6_2Mw_16_Exact_vs_CAM} shows the cross section for an Ultra Compact Object with $R/M = 2.26$ at the `low' frequency of $M \omega = 3/2$. In this case, the rainbow angle exceeds $180^\circ$, and there is both a light-ring and a trapping region (see Fig.~\ref{fig:Veff}). The cross section exhibits regular orbiting oscillations with angle $\theta$. The angular width is consistent with generation by the light-ring (i.e.~ the peak in the potential barrier). The second plot shows that including just 3 modes from each of the three branches leads to a good description of scattering at large angles $\theta \gtrsim 100^\circ$. As there is no shadow region in this case, the cross section at large angles in non-negligible. For $R/M = 2.26$, the cross section at the antipodal point ($\theta = 180^\circ$) is a factor of $> 10^6$ larger than in the $R/M = 6$ case. The final plot shows that excellent agreement with the partial-wave results is obtained, for $\theta \gtrsim 20^\circ$, by summing over $27$ poles.
 
 \begin{figure*}%[h!]
 \centering
  \includegraphics[scale=0.50]{Scattering_Cross_Section_R_2-dot-26_2Mw_3}
-\caption{\label{S_0_2Mw_06_Exact_vs_CAM} The scalar cross section of a very compact bodies for $2M\omega=3$ and $R=2.26M$ and its Regge pole approximation.}
+\caption{\label{S_0_R_2-dot-26_2Mw_3_Exact_vs_CAM} The scalar cross section of a very compact bodies for $2M\omega=3$ and $R=2.26M$ and its Regge pole approximation.}
 \end{figure*}
 
+Figure \ref{S_0_R_2-dot-26_2Mw_6_Exact_vs_CAM} shows the cross section for an UCO at the higher frequency of $M \omega = 8$. In this case, the cross section is non-negligible at all angles, and there is evidence for interference between oscillations of comparable amplitudes and widths. Summing 31 Regge poles leads to good agreement for the cross section for angles $\theta \gtrsim 35^\circ$. As before, it is necessary to include the background integral as well to obtain agreement at smaller angles.
 
 \begin{figure*}%[h!]
 \centering
  \includegraphics[scale=0.50]{Scattering_Cross_Section_R_2-dot-26_2Mw_6}
-\caption{\label{S_0_2Mw_06_Exact_vs_CAM} The scalar cross section of a very compact bodies for $2M\omega=6$ and $R=2.26M$ and its Regge pole approximation.}
+\caption{\label{S_0_R_2-dot-26_2Mw_6_Exact_vs_CAM} The scalar cross section of a very compact bodies for $2M\omega=6$ and $R=2.26M$ and its Regge pole approximation.}
 \end{figure*}
+
+Figures \ref{Rainbow_Cross_Section_R_6_2Mw_16} and \ref{Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6} show the relative magnitudes of the contributions from the different branches of Regge poles. For $R/M = 6$ (Fig.~ \ref{Rainbow_Cross_Section_R_6_2Mw_16}) the surface-wave and broad-resonance amplitudes are similar in magnitude, and similar in magnitude to their sum. There is a difference in phase between these amplitudes which generates the peaks and troughs of the rainbow-scattering pattern. 
 
 
 \begin{figure}%[h!]
 \centering
  \includegraphics[scale=0.50]{Rainbow_Cross_Section_R_6_2Mw_16}
-\caption{\label{S_0_2Mw_06_Exact_vs_CAM} Rainbow scattering for compact bodies for $2M\omega=16$ and $R=6M$, its Regge pole approximation and different contributions of the sum over Regge poles.}
+\caption{\label{Rainbow_Cross_Section_R_6_2Mw_16} Rainbow scattering for compact bodies for $2M\omega=16$ and $R=6M$, its Regge pole approximation and different contributions of the sum over Regge poles.}
 \end{figure}
 
+For $R/M = 2.26$ (Fig.~\ref{Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6}), however, the amplitudes  from the three branches are comparable in magnitude, but their sum is several orders-of-magnitude smaller. In other words, there is some delicate cancellation occurring between the contributions from the branches, suggesting that the CAM approach used here is not an efficient method for computing the cross section in this case. 
 
 \begin{figure}%[h!]
 \centering
  \includegraphics[scale=0.50]{Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6}
-\caption{\label{S_0_2Mw_06_Exact_vs_CAM} Rainbow scattering for compact bodies for $2M\omega=16$ and $R=2.26M$, its Regge pole approximation and different contributions of the sum over Regge poles.}
+\caption{\label{Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6} Rainbow scattering for compact bodies for $2M\omega=16$ and $R=2.26M$, its Regge pole approximation and different contributions of the sum over Regge poles.}
 \end{figure}
 
 
@@ -835,6 +841,6 @@ M. O. E. H. wish to thank Antoine Folacci for various discussions concerning thi
 
 
 \bibliography{rainbowCAM}
-%\bibliographystyle{apsrev4-1}
+\bibliographystyle{apsrev4-1}
 
 \end{document}
