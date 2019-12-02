@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: rainbowCAM.aux
 The style file: apsrev4-1.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -27,45 +27,45 @@ Control: year (0) verbatim
 Control: production of eprint (0) enabled
 Warning--missing journal in Nambu:2019sqn
 Warning--empty year in Mathematica
-You've used 57 entries,
+You've used 58 entries,
             5847 wiz_defined-function locations,
-            2081 strings with 25813 characters,
-and the built_in function-call counts, 54829 in all, are:
-= -- 3880
-> -- 1123
-< -- 339
-+ -- 356
-- -- 256
-* -- 8421
-:= -- 5563
-add.period$ -- 103
-call.type$ -- 57
-change.case$ -- 272
-chr.to.int$ -- 68
-cite$ -- 59
-duplicate$ -- 5303
-empty$ -- 4245
-format.name$ -- 635
-if$ -- 10635
+            2091 strings with 26026 characters,
+and the built_in function-call counts, 55839 in all, are:
+= -- 3954
+> -- 1143
+< -- 345
++ -- 362
+- -- 260
+* -- 8583
+:= -- 5663
+add.period$ -- 105
+call.type$ -- 58
+change.case$ -- 277
+chr.to.int$ -- 69
+cite$ -- 60
+duplicate$ -- 5402
+empty$ -- 4322
+format.name$ -- 648
+if$ -- 10830
 int.to.chr$ -- 3
-int.to.str$ -- 65
-missing$ -- 662
-newline$ -- 256
-num.names$ -- 165
-pop$ -- 2045
+int.to.str$ -- 66
+missing$ -- 674
+newline$ -- 260
+num.names$ -- 168
+pop$ -- 2081
 preamble$ -- 1
-purify$ -- 220
+purify$ -- 224
 quote$ -- 0
-skip$ -- 1979
+skip$ -- 2016
 stack$ -- 0
-substring$ -- 1561
-swap$ -- 4927
-text.length$ -- 118
+substring$ -- 1583
+swap$ -- 5023
+text.length$ -- 120
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 729
+type$ -- 742
 warning$ -- 4
-while$ -- 172
+while$ -- 175
 width$ -- 0
-write$ -- 597
+write$ -- 608
 (There were 5 warnings)

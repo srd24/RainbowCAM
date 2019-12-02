@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{55}%
+\begin{thebibliography}{56}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -491,19 +491,6 @@
   \Eprint {http://arxiv.org/abs/1906.01441} {arXiv:1906.01441 [gr-qc]}
   \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1906.01441;%%
-\bibitem [{\citenamefont {Folacci}\ and\ \citenamefont {Ould
-  El~Hadj}(2019{\natexlab{b}})}]{Folacci:2019cmc}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Antoine}\ \bibnamefont
-  {Folacci}}\ and\ \bibinfo {author} {\bibfnamefont {Mohamed}\ \bibnamefont
-  {Ould El~Hadj}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Regge
-  pole description of scattering of scalar and electromagnetic waves by a
-  Schwarzschild black hole}},}\ }\href {\doibase 10.1103/PhysRevD.99.104079}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
-  {volume} {D99}},\ \bibinfo {pages} {104079} (\bibinfo {year}
-  {2019}{\natexlab{b}})},\ \Eprint {http://arxiv.org/abs/1901.03965}
-  {arXiv:1901.03965 [gr-qc]} \BibitemShut {NoStop}%
-%%CITATION = ARXIV:1901.03965;%%
 \bibitem [{\citenamefont {Voje~Johansen}\ and\ \citenamefont
   {Ravndal}(2006)}]{VojeJohansen:2005nd}%
   \BibitemOpen
@@ -592,6 +579,19 @@
   }\href {\doibase 10.1103/PhysRevD.40.2568} {\bibfield  {journal} {\bibinfo
   {journal} {Phys.\ Rev.\ D}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo
   {pages} {2568} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Andersson}\ and\ \citenamefont
+  {Kokkotas}(1998)}]{Andersson:1997eq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Nils}\ \bibnamefont
+  {Andersson}}\ and\ \bibinfo {author} {\bibfnamefont {Kostas~D.}\ \bibnamefont
+  {Kokkotas}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Pulsation
+  modes for increasingly relativistic polytropes}},}\ }\href {\doibase
+  10.1046/j.1365-8711.1998.01541.x} {\bibfield  {journal} {\bibinfo  {journal}
+  {Mon. Not. Roy. Astron. Soc.}\ }\textbf {\bibinfo {volume} {297}},\ \bibinfo
+  {pages} {493} (\bibinfo {year} {1998})},\ \Eprint
+  {http://arxiv.org/abs/gr-qc/9706010} {arXiv:gr-qc/9706010 [gr-qc]}
+  \BibitemShut {NoStop}%
+%%CITATION = GR-QC/9706010;%%
 \bibitem [{\citenamefont {Thorne}\ and\ \citenamefont
   {Campolattaro}(1967)}]{thorne1967non}%
   \BibitemOpen
@@ -643,6 +643,19 @@
   {Stegun}},\ }\href@noop {} {\emph {\bibinfo {title} {Handbook of Mathematical
   Functions}}}\ (\bibinfo  {publisher} {Dover, New-York},\ \bibinfo {year}
   {1965})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Folacci}\ and\ \citenamefont {Ould
+  El~Hadj}(2019{\natexlab{b}})}]{Folacci:2019cmc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Antoine}\ \bibnamefont
+  {Folacci}}\ and\ \bibinfo {author} {\bibfnamefont {Mohamed}\ \bibnamefont
+  {Ould El~Hadj}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Regge
+  pole description of scattering of scalar and electromagnetic waves by a
+  Schwarzschild black hole}},}\ }\href {\doibase 10.1103/PhysRevD.99.104079}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {D99}},\ \bibinfo {pages} {104079} (\bibinfo {year}
+  {2019}{\natexlab{b}})},\ \Eprint {http://arxiv.org/abs/1901.03965}
+  {arXiv:1901.03965 [gr-qc]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1901.03965;%%
 \bibitem [{\citenamefont {Watson}(1918)}]{Watson18}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~N.}\ \bibnamefont

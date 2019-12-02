@@ -123,9 +123,9 @@ The time-independent scattering of planar waves in the gravitational field of a 
 \begin{equation}
 M \omega = \pi \frac{r_g}{\lambda},
 \end{equation}
-encapsulates the ratio of the gravitational radius $r_g = 2GM/c^2$ to the wavelength $\lambda$ (here we adopt geometric units such that $G=c=1$). The long wavelength ($M \omega \ll 1$), short wavelength ($M \omega \gg 1$) and intermediate regimes have been studied with a combination of perturbative \cite{DeLogi:1977dp,Dolan:2007ut,Guadagnini:2008ha,Sorge:2015yoa}, semi-classical \cite{Matzner:1985rjn, Anninos:1992ih} and numerical methods. The $s = 0$ (scalar) \cite{Matzner:1968,Sanchez:1977vz,Andersson:1995vi,Glampedakis:2001cx,Leite:2019eis}, $s=1/2$ (fermion) \cite{Dolan:2006vj,Cotaescu:2014jca}, $s=1$ (electromagnetic) \cite{Fabbri:1975, Crispino:2009xt, Crispino:2015gua} and $s=2$ (gravitational) cases \cite{MatznerRyan1978,Handler:1980un,Dolan:2008kf} have all been covered.
+encapsulates the ratio of the gravitational radius $r_g = 2GM/c^2$ to the wavelength $\lambda$ (henceforth we adopt geometric units such that $G=c=1$). The long wavelength ($M \omega \ll 1$), short wavelength ($M \omega \gg 1$) and intermediate regimes have been studied with a combination of perturbative \cite{DeLogi:1977dp,Dolan:2007ut,Guadagnini:2008ha,Sorge:2015yoa}, semi-classical \cite{Matzner:1985rjn, Anninos:1992ih} and numerical methods. The $s = 0$ (scalar) \cite{Matzner:1968,Sanchez:1977vz,Andersson:1995vi,Glampedakis:2001cx,Leite:2019eis}, $s=1/2$ (fermion) \cite{Dolan:2006vj,Cotaescu:2014jca}, $s=1$ (electromagnetic) \cite{Fabbri:1975, Crispino:2009xt, Crispino:2015gua} and $s=2$ (gravitational) cases \cite{MatznerRyan1978,Handler:1980un,Dolan:2008kf} have all been covered.
 
-Time-independent scattering by a compact body with a regular centre, such as a neutron star or white dwarf, has received comparatively less attention. In such a scenario, an electromagnetic wave will not penetrate inside the compact body; on the other hand, a gravitational wave will pass through the body without impediment from the matter distribution. Similarly, a neutron star is expected to be substantially transparent to neutrinos. In these cases, the body scatters the wave indirectly, through its influence on the spacetime curvature. Recent work \cite{Dolan:2017rtj, Stratton:2019deq} has explored the \emph{rainbow scattering} phenomenon that arises at short wavelengths, due to a stationary point in the geodesic deflection function associated with a ray that passes somewhat inside the body. In principle, the rainbow angle is a diagnostic of the matter distribution of the body, and thus its nuclear equation of state. \cite{Nambu:2019sqn}
+Time-independent scattering by a compact body with a regular centre, such as a neutron star or white dwarf, has received comparatively less attention. In such a scenario, an electromagnetic wave will not penetrate inside the compact body; but on the other hand, a gravitational wave will pass through the body without impediment from the matter distribution. Similarly, a neutron star is expected to be substantially transparent to neutrinos. Though the coupling to matter is weak, the incident wave is still strongly scattered due to the influence on the spacetime curvature. Recent work \cite{Dolan:2017rtj, Stratton:2019deq} has explored the \emph{rainbow scattering} phenomenon that arises at short wavelengths, due to a stationary point in the geodesic deflection function associated with a ray that passes somewhat inside the body. In principle, the rainbow angle is a diagnostic of the matter distribution of the body, and thus its nuclear equation of state. \cite{Nambu:2019sqn}
 
 Now describe the application of CAM methods to black holes, and its successes ... The aim of this work is to extend the methods to compact bodies.
 
@@ -144,7 +144,9 @@ Finally a paragraph on the connections to Mie scattering by a transparent sphere
 \label{SecII}
 
 
-In this section we describe the model for the compact object. Then we recall the partial wave expansions of the differential scattering cross section for plane monochromatic scalar waves impinging upon a compact body. Finally we apply the CAM-approach developed for black-hole scattering in \cite{Folacci:2019cmc} and \cite{Folacci:2019vtt}.
+In this section we describe the model for the compact object (\ref{SecIIa}); we introduce the effective potentials for scalar field and axial gravitational waves (\ref{subsec:Potentials}); and we define the physical boundary conditions and the S-matrix (\ref{subsec:bc}).
+
+%Finally we apply the CAM-approach developed for black-hole scattering in \cite{Folacci:2019cmc} and \cite{Folacci:2019vtt}.
 
 \subsection{The model}
 \label{SecIIa}
@@ -172,8 +174,8 @@ and metric functions
  h(r) &= 1-\frac{2 M r^2}{R^3} . \label{Interior_Solution_h}
 \end{align}
 \end{subequations}
-The constant-density model can be thought of as representing the $n=0$ limit of the family of polytropes.
-The radial function $h(r)$ is $C^0$ (i.e.~continuous but not differentiable) at the surface of the star $r=R$, and the radial function $f(r)$ is $C^1$ there (i.e.~once-differentiable). In the polytropic cases $n > 0$, the functions are more regular \sam{can we make a precise statement?} at the surface, but not $C^\infty$ (i.e.~not smooth). As we shall see, the breakdown of smoothness leads to consequences for the Regge pole spectrum.
+The constant-density model can be thought of as representing the $n \rightarrow 0$ limit of the family of polytropes.
+The radial function $h(r)$ is $C^0$ at the surface of the star $r=R$ (i.e.~continuous but not differentiable), and the radial function $f(r)$ is $C^1$ there (i.e.~once-differentiable). In the polytropic cases $n > 0$, the functions are more regular \sam{can we make a precise statement?} at the surface, but not $C^\infty$ (i.e.~not smooth). As we shall see, the breakdown of smoothness leads to consequences for the Regge pole spectrum.
 
 We shall consider a scalar wave $\Phi(x)$ propagating on the compact body spacetime, governed by the Klein-Gordon equation
 \begin{equation}
@@ -186,6 +188,7 @@ $
  is the metric determinant. Performing a standard separation of variables,
 \begin{equation}
 \Phi = \frac{1}{r} \sum_{\omega \ell m} \phi_{\omega \ell}(r)  Y_{lm}(\theta, \phi) e^{-i \omega t} ,
+\label{eq:sepvariables}
 \end{equation}
 leads to a radial equation of the form
 \begin{equation}
@@ -197,11 +200,12 @@ where $V_{\ell}(r)$ is the effective potential, and $r^\ast$ denotes the \emph{t
 \frac{dr}{dr^\ast} =\sqrt{f(r)h(r)} .  \label{eq:tortoise}
 \end{equation}
 
-\subsection{Effective potentials}
+\subsection{Effective potentials}\label{subsec:Potentials}
 The effective potential for the scalar field in Eq.~(\ref{H_Radial_equation}) is $V_{\ell}(r) = V_{\ell}^{(s=0)}(r)$, where we define
 \begin{equation}\label{Inside_Potentiel}
-  V_{\ell}^{(s)}(r) \equiv f(r)\left[\frac{\ell(\ell+1)}{r^2}+\frac{(1-s^2) h(r)}{2r}\left(\frac{f'(r)}{f(r)}+\frac{h'(r)}{h(r)}\right)\right]
+  V_{\ell}^{(s)}(r) \equiv f(r)\left[\frac{\ell(\ell+1)}{r^2}+\frac{\beta_s \, h(r)}{2r}\left(\frac{f'(r)}{f(r)}+\frac{h'(r)}{h(r)}\right)\right] ,
 \end{equation}
+where $\beta_s \equiv 1-s^2$. 
 Remarkably, the radial equation for axial gravitational perturbations is identical to Eq.~(\ref{H_Radial_equation}) but with an effective potential $V_{\ell}^{\text{ax}}(r)$ where \cite{Cardoso:2014sna}
 \begin{eqnarray}\label{RW_Potentiel_axialGW}
 V_{\ell}^{\text{ax}}(r) = V_{\ell}^{(s=2)} + 8 \pi f(r) (p - \rho)  .
@@ -209,7 +213,7 @@ V_{\ell}^{\text{ax}}(r) = V_{\ell}^{(s=2)} + 8 \pi f(r) (p - \rho)  .
 %
 Outside the star in the vacuum region ($r>R$), the effective potentials reduce to the Regge-Wheeler potential,
 \begin{equation}\label{RW_Potentiel}
-V^{(s)}_{\ell}(r) =\left(1-\frac{2M}{r}\right)\left(\frac{\ell(\ell+1)}{r^2}+\frac{2M(1-s^2)}{r^3}\right)
+V^{(s)}_{\ell}(r) =\left(1-\frac{2M}{r}\right)\left(\frac{\ell(\ell+1)}{r^2}+\frac{2M \beta_s}{r^3}\right)
 \end{equation}
 with $s=0$ in the scalar-field case, and $s=2$ in the axial gravitational-wave case. In the exterior, the tortoise coordinates $r^\ast$ reduces to $r^\ast = r+ 2M \ln [r/(2M) -1]+k$, where $k$ is a constant that is chosen such that $r_\ast(r=0) = 0$ and $r_\ast(r)$ is a continuous function.
 
@@ -218,7 +222,7 @@ In both cases we observe a discontinuity in $V_{\ell}(r)$ across the star's surf
 \begin{subequations}
 \begin{align}
 \Delta V_{\ell}^{(s=0)} &= + \frac{3Mf(R)}{R^3} , \\
-\Delta V_{\ell}^{(ax)} &= - \frac{3Mf(R)}{R^3} ,
+\Delta V_{\ell}^{\text{ax}} &= - \frac{3Mf(R)}{R^3} ,
 \end{align}
 \end{subequations}
 where
@@ -231,18 +235,19 @@ where
 \centering
  \includegraphics[scale=0.50]{potentials_s02_CD_R6L2_v3} \\ \vspace{0.2cm}
  \includegraphics[scale=0.50]{potentials_s02_CD_R2p26L2_v3}
-\caption{\label{RP_approx_2Mw_3_6_s_1} The effective potential $V_\ell$ for a quadrupole ($\ell =2$) perturbation of a compact body of constant density and tenuity $R/M = 6$ (upper) and $R /M = 2.26$ (lower). The scalar field and axial gravitational-wave potentials are indicated as solid/black lines and dotted/red lines, respectively. The horizontal axis is the tortoise coordinate $r_\ast/(2M)$ defined in Eq.~(\ref{eq:tortoise}).}
+\caption{\label{RP_approx_2Mw_3_6_s_1} The effective potential $V_\ell$ for a quadrupole ($\ell =2$) perturbation of a compact body of constant density and tenuity $R/M = 6$ (upper) and $R /M = 2.26$ (lower). The scalar field potential (\ref{Inside_Potentiel}) and axial gravitational-wave potential (\ref{RW_Potentiel_axialGW}) are indicated as solid/black lines and dotted/red lines, respectively. The horizontal axis is the tortoise coordinate $r_\ast/(2M)$ defined in Eq.~(\ref{eq:tortoise}).}
 \label{fig:Veff}
 \end{figure}
 
 In the UCO case ($R < 3M$), the effective potential has a maximum near the light-ring at $r=3M$, and there is a trapping region, as shown in Fig.~\ref{fig:Veff}.
 
-\subsection{Boundary conditions and scattering}
-The modes $\phi_{\omega \ell}$ should have a regular behaviour at the centre of the object ($r = 0$), and inspection of the radial equation (\ref{H_Radial_equation}) shows that
+\subsection{Boundary conditions and scattering}\label{subsec:bc}
+The modes $\phi_{\omega \ell}$ in Eq.~(\ref{eq:sepvariables}) should have a regular behaviour at the centre of the object ($r = 0$), and inspection of the radial equation (\ref{H_Radial_equation}) shows that
 \begin{equation}\label{bc_1_in}
 \phi_{\omega  \ell}(r) \, \scriptstyle{\underset{r \to 0}{\sim}} \,
 \displaystyle{r^{\ell+1}}.
 \end{equation}
+At the boundary of the compact object, the potential is $C^0$ and thus the mode is $C^2$. 
 The asymptotic behaviour of the modes far from the body ($r \to +\infty$, or equivalently $r_\ast \to +\infty$) is
 \begin{equation}\label{bc_2_in}
 \phi_{\omega  \ell}(r) \scriptstyle{\underset{r_\ast \to +\infty}{\sim}}
@@ -252,35 +257,58 @@ With the complex coefficients $A^{(\pm)}_\ell (\omega)$ we then define the \emph
 \begin{equation}\label{Matrix_S}
   S_{\ell}(\omega) =  e^{i(\ell+1)\pi} \, \frac{A_{\ell}^{(+)}(\omega)}{A_{\ell}^{(-)}(\omega)}.
 \end{equation}
+We now consider the poles of $S_{\ell}(\omega)$ in the complex plane.
 
 %We can expect then that Regge poles for axial gravitational perturbations are qualitatively the same as for scalar perturbations, and the methods discussed can be easily adapted to deal with either case.
 
 \section{The Regge pole spectrum}
 
- \subsection{Regge poles and quasinormal modes}
+ \subsection{Quasinormal modes and Regge poles}
+ Mathematically, there is a close relationship between quasinormal modes and Regge poles; both are sets of poles of the scattering matrix. Physically, quasinormal modes are most relevant in time-dependent scattering scenarios, and Regge poles in time-independent scattering scenarios.
+ 
+The \emph{quasinormal mode spectrum} is the set of frequencies $\{ \omega_{\ell \hat{n}} \}$ in the complex-$\omega$ plane at which the scattering matrix $ S_{\ell}(\omega)$ has a simple pole, for a real value of $\ell$; that is, $\ell \in \mathbb{R}$ and $\omega_{\ell \hat{n}} \in \mathbb{C}$. 
+
+The \emph{Regge pole spectrum} is the set of angular momenta $\lambda_{\omega \hat{n}} = \ell_{\hat{n}}(\omega) + 1/2$ in the complex-$\lambda$ plane at which the scattering matrix has a simple pole for real $\omega$; that is, $\omega \in \mathbb{R}$ and $\lambda_{\hat{n}}(\omega) \in \mathbb{C}$. Here $\hat{n}$ is an index for enumerating the poles (see below). In all cases considered in this work, the simple poles arise as simple zeros of $A_{\ell}^{(-)}(\omega)$. 
+
+The quasinormal mode spectrum of spherically-symmetric compact objects has been studied in some detail in \cite{Kokkotas:1986gd,Kokkotas:1992ka,Andersson:1997eq,Kokkotas:1999bd,Leins:1993zz}. 
+Newly-formed neutron stars, the remnants of supernovae collapse, are predicted to pulsate with a large initial energy \cite{thorne1967non}, and fluid pulsations will surely generate gravitational waves. In 1967, Thorne and Campolattaro \cite{thorne1967non} classified the fluid modes of a relativistic body by analogy with fluid modes in a Newtonian body, with the addition of a damping time due to the emission of GWs. Two decades later, Kokkotas and Schutz showed that an additional family of modes existed \cite{Kokkotas:1986gd,Kokkotas:1992ka}, dubbed $w$-modes. These modes are characterised by a negligible excitation of fluid motion, and in the axial sector, by no fluid motion. They are highly damped and correspond to excitations of the dynamical perturbed space-time. For a review of (gravitational) quasinormal modes in relativistic stars and black holes see \cite{Kokkotas:1999bd}.
+
+The $w$-modes (quasinormal modes) may be divided into three branches:
+	\begin{enumerate}
+   \item Curvature modes, oscillations whose damping is larger for less compact bodies.
+   \item Interface modes ($\omega_{\text{II}}$-modes \cite{Leins:1993zz}), characterised by very rapid damping (i.e.~large negative imaginary part of $\omega_{\ell \hat{n}}$). This branch of modes is most similar to the Schwarzschild black hole quasinormal modes. 
+   \item Trapped modes \cite{Chandrasekhar449}: These modes exist for UCOs with $R/M < 3$, as the effective radial potential has a local minimum inside the star, and local maximum near the photon sphere $r=3M$. %The trapped modes are essentially the first few curvature modes with energy less than the potential barrier. 
+   The number of trapped modes increases with the depth of the potential well, and the damping rate decreases. 
+	\end{enumerate}
+For more details on quasinormal modes see \sam{Appropriate reference needed.}
+
+We now turn our attention to calculating the Regge pole spectrum for compact bodies.
 
 
-
- \subsection{Numerical method}
-
-
-In order to determine the Regge poles we use the method described in sec.~4 of ref.~\cite{Benhar:1998au}. In fact, they had adapted the \textit{continued fraction method}, developed by Leaver in the case of BH-QNM frequencies~\cite{Leaver:1985ax}, to determine the axial QNM frequencies of a compact bodies. Though they used their method to find the QNM frequencies, their method is equally valid, \textit{mutatis mutandis}, for finding the Regge poles. We have implemented numerically this method by using the Hill determinant approach of Majumdar and Panchapakesan~\cite{mp}, or more precisely, by modifying their method and adapting it to our problem, \textit{i.e.}, using it for a 4-term recurrence relation.
+ \subsection{Numerical method}\label{subsec:method}
 
 
- \subsection{Results}
+In order to determine the Regge poles we adapt the method of Benhar, Berti and Ferrari (BBF), described in Sec.~4 of Ref.~\cite{Benhar:1998au}, who used it to determine the axial QNM frequencies of compact bodies. In turn, the BBF method is an adaptation of the \textit{continued fraction method} developed by Leaver in the case of black hole-quasinormal mode frequencies~\cite{Leaver:1985ax}. Though BBF used their method to find the QNM frequencies, their method is equally valid, \textit{mutatis mutandis}, for finding the Regge poles. We have implemented numerically this method by using the Hill determinant approach of Majumdar and Panchapakesan~\cite{mp}, or more precisely, by modifying their method and adapting it to our problem, \textit{i.e.}, using it for a 4-term recurrence relation.
 
+\sam{I think we need a little bit more detail here -- how does the four-term recurrence relation arise, and where can it be found specifically?}
+
+
+ \subsection{Numerical results}\label{subsec:results}
+In this section we present numerical results for the Regge pole spectrum of a compact body, in two cases: (i) a neutron-star-like body with tenuity $R / M = 6$, and (ii) a UCO with a tenuity just above the Buchdahl bound, $R / M = 2.26$. Results for the frequencies $M \omega = 3/2$ and $M \omega = 8$ are compared, for the scalar-field ($s=0$) and axial GW ($s=2$) cases.
 
 \begin{figure}[htb]
 \centering
  \includegraphics[scale=0.50]{RP_R_6_2Mw_3_16_s_0_s_2}
-\caption{\label{RP_approx_2Mw_3_6_s_1} The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). We assume $2M =1$}
+\caption{\label{RP_approx_2Mw_3_6_s_1} The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
+}
 \end{figure}
 
 
  \begin{figure}[htb]
 \centering
  \includegraphics[scale=0.50]{RP_R_2_dot_26_2Mw_3_6_s_0_s_2}
-\caption{\label{RP_approx_2Mw_3_6_s_1}  The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). We assume $2M =1$}
+\caption{\label{RP_approx_2Mw_3_6_s_1}  The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
+}
 \end{figure}
 
 \begingroup
@@ -505,17 +533,7 @@ $10$ & $3$  & $8.113848+12.876130 i $  & $/ $  & $/ $    \\
 \end{table}
 \endgroup
 
-\subsection{Classification of quasinormal modes}
 
-The study of stellar quasinormal modes began with a general relativistic extension of the Newtonian treatment of fluid pulsations of stars. Newly formed neutron stars, the remnants of supernovae collapse, are predicted to pulsate with a large initial energy \cite{thorne1967non}. It was and still is of interest to study how these pulsations lose energy in the form of gravitational waves. Recently, the gravitational waves from a neutron star merger were detected... In particular the emitted radiation should cary a signature of the modes of oscillation allowed inside the star. These fluid modes can be classified in analogy to their real Newtonian counterparts, with an additional damping time due to emission of GWs. Later, Kokkotas and Schutz showed that an additional family of modes existed \cite{Kokkotas:1986gd,Kokkotas:1992ka}, dubbed $\omega$-modes. These modes are characterised by a negligible excitation of fluid motion (and in the axial sector no fluid motion). They're highly damped and correspond to excitations of the dynamical perturbed space-time. For an excellent review of (gravitational) quasinormal modes in relativistic stars and black holes see \cite{Kokkotas:1999bd}.
-
-We consider the massless scalar field which only couples to the body via gravitation. The scalar modes obey an equation of motion very similar to the axial gravitational wave sector. Accordingly, a similar spectrum for scalar modes can be expected (with no fluid excitation). Whilst these are arguably of less astrophysical interest, they are nonetheless a good model for axial GWs and allow us to make a first step towards a CAM approach for perturbed relativistic stars. We will classify the scalar $\omega$-modes as the axial GW modes have been, we have
-
-	\begin{enumerate}
-		\item Curvature modes: These modes exist for all relativistic stars. They are rapidly damped, and the damping is larger for less compact bodies.
-		\item Trapped modes: These are the scalar analogue of the axial trapped modes considered by Chandrasekhar and Ferrari \cite{Chandrasekhar449}. They exist for bodies with $R/M < 3$. These models have an effective radial potential with a local minimum somewhere inside the star, and local maximum at the photon sphere $r=3M$. The trapped modes are essentially the first few curvature modes with energy less than the potential barrier. There are a finite number of them, and the number increases with the depth of the potential well.
-		\item Interface modes: also known as $\omega_{\text{II}}$-modes, these were discovered by Leins \textit{et al.} \cite{Leins:1993zz}. They used a generalisation of Leaver's continued fraction  method as well as a `Wronskain method' that allowed them to accurately compute these modes which are characterised by very rapid damping (large imaginary part). This second branch of modes is the most similar to the Schwarzschild black hole quasinormal modes. We have taken their continued fraction method one step further (see section...) in order to be confident with our results.
-	\end{enumerate}
 
 
 
