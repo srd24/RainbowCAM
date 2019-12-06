@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.22)  6 DEC 2019 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.22)  6 DEC 2019 14:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -921,13 +921,13 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package natbib Warning: Citation `' on page 2 undefined on input line 145.
+Package natbib Warning: Citation `' on page 2 undefined on input line 143.
 
 [2] <potentials_s02_CD_R6L2_v3.pdf, id=234, 451.6875pt x 316.18124pt>
 File: potentials_s02_CD_R6L2_v3.pdf Graphic file (type pdf)
 
 <use potentials_s02_CD_R6L2_v3.pdf>
-Package pdftex.def Info: potentials_s02_CD_R6L2_v3.pdf used on input line 245.
+Package pdftex.def Info: potentials_s02_CD_R6L2_v3.pdf used on input line 243.
 (pdftex.def)             Requested size: 225.84319pt x 158.09023pt.
 
 <potentials_s02_CD_R2p26L2_v3.pdf, id=235, 451.6875pt x 316.18124pt>
@@ -935,21 +935,21 @@ File: potentials_s02_CD_R2p26L2_v3.pdf Graphic file (type pdf)
 
 <use potentials_s02_CD_R2p26L2_v3.pdf>
 Package pdftex.def Info: potentials_s02_CD_R2p26L2_v3.pdf used on input line 24
-6.
+4.
 (pdftex.def)             Requested size: 225.84319pt x 158.09023pt.
  [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.277 
+l.275 
        <./potentials_s02_CD_R6L2_v3.pdf> <./potentials_s02_CD_R2p26L2_v3.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./potentials_s02_CD_R2p26L2_
 v3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
 >]
-Underfull \hbox (badness 3449) in paragraph at lines 282--284
+Underfull \hbox (badness 3449) in paragraph at lines 280--282
 []\OT1/cmr/m/n/10 The quasi-nor-mal mode spec-trum of spherically-
  []
 
@@ -957,10 +957,10 @@ Underfull \hbox (badness 3449) in paragraph at lines 282--284
 File: RP_R_6_2Mw_3_16_s_0_s_2.pdf Graphic file (type pdf)
 
 <use RP_R_6_2Mw_3_16_s_0_s_2.pdf>
-Package pdftex.def Info: RP_R_6_2Mw_3_16_s_0_s_2.pdf used on input line 312.
+Package pdftex.def Info: RP_R_6_2Mw_3_16_s_0_s_2.pdf used on input line 310.
 (pdftex.def)             Requested size: 250.93687pt x 288.07553pt.
 
-Overfull \hbox (4.93687pt too wide) in paragraph at lines 312--313
+Overfull \hbox (4.93687pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
@@ -969,31 +969,31 @@ File: RP_R_2_dot_26_2Mw_3_6_s_0_s_2.pdf Graphic file (type pdf)
 
 <use RP_R_2_dot_26_2Mw_3_6_s_0_s_2.pdf>
 Package pdftex.def Info: RP_R_2_dot_26_2Mw_3_6_s_0_s_2.pdf used on input line 3
-22.
+20.
 (pdftex.def)             Requested size: 250.93687pt x 288.07553pt.
 
-Overfull \hbox (4.93687pt too wide) in paragraph at lines 322--323
+Overfull \hbox (4.93687pt too wide) in paragraph at lines 320--321
  [][] 
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 331--332
+Underfull \hbox (badness 6094) in paragraph at lines 329--330
  []\OT1/cmr/m/it/10 Broad res-o-nances\OT1/cmr/m/n/10 : ap-prox-i-mately unifor
 mly-
  []
 
 
-Overfull \hbox (1.71684pt too wide) in alignment at lines 400--433
+Overfull \hbox (1.71684pt too wide) in alignment at lines 398--431
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (35.0662pt too wide) in alignment at lines 517--549
+Overfull \hbox (35.0662pt too wide) in alignment at lines 515--547
  [] [] [] [] [] 
  []
 
 
-LaTeX Warning: Reference `subsec:results' on page 5 undefined on input line 565
+LaTeX Warning: Reference `subsec:results' on page 5 undefined on input line 563
 .
 
 [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
@@ -1001,13 +1001,13 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.566 
+l.564 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.566 
+l.564 
        <./RP_R_6_2Mw_3_16_s_0_s_2.pdf> <./RP_R_2_dot_26_2Mw_3_6_s_0_s_2.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./RP_R_2_dot_26_2Mw_3_6_s_0_
@@ -1018,32 +1018,32 @@ e
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.566 
+l.564 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.566 
+l.564 
       ]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 566.
+ on input line 564.
 
 [7pdfTeX warning (ext4): destination with the same identifier (name{table.3}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.598 \end{equation}
+l.596 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.598 \end{equation}
+l.596 \end{equation}
                     ]
-Overfull \hbox (9.59015pt too wide) detected at line 617
+Overfull \hbox (9.59015pt too wide) detected at line 615
 [][]\OML/cmm/m/it/10 ^^^[] [] \OMS/cmsy/m/n/10 ^^@ [] []   \OT1/cmr/m/n/10 0 \O
 MS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 r[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 R
 []
@@ -1054,9 +1054,9 @@ as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.707 
+l.705 
       ]
-Overfull \hbox (10.23909pt too wide) in alignment at lines 761--764
+Overfull \hbox (10.23909pt too wide) in alignment at lines 759--762
  [][][] []
  []
 
@@ -1065,7 +1065,7 @@ File: Scattering_Cross_Section_R_6_2Mw_3.pdf Graphic file (type pdf)
 
 <use Scattering_Cross_Section_R_6_2Mw_3.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_6_2Mw_3.pdf used on input l
-ine 789.
+ine 787.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
 
 <Scattering_Cross_Section_R_6_2Mw_16.pdf, id=573, 1011.78pt x 575.14874pt>
@@ -1073,7 +1073,7 @@ File: Scattering_Cross_Section_R_6_2Mw_16.pdf Graphic file (type pdf)
 
 <use Scattering_Cross_Section_R_6_2Mw_16.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_6_2Mw_16.pdf used on input 
-line 796.
+line 794.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
 
 <Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf, id=576, 1011.78pt x 575.14874pt
@@ -1081,7 +1081,7 @@ line 796.
 File: Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf Graphic file (type pdf)
  <use Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_2-dot-26_2Mw_3.pdf used on 
-input line 804.
+input line 802.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
 
 <Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf, id=578, 1011.78pt x 575.14874pt
@@ -1089,7 +1089,7 @@ input line 804.
 File: Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf Graphic file (type pdf)
  <use Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf>
 Package pdftex.def Info: Scattering_Cross_Section_R_2-dot-26_2Mw_6.pdf used on 
-input line 812.
+input line 810.
 (pdftex.def)             Requested size: 505.88876pt x 287.57367pt.
 
 <Rainbow_Cross_Section_R_6_2Mw_16.pdf, id=582, 501.875pt x 303.1325pt>
@@ -1097,10 +1097,10 @@ File: Rainbow_Cross_Section_R_6_2Mw_16.pdf Graphic file (type pdf)
 
 <use Rainbow_Cross_Section_R_6_2Mw_16.pdf>
 Package pdftex.def Info: Rainbow_Cross_Section_R_6_2Mw_16.pdf used on input lin
-e 821.
+e 819.
 (pdftex.def)             Requested size: 250.93687pt x 151.56587pt.
 
-Overfull \hbox (4.93687pt too wide) in paragraph at lines 821--822
+Overfull \hbox (4.93687pt too wide) in paragraph at lines 819--820
  [][] 
  []
 
@@ -1111,10 +1111,10 @@ File: Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6.pdf Graphic file (type p
 df)
  <use Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6.pdf>
 Package pdftex.def Info: Diff_Contribution_Cross_Section_R_2-dot-26_2Mw_6.pdf u
-sed on input line 829.
+sed on input line 827.
 (pdftex.def)             Requested size: 250.93687pt x 149.55838pt.
 
-Overfull \hbox (4.93687pt too wide) in paragraph at lines 829--830
+Overfull \hbox (4.93687pt too wide) in paragraph at lines 827--828
  [][] 
  []
 
@@ -1221,11 +1221,11 @@ Underfull \hbox (badness 2547) in paragraph at lines 476--483
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 848.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 846.
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 848.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 846.
  (./rainbowCAM.aux)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 848.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 846.
 Package rerunfilecheck Info: File `rainbowCAM.out' has not changed.
 (rerunfilecheck)             Checksum: 935FCDD592FCE144BC0B4240295FFBCB;1533.
 
@@ -1239,11 +1239,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  12530 strings out of 493089
  182263 string characters out of 6134842
- 350300 words of memory out of 5000000
+ 350299 words of memory out of 5000000
  15578 multiletter control sequences out of 15000+600000
  18403 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,19n,38p,1074b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,19n,38p,1181b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -1269,7 +1269,7 @@ t/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on rainbowCAM.pdf (14 pages, 1564549 bytes).
+Output written on rainbowCAM.pdf (14 pages, 1564611 bytes).
 PDF statistics:
  1089 PDF objects out of 1200 (max. 8388607)
  907 compressed objects within 10 object streams
