@@ -279,7 +279,7 @@ We now consider the poles of $S_{\ell}(\omega)$ in the complex plane.
 
 \section{The Regge pole spectrum}
 
- \subsection{Quasinormal modes and Regge poles}
+ \subsection{Quasinormal modes and Regge poles}\label{subsec:QNMs_RPs}
  Mathematically, there is a close relationship between quasinormal modes and Regge poles; they are both sets of poles of the scattering matrix. Physically, quasinormal modes are most relevant to time-dependent scattering scenarios, and Regge poles to time-independent scattering scenarios.
 
 The \emph{quasinormal mode spectrum} is the set of frequencies $\{ \omega_{\ell n} \}$ in the complex-$\omega$ plane at which the scattering matrix $ S_{\ell}(\omega)$ has a simple pole for a integer value of $\ell$ (so $\ell \in \mathbb{N}$ and $\omega_{\ell n} \in \mathbb{C}$).
@@ -383,7 +383,7 @@ Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body 
 \begin{figure}[htb]
 \centering
  \includegraphics[scale=0.50]{RP_R_6_2Mw_3_16_s_0_s_2}
-\caption{\label{RP_approx_2Mw_3_6_s_1} The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
+\caption{\label{RP_R6_approx_2Mw_3_6_s_1} The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
 }
 \label{fig:rp1}
 \end{figure}
@@ -393,7 +393,7 @@ Figure \ref{fig:rp2} shows the spectrum for a UCO with $R/M = 2.26$. These plots
  \begin{figure}[htb]
 \centering
  \includegraphics[scale=0.50]{RP_R_2_dot_26_2Mw_3_6_s_0_s_2}
-\caption{\label{RP_approx_2Mw_3_6_s_1}  The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
+\caption{\label{RP_R226_approx_2Mw_3_6_s_1}  The Regge poles $\lambda_n(\omega)$ for the scalar field (empty markers) and for the axial gravitational waves (filled markers). %We assume $2M =1$.
 }
 \label{fig:rp2}
 \end{figure}
@@ -632,11 +632,11 @@ $10$ & $3$  & $8.113848+12.876130 i $  & $/ $  & $/ $    \\
 
 
  \subsection{The WKB approximation}
- \tom{Tom to review this section}
- 
-To investigate the relationship between the qualitative features of the effective potential (Fig.~\ref{fig:Veff}) and the three branches of Regge poles revealed in Sec.~\ref{subsec:results}, we now employ the WKB method, with a view of obtain an approximation that is valid at high frequencies ($M\omega \rightarrow \infty$).
 
-Here we follow the approach of Zhang, Wu and Leung~\cite{Zhang:2011pq}, who applied the WKB method to determine the axial \textit{w}-modes of a variety of stellar models. Here, we adapt the method to obtain analytical approximations for the ``broad resonances'' for waves on a stellar background. The starting point is with the radial equation (\ref{H_Radial_equation}) with either the effective potential for the scalar field (\ref{Inside_Potentiel}), or for axial gravitational perturbations (\ref{RW_Potentiel_axialGW}).
+ 
+To investigate the relationship between the qualitative features of the effective potential (Fig.~\ref{fig:Veff}) and the three branches of Regge poles revealed in Sec.~\ref{subsec:results1}, we now employ the WKB method, with a view to obtaining an approximation that is valid at high frequencies ($M\omega \rightarrow \infty$).
+
+Here we follow the approach of Zhang, Wu and Leung~\cite{Zhang:2011pq}, who applied the WKB method to determine the axial \textit{w}-modes of a variety of stellar models. We adapt their method to obtain analytical approximations for the ``broad resonances'' for massless waves on a stellar background. The starting point is with the radial equation (\ref{H_Radial_equation}) with either the effective potential for the scalar field (\ref{Inside_Potentiel}), or for axial gravitational perturbations (\ref{RW_Potentiel_axialGW}).
 
 Regge poles and quasinormal modes for relativistic stellar models (of which \textit{w}-modes are a sub-category for gravitational perturbations) both satisfy the same wave equation and the same boundary conditions but with different interpretations for the angular momentum index and the frequency. Both types of pole satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition of a purely outgoing wave in the far field
 %
@@ -649,11 +649,11 @@ Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which t
 \begin{equation}\label{Wronskian}
   W[\phireg, \phiout ]= 0 .
 \end{equation}
-It has been shown \cite{Zhang:2011pq} that the asymptotic expressions of $\phireg$ and $\phiout$ can be derived in asymptotic regions, by using the standard WKB approximation. In the high-frequency limit, the interior solution of Eq.~(\ref{H_Radial_equation}) is (see Refs \ldots \sam{Please fill this in})
+It has been shown \cite{Zhang:2011pq} that the asymptotic expressions of $\phireg$ and $\phiout$ can be derived in asymptotic regions, by using the standard WKB approximation. In the high-frequency limit, the interior solution of Eq.~(\ref{H_Radial_equation}) is (see Ref.~\cite{Zhang:2011pq})
 \begin{equation}\label{Approx_origin}
   \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*),  \quad\quad 0\leq r_*\leq R_* ,
 \end{equation}
-where $j_{\lambda-1/2}(\cdot)$ is the spherical Bessel function of the first kind and
+where $j_{\lambda-1/2}(\cdot)$ is the spherical Bessel function of the first kind. In addition
 \begin{equation}
 \label{Approx_infinity}
 \phiout  \scriptstyle{\underset{\omega \to \infty}{=}}
@@ -669,7 +669,8 @@ Here $R_*$ is the tortoise coordinate at the surface of the body,
   R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
 \end{equation}
 and $\mathcal{R}$ is a reflection coefficient with the definition given in Ref.~\cite{Berry_1982}.
-Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \cite{Zhang:2011pq,Berry_1982} for more details), we have for our model (\textit{i.e.}, a compact body with a constant density)
+Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \cite{Zhang:2011pq,Berry_1982} for more details), we have for our model
+%
 \begin{equation}\label{R_reflection_1}
   \mathcal{R} = \alpha \omega^{-2}
 \end{equation}
@@ -678,26 +679,26 @@ with
 % \nonumber % Remove numbering (before each equation)
   \alpha &=& \frac{1}{4} \Delta V(R) = \pm \frac{3M(R-2M)}{4 R^4} ,
 \end{eqnarray}
-where $\Delta V$ is the discontinuity in the effective potential at the surface, defined in Eq.~(\ref{def:DeltaV}), and the $+$ ($-$) sign is chosen for scalar field (axial gravitational wave) cases.
+where $\Delta V$ is the discontinuity in the effective potential at the surface, defined in Eq.~(\ref{def:DeltaV}), and the $+$ ($-$) sign denotes the scalar (axial gravitational wave) case.
 
 %\begin{equation}\label{a_def}
 %a= \frac{3M \left(R-2M\right)^2}{4 R^5}.
 %\end{equation}
-Now, by inserting the high frequency approximation for $j_{\lambda-1/2} (\omega r_*)$ into Eq.~\eqref{Approx_origin} \cite{nist},
+Inserting the high frequency approximation for $j_{\lambda-1/2} (\omega r_*)$ into Eq.~\eqref{Approx_origin} we obtain \cite{nist},
 \begin{equation}\label{Approx_origin_bis}
-  \phi^{}_{\omega,\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right)\quad\quad 0\leq r_*\leq R_*
+  \phi^{}_{\omega,\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right)\quad\quad 0\leq r_*\leq R_*.
 \end{equation}
-and Eq. \eqref{Approx_infinity} into the condition  \eqref{Wronskian}, we obtain
+Substituting Eq. \eqref{Approx_infinity} into condition \eqref{Wronskian} we obtain
 \begin{equation}\label{WKB_1}
    e^{ i\pi (\lambda-1/2)- 2 i \omega R_*}=-\mathcal{R}.
 \end{equation}
 %
-We then solve Eq.~\eqref{WKB_1} to obtain
+We then solve Eq.~\eqref{WKB_1} to obtain the approximate Regge pole solution
 \begin{equation}\label{lambda_Approx}
   \lambda_n \approx \frac{2 \omega R_*}{\pi}-\left(2n \pm \frac{1}{2}\right)+\frac{2 i}{\pi} \ln\left(\frac{2 R^2 \omega}{\sqrt{3M (R-2M)}}\right) .
 \end{equation}
 %
-This corresponds to a series of Regge poles with spacing $|\Delta \lambda_n|\approx 2$ with the almost-constant imaginary part; these are the broad resonances shown in Figs.~\ref{fig:rp1} and \ref{fig:rp2}.
+This corresponds to a series of Regge poles with spacing $|\Delta \lambda_n|\approx 2$ and an almost-constant imaginary part; these are the broad resonances shown in Figs.~\ref{fig:rp1} and \ref{fig:rp2}.
 The formula also correctly accounts for the alternating sequence of the scalar-field and axial-GW modes.
  %Of course, they lie in the first quadrant of the CAM plan with a positive real part
 
