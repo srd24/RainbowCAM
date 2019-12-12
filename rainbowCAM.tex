@@ -781,6 +781,9 @@ is the scattering amplitude (for details see e.g.~\cite{Dolan:2017rtj} and refer
 \subsection{CAM representation of the scattering amplitude}
 \label{SecIIc}
 
+%\subsubsection{Sommerfield-Watson representation of the scattering amplitude}
+%\label{SecIIc_1}
+
 To construct the CAM representation of $\hat{f}(\theta)$, we follow the steps in section~II of Ref.~\cite{Folacci:2019cmc} and recall the main results below.
 
 The Sommerfeld-Watson transformation \cite{Watson18,Sommerfeld49,Newton:1982qc} permits us to replace a sum with an integral, viz.,
@@ -805,16 +808,34 @@ In Eq.~(\ref{SW_Scalar_Scattering_amp}), $S_{\lambda -1/2} (\omega)$ denotes ``t
 \end{equation}
 where the complex amplitudes $A^{(-)}_{\lambda -1/2} (\omega)$ and  $A^{(+)}_{\lambda -1/2} (\omega)$ are defined from the analytic extension of the modes $\phi_{\omega \ell}$, i.e., from the function $\phi_{\omega ,\lambda -1/2}$.
 
-It is important to note that the poles of  $S_{\lambda -1/2} (\omega)$ in the complex $\lambda$ plan (i.e., the Regge poles) are defined  as  the zeros of the coefficient  $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~(\ref{Matrix_S_CAM})], i.e., the values $\lambda_n(\omega)$ such that
+%\subsubsection{Regge poles and associated residues}
+%\label{SecIIc_2}
+
+%It is important to note that the poles of  $S_{\lambda -1/2} (\omega)$ in the complex $\lambda$ plan (i.e., the Regge poles) are defined  as  the zeros of the coefficient  $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~(\ref{Matrix_S_CAM})], i.e., the values $\lambda_n(\omega)$ such that
+%\begin{equation}\label{PR_def_Am}
+%A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0,
+%\end{equation}
+%with $n=1,2,3,\ldots$
+%The residue of the matrix $S_{\lambda-1/2}(\omega)$ at the pole $\lambda=\lambda_n(\omega)$ is defined by [see Eq.~(\ref{Matrix_S_CAM})]
+%\begin{equation}\label{residues_RP}
+%r_n(\omega)=e^{i\pi [\lambda_n(\omega)+1/2]} \left[ \frac{A_{\lambda -1/2}^{(+)}(\omega)}{\frac{d}{d \lambda}A_{\lambda -1/2}^{(-)}(\omega)}\right]_{\lambda=\lambda_n(\omega)}.
+%\end{equation}
+%These residues play a central role in the complex angular momentum paradigm.
+%
+\moh{Remark for Tom and Sam : In the next paragraph, I modified it to include the Regge poles of the third quadrant by symmetry to the origin $O$ , in the others words by changing $\ell \rightarrow -\ell-1$ } \\
+
+It is also important to recall that the poles of  $S_{\lambda-1/2}(\omega)$ in the complex $\lambda$ plan (i.e., the Regge poles) and which are lying in the first and third quadrants, symmetrically distributed with respect to the origin $O$, are defined  as  the zeros of the coefficient  $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~(\ref{Matrix_S_CAM})], i.e., the values $\lambda_n(\omega)$ such that
 \begin{equation}\label{PR_def_Am}
 A^{(-)}_{\lambda_n(\omega)-1/2} (\omega)=0,
 \end{equation}
-with $n=1,2,3,\ldots$
+with $n=1,2,3,\ldots$.
+
 The residue of the matrix $S_{\lambda-1/2}(\omega)$ at the pole $\lambda=\lambda_n(\omega)$ is defined by [see Eq.~(\ref{Matrix_S_CAM})]
 \begin{equation}\label{residues_RP}
 r_n(\omega)=e^{i\pi [\lambda_n(\omega)+1/2]} \left[ \frac{A_{\lambda -1/2}^{(+)}(\omega)}{\frac{d}{d \lambda}A_{\lambda -1/2}^{(-)}(\omega)}\right]_{\lambda=\lambda_n(\omega)}.
 \end{equation}
 These residues play a central role in the complex angular momentum paradigm.
+
 
 Now, we ``deform'' the contour ${\cal C}$ in Eq.~(\ref{SW_Scalar_Scattering_amp}) in order to collect, by using Cauchy's theorem, the Regge poles contributions. This is achieved by following, \textit{mutatis mutandis}, the approach developed in Ref~\cite{Folacci:2019cmc} (see more particularly Sec. IIB~3 and Fig.~1). We obtain
 %
@@ -849,8 +870,6 @@ is a sum over the Regge poles lying in the first quadrant of the CAM plane. Of c
 To construct the scattering amplitude \eqref{Scalar_Scattering_amp}, the background integrals~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} and~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_b}, and the Regge pole amplitude~\eqref{CAM_Scalar_Scattering_amp_decomp_RP}, we use, \textit{mutatis mutandis}, the computational methods of Refs~\cite{Folacci:2019cmc,Folacci:2019vtt}. In these works the authors calculated the CAM representation of scattering amplitudes for scalar, electromagnetic and gravitational waves by Schwarzschild BH (see also Ref~\cite{Dolan:2017rtj}).
 
 Due to the long rang nature of the field propagating on the Schwarzschild BH (outside the compact body), the scattering amplitude~\eqref{Scalar_Scattering_amp} and the background integral~\eqref{CAM_Scalar_Scattering_amp_decomp_Background_a} both suffer a lack of convergence. To overcome this problem, i.e., to accelerate the convergence of this sum and integral, we have used the method described in the Appendix of Ref~\cite{Folacci:2019cmc}. We have performed all the numerical calculations by using {\it Mathematica}. % \cite{Mathematica}.
-
-
 
 
 \subsection{Numerical results: scattering cross sections}
@@ -905,7 +924,7 @@ Figure \ref{S_0_R_6_2Mw_3_Exact_vs_CAM} demonstrates that the CAM cross section 
 
 Figure \ref{S_0_R_6_2Mw_16_Exact_vs_CAM} shows the neutron star model ($R/M = 6$) at the higher frequency of $M \omega = 8$. The first plot shows that, in this case, including just two Regge poles is yields a poor approximation. With 20 Regge poles, the primary peak of the rainbow, the first supernumerary, and the shadow region are well captured, but at smaller angles ($\theta  \lesssim 40^\circ$) there is no agreement. With 42 Regge poles, but no background integral, the agreement is excellent for $\theta \gtrsim 30^\circ$. Finally, with 81 Regge poles and the background integral included, the CAM result is again indistinguishable from the partial-wave result on the plot.
 
-Figure \ref{S_0_R_6_2Mw_16_Exact_vs_CAM} shows the cross section for an Ultra Compact Object with $R/M = 2.26$ at the `low' frequency of $M \omega = 3/2$. In this case, the rainbow angle exceeds $180^\circ$, and there is both a light-ring and a trapping region (see Fig.~\ref{fig:Veff}). The cross section exhibits regular orbiting oscillations with angle $\theta$. The angular width is consistent with generation by the light-ring (i.e.~ the peak in the potential barrier). The second plot shows that including just 3 modes from each of the three branches leads to a good description of scattering at large angles $\theta \gtrsim 100^\circ$. As there is no shadow region in this case, the cross section at large angles in non-negligible. For $R/M = 2.26$, the cross section at the antipodal point ($\theta = 180^\circ$) is a factor of $> 10^6$ larger than in the $R/M = 6$ case. The final plot shows that excellent agreement with the partial-wave results is obtained, for $\theta \gtrsim 20^\circ$, by summing over $27$ poles.
+Figure \ref{S_0_R_2-dot-26_2Mw_3_Exact_vs_CAM} shows the cross section for an Ultra Compact Object with $R/M = 2.26$ at the `low' frequency of $M \omega = 3/2$. In this case, the rainbow angle exceeds $180^\circ$, and there is both a light-ring and a trapping region (see Fig.~\ref{fig:Veff}). The cross section exhibits regular orbiting oscillations with angle $\theta$. The angular width is consistent with generation by the light-ring (i.e.~ the peak in the potential barrier). The second plot shows that including just 3 modes from each of the three branches leads to a good description of scattering at large angles $\theta \gtrsim 100^\circ$. As there is no shadow region in this case, the cross section at large angles in non-negligible. For $R/M = 2.26$, the cross section at the antipodal point ($\theta = 180^\circ$) is a factor of $> 10^6$ larger than in the $R/M = 6$ case. The final plot shows that excellent agreement with the partial-wave results is obtained, for $\theta \gtrsim 20^\circ$, by summing over $27$ poles.
 
 Figure \ref{S_0_R_2-dot-26_2Mw_6_Exact_vs_CAM} shows the cross section for an UCO at the higher frequency of $M \omega = 8$. In this case, the cross section is non-negligible at all angles, and there is evidence for interference between oscillations of comparable amplitudes and widths. Summing 31 Regge poles leads to good agreement for the cross section for angles $\theta \gtrsim 35^\circ$. As before, it is necessary to include the background integral as well to obtain agreement at smaller angles.
 
