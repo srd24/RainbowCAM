@@ -122,18 +122,35 @@ To be written
 
 \section{Introduction}
 
-
-The time-independent scattering of planar waves in the gravitational field of a compact body has been studied in some detail since the 1960s \cite{Hildreth1964PhDT64, Matzner:1968, Vishveshwara:1970}. A substantial literature has developed on \emph{black hole scattering}, focussing on the canonical scenario of a planar wave of circular frequency $\omega$ and spin $s$ \cite{Chrzanowski:1976jb} impinging upon a black hole of mass $M$ in vacuum \cite{Hildreth1964PhDT64, Matzner:1968, Vishveshwara:1970, Mashhoon:1973zz,Fabbri:1975,Sanchez:1977vz,MatznerRyan1978,Handler:1980un,Matzner:1985rjn,Futterman:1988ni,Andersson:1995vi,Glampedakis:2001cx,Dolan:2006vj,Dolan:2007ut,Dolan:2008kf,Crispino:2009xt,Cotaescu:2014jca,Gussmann:2016mkp}. A dimensionless parameter
+The time-independent scattering of planar waves in the gravitational field of a compact body has been studied in some detail since the 1960s \cite{Hildreth1964PhDT64, Matzner:1968, Vishveshwara:1970}. A substantial literature has developed on \emph{black hole scattering}, focussing on the canonical scenario of a planar wave of circular frequency $\omega$ and spin $s$ \cite{Chrzanowski:1976jb} impinging upon a black hole of mass $M$ in vacuum \cite{Hildreth1964PhDT64, Matzner:1968, Vishveshwara:1970, Mashhoon:1973zz,Fabbri:1975,Sanchez:1977vz,MatznerRyan1978,Handler:1980un,Matzner:1985rjn,Futterman:1988ni,Andersson:1995vi,Glampedakis:2001cx,Dolan:2006vj,Dolan:2007ut,Dolan:2008kf,Crispino:2009xt,Cotaescu:2014jca,Gussmann:2016mkp}. The dimensionless parameter
 $
 M \omega = \pi r_g / \lambda
 $
-encapsulates the ratio of the gravitational radius $r_g = 2GM/c^2$ to the wavelength $\lambda$ (we adopt geometric units such that $G=c=1$). The long wavelength ($M \omega \ll 1$), short wavelength ($M \omega \gg 1$) and intermediate regimes have been studied with a combination of perturbative \cite{DeLogi:1977dp,Dolan:2007ut,Guadagnini:2008ha,Sorge:2015yoa}, semi-classical \cite{Matzner:1985rjn, Anninos:1992ih} and numerical methods. The $s = 0$ (scalar) \cite{Matzner:1968,Sanchez:1977vz,Andersson:1995vi,Glampedakis:2001cx,Leite:2019eis}, $s=1/2$ (fermion) \cite{Dolan:2006vj,Cotaescu:2014jca}, $s=1$ (electromagnetic) \cite{Fabbri:1975, Crispino:2009xt, Crispino:2015gua} and $s=2$ (gravitational) cases \cite{MatznerRyan1978,Handler:1980un,Dolan:2008kf} have all been addressed.
+encapsulates the ratio of the gravitational radius $r_g = 2GM/c^2$ to the wavelength $\lambda$ (herein we adopt geometric units such that $G=c=1$). The long-wavelength ($M \omega \ll 1$), short-wavelength ($M \omega \gg 1$) and intermediate regimes have been studied with a combination of perturbative \cite{DeLogi:1977dp,Dolan:2007ut,Guadagnini:2008ha,Sorge:2015yoa}, semi-classical \cite{Matzner:1985rjn, Anninos:1992ih} and numerical methods. The $s = 0$ (scalar) \cite{Matzner:1968,Sanchez:1977vz,Andersson:1995vi,Glampedakis:2001cx,Leite:2019eis}, $s=1/2$ (fermion) \cite{Dolan:2006vj,Cotaescu:2014jca}, $s=1$ (electromagnetic) \cite{Fabbri:1975, Crispino:2009xt, Crispino:2015gua} and $s=2$ (gravitational) cases \cite{MatznerRyan1978,Handler:1980un,Dolan:2008kf} have all been addressed.
 
-Time-independent scattering by a compact body of radius $R$ with a regular centre, such as a neutron star or white dwarf, has received comparatively less attention. In such a scenario, an electromagnetic wave will not penetrate inside the compact body; but on the other hand, a gravitational wave will pass through the body without impediment from the matter distribution. Similarly, a neutron star is expected to be substantially transparent to neutrinos. However, even in these cases where the coupling to matter is negligible, the incident wave is still scattered by the influence of the spacetime curvature. Recent work \cite{Dolan:2017rtj, Stratton:2019deq} explored the \emph{rainbow scattering} phenomenon that arises at short wavelengths, due to a stationary point in the geodesic deflection function associated with a ray that passes somewhat inside the body. In principle, the rainbow angle is a diagnostic of the matter distribution of the body, and thus its nuclear equation of state. Indeed, in the 1970s, experimental data on rainbows in nucleon-nucleon scattering experiments was used to constrain models of the nuclear potential.
+Time-independent scattering by a compact body of radius $R$ with a regular centre, such as a neutron star or white dwarf, has received comparatively less attention. In such a scenario, an electromagnetic wave will not penetrate far inside the compact body; but on the other hand, a gravitational wave will pass through the body without much impediment from the matter distribution. Similarly, a neutron star is expected to be substantially transparent to neutrinos. Even in cases where the coupling to matter is negligible, the incident wave will nevertheless be scattered by the influence of the spacetime curvature. Thus, the resulting scattering pattern depends on $M\omega$, on the internal structure of the body, and on its inverse compactness or \emph{tenuity} $R/M$. Typical values of the tenuity are: $R/M \sim 6$ for neutron stars, $\sim 1.4-9.4 \times 10^3$ for white dwarfs, $4.7 \times 10^5$ for the Sun, and $1.4 \times 10^9$ for Earth. More speculatively, we shall also consider the case of (hypothetical) Ultra Compact Objects (UCO), whose tenuity is bounded from below by the Buchdahl bound of $R / M = 9/4$. 
 
-Other recent works have examined scattering from a compact object with an absorbing surface \cite{Nambu:2019sqn}; and scattering simulations using finite-element-method codes \cite{He:2019orl}.
+Studies of black hole scattering typically involve the calculation of scattering amplitude(s) via partial-wave expansions.  A powerful approach for resumming these partial-wave expansions is provided by so-called Complex Angular Momentum (CAM) techniques. In the CAM approach, the sum over partial waves is replaced by an integral, and the contour of integration is deformed into  the complex-angular-momentum plane such that one collects a sum over the residues of simple poles: these are the so-called \emph{Regge poles}. 
 
-The tenuity (inverse compactness) .
+CAM theory, originally developed for high-energy physics applications, has been successfully applied to black hole scattering scenarios. In 1994, Andersson and Thylwe \cite{Andersson:1994rk} described the scattering of scalar waves by a Schwarzschild BH by utilising CAM techniques, and they showed that, in this case, Regge poles are associated with ``surface waves'' localised near the unstable light ring at $r=3M$ (later it was shown that the corresponding quasinormal modes are Breit-Wigner type resonances generated by these surface waves \cite{Decanini:2002ha}). Recently, Folacci and Ould Elhadj have shown that CAM methods can be used for precise numerical calculations of scattering cross sections of scalar fields, electromagnetic fields \cite{Folacci:2019cmc} and gravitational waves  \cite{Folacci:2019vtt} on the Schwarzschild spacetime. Moreover, they have obtained an approximate  formula (see Sec.~IV in Ref.~\cite{Folacci:2019vtt}) that accurately describes both the `orbiting' and `glory' oscillations in black hole scattering cross sections in the short-wavelength regime. This approximation arises from applying WKB theory to characterise the Regge pole with the smallest imaginary part, and its residue. \sam{Mohamed, please correct this if wrong.} 
+
+CAM techniques have not yet been applied to compact-body scattering, it appears, with one notable exception: in 1991, Chandrasekhar and Ferrari \cite{ChandrasekharIV:1992ey} examined the Regge pole spectra for relativistic stellar models. 
+Their study focussed on resonant modes: poles with small imaginary parts corresponding to trapped $w$-modes or fluid modes, and it employed Complex Angular Momentum (CAM) theory to calculate the flow of gravitational energy through a star.
+
+
+ It seems reasonable to expect that CAM may also aid in our understanding of other compact objects such as UCOs and neutron stars. With this in mind, we now turn our attention to calculating the Regge pole spectrum for compact bodies.
+
+It was recently shown \cite{Dolan:2017rtj, Stratton:2019deq} that time-independent scattering by compact bodies generates (in principle) the \emph{rainbow scattering} phenomenon in the short wavelength regime ($M \omega \gg 1$). The rainbow scattering phenomenon is linked to the formation of a cusp caustic in the incident wavefront (see Fig.~1 in Ref.~\cite{Stratton:2019deq}), and to the stationary point in the geodesic deflection function associated with a ray (that is, a null geodesic) that passes somewhat inside the body. For dilute bodies, such as stars and white dwarfs, the cusp caustic forms at a distance $d \sim R^2 / (4M)$ downstream of the body, and the rainbow angle is $\theta_r \approx 4M/R$ (e.g.~for the Sun, $d \approx 550 \, \text{a.u.}$ and $\theta_r \approx 1.8 \, \text{arcsec}$). For compact bodies such as neutron stars, however, the cusp caustic forms near the surface of the body, and the rainbow angle is sizable ($\theta_r \gtrsim 59.6^\circ$ for $R/M = 6$; see Table I in Ref.~\cite{Stratton:2019deq}). In this case, the rainbow angle is -- in principle at least -- a diagnostic of the matter distribution within the body and thus its nuclear equation of state. 
+
+Other recent works on the theme of scattering by a compact body include studies of: scattering by compact objects with an absorbing surface \cite{Nambu:2019sqn}; time-domain simulations with finite-element-method methods \cite{He:2019orl}; gravitationally-induced interference patterns in flavour oscillations in neutrino astronomy \cite{Alexandre:2018crg}; and the use of continuous sources of gravitational waves to probe stellar structure \cite{Marchant:2019swq}.
+
+
+ \cite{Folacci:2018sef} \cite{Decanini:2011xi, Decanini:2011xw}
+
+to study time-independent scattering by a compact body. 
+
+More literature exists on Regge pole theory applied to black hole scattering, for example They . Later,  We see here that CAM theory is a powerful approach to BH physics, that provides a clear and robust physical picture. 
+
 
 Now describe the application of CAM methods to black holes, and its successes ... The aim of this work is to extend the methods to compact bodies.
 
@@ -143,8 +160,19 @@ Finally a paragraph on the connections to Mie scattering by a transparent sphere
 
 \cite{Leite:2017zyb,Nambu:2019sqn, Folacci:2019vtt,}.
 
-As far as we know, the only published study into Regge pole spectra for relativistic stellar models was that of Chandrasekhar and Ferrari in 1991 \cite{ChandrasekharIV:1992ey}. %They used Regge pole theory to calculate the flow of gravitational energy through a star. They restricted their attention to resonant modes, i.e. poles with small imaginary parts. For the axial sector these are only present for UCOs. For the polar sector the situation is more complicated, as there are long lived fluid pulsation modes.
-They considered resonant modes (poles with small imaginary parts corresponding to trapped $w$-modes or fluid modes), and used CAM theory to calculate the flow of gravitational energy through a star. More literature exists on Regge pole theory applied to black hole scattering, for example Andersson and Thylwe have described scattering of scalar waves by a Schwarzschild BH utilising CAM techniques \cite{Andersson:1994rk}. They associate the BH Regge poles with ``surface waves'' localised near the unstable light ring at $r=3M$. Later, Decanini, Folacci and Jensen showed that the Schwarzschild BH QNMs are in fact Breit-Wigner type resonances generated by said surface waves \cite{Decanini:2002ha}. We see here that CAM theory is a powerful approach to BH physics, that provides a clear and robust physical picture. It seems reasonable to expect that CAM may also aid in our understanding of other compact objects such as UCOs and neutron stars. With this in mind, we now turn our attention to calculating the Regge pole spectrum for compact bodies.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \sam{Sam to finish}
@@ -936,7 +964,7 @@ Complementary method. Not efficient method at present. Convergence of the sum is
 
 We have examined the case of $R=2.26M$, which is above the Buchdahl bound but nevertheless below ... blah blah, work in Tom's text.
 
-
+Remarkably, in the 1970s, experimental data on rainbows in nucleon-nucleon scattering experiments was used to constrain models of the nuclear potential.
 
 
 
