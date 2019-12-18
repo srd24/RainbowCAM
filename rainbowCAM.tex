@@ -248,8 +248,8 @@ where
 
  \begin{figure}[htb]
 \centering
- \includegraphics[scale=0.50]{potentials_s02_CD_R6L2_v3} \\ \vspace{0.2cm}
- \includegraphics[scale=0.50]{potentials_s02_CD_R2p26L2_v3}
+ \includegraphics[scale=0.50]{potentials_s02_CD_R6L2_v4} \\ \vspace{0.2cm}
+ \includegraphics[scale=0.50]{potentials_s02_CD_R2p26L2_v4}
 \caption{\label{RP_approx_2Mw_3_6_s_1} The effective potential $V_\ell$ for a quadrupole ($\ell =2$) perturbation of a compact body of constant density and tenuity $R/M = 6$ (upper) and $R /M = 2.26$ (lower). The scalar field potential - Eq.~(\ref{Inside_Potentiel}) - and axial gravitational-wave potential - Eq.~(\ref{RW_Potentiel_axialGW}) - are indicated as solid/black lines and dotted/red lines, respectively. The horizontal axis is the tortoise coordinate $r_\ast/(2M)$ defined in Eq.~(\ref{eq:tortoise}).}
 \label{fig:Veff}
 \end{figure}
@@ -402,14 +402,15 @@ In this section we show numerical results for the Regge pole spectrum of a compa
 
 Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body ($R/M = 6$). We see that there are two branches of Regge poles in the first quadrant, which meet near $\text{Re}( \lambda_n(\omega) ) \sim \omega b_0$, where $b_0$ is the impact parameter for the null ray which grazes the surface of the compact body. The axial GW $s=2$ modes (filled markers) are typically close to their scalar-field $s=0$ counterparts (unfilled markers), as might be anticipated from the similarities in the effective potentials for the two cases (see Fig.~\ref{fig:Veff}). 
 
-\tom{I have added two comments here about the rest of the complex $\lambda$ plane. Feel free to edit.}
-\sam{Let's discuss this on Skype - below are my naive questions.}
+\sam{Mohamed: please edit these two paragraphs for final version, then delete this comment.}
 
-We find no evidence of Regge poles in the fourth quadrant when $\omega>0$. In addition, we find that $\lambda_n(-\omega) = \lambda_n(\omega)^*$ so that there are Regge poles in the fourth quadrant when $\omega<0$. Here we will only consider $\omega>0$. 
-\sam{Are there poles in the second quadrant}
-
-We propose that the good analytical extension of modes into the second and third quadrants is to enforce the regular boundary condition for Re$[\lambda]<0$, i.e. $\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r\rightarrow 0$. Since the wave equation is invariant under the transformation $\lambda \rightarrow -\lambda$, it can be seen that the distribution of poles in the left half complex plane - Re$[\lambda]<0$ - follows from the poles in the right half complex plane by reflection through the origin. 
-\sam{reflection through the origin would generate poles in the 3rd quadrant; and if there were originally poles in the 2nd quadrant, poles in the 4th quadrant. Can we clarify this?}
+After scanning across the domain, we find no evidence of Regge poles in the fourth quadrant of the complex-$\lambda$ plane for $\omega>0$. Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the S-matrix elements, viz.,
+\begin{equation}
+S_{\lambda - 1/2} (\omega) =. .
+\end{equation}
+\sam{Mohamed: please complete the equation above, then delete this comment.} 
+Furthermore, since the wave equation is invariant under the transformation $\lambda \rightarrow -\lambda$, it follows that the distribution of poles in the left-half of the complex plane follows by reflection through the origin. Thus, for $\omega > 0$, the 4th and 2nd quadrants are devoid of poles, and the 3rd quadrant has the same structure as shown in Fig.~\ref{fig:rp1}. 
+Conversely, for $\omega < 0$, we may use the symmetry $\lambda_n(-\omega) = \lambda_n(\omega)^*$ to establish that there are poles in the 2nd and 4th quadrants only.
 
 \begin{figure}[htb]
 \centering
@@ -682,23 +683,26 @@ Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which t
   W[\phireg, \phiout ]= 0 .
 \end{equation}
 It has been shown \cite{Zhang:2011pq} that asymptotic expressions of $\phireg$ and $\phiout$ can be derived in asymptotic regions, by using a WKB approximation. 
-They claim that in the high-frequency limit, the interior solution of Eq.~(\ref{H_Radial_equation}) is (see Ref.~\cite{Zhang:2011pq}). \sam{hmm `they claim' - do we agree?}
-%
-\begin{equation}\label{Approx_origin}
-  \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*),  \quad\quad 0\leq r_*\leq R_* ,
-\end{equation}
-where $j_{\lambda-1/2}(\cdot)$ is the spherical Bessel function of the first kind. This is in fact the regular solution of a comparison equation to Eq.~(\ref{H_Radial_equation}) obtained by keeping only the angular momentum term of the potential, by replacing $r\rightarrow r_*$ in the denominator of this term, and setting $f(r) =1$. Keeping only the angular momentum term is justified if $l>>1$,. The other two steps seem justified when we consider expansions in the tenuity $R/M$, and reject terms of $O\l( \frac{M}{R}\r)$. We have 
-\begin{eqnarray}\label{r_star}
-  r_*(r) &=& \int_{0}^{r}\, dr'\,\frac{1}{\sqrt{f(r')h(r')}} \\
-  &\approx&  r - \frac{3}{2}\frac{M}{R}r + O\l( \frac{M}{R}\r)^2,
-\end{eqnarray}
-and 
+
+In the interior of the star, the radial function $f(r)$ is 
 \begin{equation}
-f(r) \approx 1 - 3 \frac{M}{R} + O\l( \frac{M}{R}\r)^2. 
+f(r) = f_0 \left(1 + O\left(\frac{M r^2}{R^3} \right) \right),
 \end{equation}
-%
-Thus, this approach is only justified for objects with a \emph{large} tenuity. We will see that this yields reasonably good qualitative results even for a modest $R/M \approx 6$. 
-Secondly
+where $f_0$ is a constant, and $h(r) = 1 - 2Mr^2/R^3$. In the vicinity of $r=0$, we may solve Eq.~(\ref{eq:tortoise}) to obtain the tortoise coordinate $r_\ast(r)$, or inversely,
+\begin{equation}
+r = \sqrt{f_0} \, r_\ast \left(1 + O\left(\frac{M r_\ast^2}{R^3} \right) \right) . \label{eq:rrstar}
+\end{equation}
+Now let us consider the radial equation (\ref{H_Radial_equation}) in the high-frequency regime with $\ell \gg 1$, such that we may neglect all but the angular momentum terms in the effective potential (\ref{Inside_Potentiel}). Inserting (\ref{eq:rrstar}) and neglecting the quadratic corrections leads to a comparison equation
+\begin{equation}
+\left[\frac{d^{2}}{dr_{\ast}^{2}}+\omega^{2} - \frac{\ell (\ell+1)}{r_\ast^2} \right] \phi_{\omega\ell}= 0,
+\end{equation}
+with the regular interior solution
+\begin{equation}\label{Approx_origin}
+  \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*),  
+\end{equation}
+where $j_{\lambda-1/2}(\cdot)$ is the spherical Bessel function of the first kind. 
+
+Near the surface of the body, and in the exterior region, we use the asymptotic forms \cite{Zhang:2011pq}
 \begin{equation}
 \label{Approx_infinity}
 \phiout  \scriptstyle{\underset{\omega \to \infty}{=}}
@@ -710,9 +714,9 @@ Secondly
 \right.
 \end{equation}
 Here $R_*$ is the tortoise coordinate at the surface of the body,
-\begin{equation}\label{R_star}
-  R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
-\end{equation}
+%\begin{equation}\label{R_star}
+%  R_*=\int_{0}^{R}\, dr\,\frac{1}{\sqrt{f(r)h(r)}}
+%\end{equation}
 and $\mathcal{R}$ is a reflection coefficient with the definition given in Ref.~\cite{Berry_1982}.
 Because the potential has a direct discontinuity at the surface of the compact body (see. Refs \cite{Zhang:2011pq,Berry_1982} for more details), we have for our model
 %
@@ -729,11 +733,11 @@ where $\Delta V$ is the discontinuity in the effective potential at the surface,
 %\begin{equation}\label{a_def}
 %a= \frac{3M \left(R-2M\right)^2}{4 R^5}.
 %\end{equation}
-Inserting the high frequency approximation for $j_{\lambda-1/2} (\omega r_*)$ into Eq.~\eqref{Approx_origin} we obtain \cite{nist},
+Inserting the high-frequency approximation for $j_{\lambda-1/2} (\omega r_*)$ into Eq.~\eqref{Approx_origin} we obtain \cite{nist},
 \begin{equation}\label{Approx_origin_bis}
-  \phi^{}_{\omega,\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right)\quad\quad 0\leq r_*\leq R_*.
+  \phi^{}_{\omega,\lambda-1/2} \underset{\omega \to \infty}{\approx} - \sin\left(\frac{\left(\lambda-1/2\right)\pi}{2}-\omega r_*\right).
 \end{equation}
-Substituting Eqs. \eqref{Approx_infinity} and \eqref{Approx_origin_bis} into condition \eqref{Wronskian} we obtain
+Substituting Eqs.~\eqref{Approx_infinity} and \eqref{Approx_origin_bis} into condition \eqref{Wronskian} leads to
 \begin{equation}\label{WKB_1}
    e^{ i\pi (\lambda-1/2)- 2 i \omega R_*}=-\mathcal{R}.
 \end{equation}
@@ -754,7 +758,7 @@ n \leq \left\lfloor \frac{\omega R_*}{\pi} \mp \frac{1}{4}\right\rfloor.
 %
 In other words, there are a finite number of the broad resonances in the first quadrant.
 
-Table \ref{tab:table5} compares the numerically-determined Regge poles with the WKB approximation in Eq.~(\ref{lambda_Approx}),  for the scalar-field case. The data shows that, while the leading-order WKB approximation captures the essential features of the broad resonance branch, it is not particularly accurate. Higher-order extensions are possible, but not pursued here.
+Table \ref{tab:table5} compares the numerically-determined Regge poles with the WKB approximation in Eq.~(\ref{lambda_Approx}),  for the scalar-field case. The data shows that, while the leading-order WKB approximation captures the essential features of the broad resonance branch, it is not particularly accurate. Higher-order extensions are possible in principle, but not pursued here.
 
 
 %\begin{equation}\label{lambda_Approx}
@@ -987,14 +991,6 @@ The spectrum of Regge poles exhibits two distinct branches of poles in the neutr
 By applying a WKB method at lowest order, we have obtained a better understanding of the spectrum of the broad resonances, finding that the magnitude of the imaginary part is linked to the magnitude of the discontinuity in the effective potential at the surface of the body (see Eq.~(\ref{eq:alpha}), Eq.~(\ref{lambda_Approx}) and Fig.~\ref{fig:Veff}). Extending the WKB method to higher orders would improve the accuracy of this approximation, and further work is need to obtain asymptotic approximations for the surface-wave branch, and the narrow-resonance branch.
 
 We can be confident that there are no additional branches of Regge poles in the first quadrant, for two reasons. First, we have scanned across the complex-$\lambda$ domains shown in Figs.~\ref{RP_R6_approx_2Mw_3_6_s_1} and \ref{RP_R226_approx_2Mw_3_6_s_1}, as detailed in Sec.~\ref{subsec:method}. Second, in our calculation of $d\sigma/d\Omega$, we find a precise numerical agreement between the CAM calculation and the partial-wave calculation; this would not be the case if poles in this domain had been missed.
-
-
-
-\moh{I propose this following paragraph in summary}\\
-
-%The CAM toolkit was applied here to gain a complementary practical method for calculating scattering amplitudes. However, in its current form, the method is not particularly efficient, for two reasons; first, it requires the computation of a background integral in addition to residue sum; and second, the poles on the broad-resonance branch have an approximately uniform spacing, $\Delta \lambda \sim 2$, and thus a large number of poles must be calculated. In the black-hole case, by contrast, there is only a single branch of surface-wave-type modes (see Fig.~\ref{RP_R6_approx_2Mw_3_6_s_1}), and in the high-frequency limit, a single pole captures both the orbiting and glory phenomena \cite{Folacci:2019cmc, Folacci:2019vtt}. In the case of Mie scattering, a powerful extension of the CAM approach is to define the so-called Regge-Debye poles \cite{Nussenzveig:2006}, thereby eliminating the surface-wave branch entirely. This is a possible direction for future investigation.
-
-\sam{I have made v minor edits. It looks good to me, and I propose we remove both these comments during the Skype.}
 
 The CAM toolkit was applied here to gain a complementary method for calculating scattering amplitudes. In summary, we have shown that, for the intermediate and high angles, these scattering amplitudes can be reconstructed in terms of Regge poles with great precision in the intermediate and high frequency regimes. For compact objects ($R/M\sim6$), we observed that it is necessary to take into account the background integral contributions to describe the glory, and this is true regardless of the frequency. Conversely, this is not the case for UCOs ($R/M < 3$), where the sum over the Regge poles is sufficient to accurately describe the glory. Moreover, the sum over the Regge poles permitted us to overcome the difficulties linked to the lack of convergence from which the scattering amplitude suffers (\textit{i.e.} partial wave expansions) due to the long-range of the field propagating on the Schwarzschild spacetime outside the compact body. However, the existence of the broad resonance branch %(see also narrow resonance branch for the UCOs) 
 close to the real axis with an approximately uniform spacing, $\Delta\lambda\sim 2$, requires the calculation of a large number of poles. In the black-hole case, by contrast, there is only a single branch of surface-wave-type modes (see Fig.~\ref{RP_R6_approx_2Mw_3_6_s_1}), and in the high-frequency limit, a few poles ($<5$) capture both the orbiting and glory phenomena \cite{Folacci:2019cmc, Folacci:2019vtt}. 
