@@ -150,7 +150,7 @@ Time-independent scattering by compact bodies generates (in principle) a \emph{r
 
 Other recent works on the theme of scattering by a compact body include studies of: scattering by compact objects with an absorbing surface \cite{Nambu:2019sqn}; time-domain simulations with finite-element-method methods \cite{He:2019orl}; gravitationally-induced interference patterns in flavour oscillations in neutrino astronomy \cite{Alexandre:2018crg}; and the use of continuous sources of gravitational waves to probe stellar structure \cite{Marchant:2019swq}.
 
-The remainder of this paper is organised as follows. Sec.~\ref{SecII} reviews the theory of scalar waves on a spherically-symmetric spacetime of a compact object. Here we describe our model spacetime (\ref{SecIIa}), the effective potentials for wave scattering (\ref{subsec:Potentials}) and the physical boundary conditions that define the S-matrix (\ref{subsec:bc}). Sec.~\ref{sec:RP} focusses on the Regge pole spectrum. Here we outline the link between Regge poles and QNMs (\ref{subsec:QNMs_RPs}), we describe the numerical method (\ref{subsec:method}), and we present new numerical results for the spectrum (\ref{subsec:results1}) which exhibits three distinct branches of Regge poles (see e.g.~Fig.~\ref{RP_R226_approx_2Mw_3_6_s_1}). In Sec.~\ref{subsec:WKB} we apply the WKB method to obtain an approximate formula for the ``broad resonance'' branch. Sec.~\ref{sec:CAM} concerns the application of CAM techniques to the calculation of the scattering cross section. Here we review the standard partial-wave expansion of the scattering amplitude (\ref{subsec:partial}), we apply CAM techniques to write this as the sum of a residue series and a background integral (\ref{SecIIc}), and we present a selection of numerical results for $d\sigma/d\Omega$ (\ref{subsec:results2}). We conclude with a discussion in Sec.~\ref{sec:conclusions}.
+The remainder of this paper is organised as follows. Sec.~\ref{SecII} reviews the theory of scalar waves on a spherically-symmetric spacetime of a compact object. Here we describe our model spacetime (\ref{SecIIa}), the effective potentials for wave scattering (\ref{subsec:Potentials}) and the physical boundary conditions that define the $S$-matrix (\ref{subsec:bc}). Sec.~\ref{sec:RP} focusses on the Regge pole spectrum. Here we outline the link between Regge poles and QNMs (\ref{subsec:QNMs_RPs}), we describe the numerical method (\ref{subsec:method}), and we present new numerical results for the spectrum (\ref{subsec:results1}) which exhibits three distinct branches of Regge poles (see e.g.~Fig.~\ref{RP_R226_approx_2Mw_3_6_s_1}). In Sec.~\ref{subsec:WKB} we apply the WKB method to obtain an approximate formula for the ``broad resonance'' branch. Sec.~\ref{sec:CAM} concerns the application of CAM techniques to the calculation of the scattering cross section. Here we review the standard partial-wave expansion of the scattering amplitude (\ref{subsec:partial}), we apply CAM techniques to write this as the sum of a residue series and a background integral (\ref{SecIIc}), and we present a selection of numerical results for $d\sigma/d\Omega$ (\ref{subsec:results2}). We conclude with a discussion in Sec.~\ref{sec:conclusions}.
 
 
 
@@ -268,7 +268,7 @@ The asymptotic behaviour of the modes far from the body ($r \to +\infty$, or equ
 \phi_{\omega  \ell}(r) \scriptstyle{\underset{r_\ast \to +\infty}{\sim}}
 \displaystyle{ A^{(-)}_\ell (\omega) e^{-i\omega r_\ast} + A^{(+)}_\ell (\omega) e^{+i\omega r_\ast}}.
 \end{equation}
-With the complex coefficients $A^{(\pm)}_\ell (\omega)$ we then define the \emph{S-matrix elements},
+With the complex coefficients $A^{(\pm)}_\ell (\omega)$ we then define the \emph{$S$-matrix elements},
 \begin{equation}\label{Matrix_S}
   S_{\ell}(\omega) =  e^{i(\ell+1)\pi} \, \frac{A_{\ell}^{(+)}(\omega)}{A_{\ell}^{(-)}(\omega)}.
 \end{equation}
@@ -400,16 +400,16 @@ Regge poles (QNM frequencies) are found by fixing $\omega$ ($\lambda$) and numer
  \subsection{Numerical results: the spectrum}\label{subsec:results1}
 In this section we show numerical results for the Regge pole spectrum of a compact body, in two particular cases: (i) a neutron-star-like body with tenuity $R / M = 6$, and (ii) a UCO with tenuity $R / M = 2.26$, close to the Buchdahl bound. Results for the frequencies $M \omega = 3/2$ and $M \omega = 8$ are compared, for the scalar-field ($s=0$) and axial GW ($s=2$) cases.
 
-Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body ($R/M = 6$). We see that there are two branches of Regge poles in the first quadrant, which meet near $\text{Re}( \lambda_n(\omega) ) \sim \omega b_0$, where $b_0$ is the impact parameter for the null ray which grazes the surface of the compact body. The axial GW $s=2$ modes (filled markers) are typically close to their scalar-field $s=0$ counterparts (unfilled markers), as might be anticipated from the similarities in the effective potentials for the two cases (see Fig.~\ref{fig:Veff}). 
+Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body ($R/M = 6$). We see that there are two branches of Regge poles in the first quadrant, which meet near $\text{Re}( \lambda_n(\omega) ) \sim \omega b_0$, where $b_0$ is the impact parameter for the null ray which grazes the surface of the compact body. The axial GW $s=2$ modes (filled markers) are typically close to their scalar-field $s=0$ counterparts (unfilled markers), as might be anticipated from the similarities in the effective potentials for the two cases (see Fig.~\ref{fig:Veff}).
 
-\sam{Mohamed: please edit these two paragraphs for final version, then delete this comment.}
+\moh{Sam \& Tom: I find the two paragraphs are perfect! A small suggestion: the remarks in these two paragraphs also concern UCOs, so I added in the 2nd paragraph \ldots ``as shown in Fig. 2 and 3. ''. If you agree, please, delete the comment}
 
-After scanning across the domain, we find no evidence of Regge poles in the fourth quadrant of the complex-$\lambda$ plane for $\omega>0$. Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the S-matrix elements, viz.,
-\begin{equation}
-S_{\lambda - 1/2} (\omega) =. .
+After scanning across the domain, we find no evidence of Regge poles in the fourth quadrant of the complex-$\lambda$ plane for $\omega>0$. Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the $S$-matrix elements (see Ref.~\cite{Andersson:1994rk,Folacci:2019cmc}), viz.,
+\begin{equation}\label{Matrix_S_CAM_symm}
+S_{-\lambda -1/2}(\omega) =  e^{-2i \pi \lambda} \, S_{\lambda -1/2}(\omega)
 \end{equation}
-\sam{Mohamed: please complete the equation above, then delete this comment.} 
-Furthermore, since the wave equation is invariant under the transformation $\lambda \rightarrow -\lambda$, it follows that the distribution of poles in the left-half of the complex plane follows by reflection through the origin. Thus, for $\omega > 0$, the 4th and 2nd quadrants are devoid of poles, and the 3rd quadrant has the same structure as shown in Fig.~\ref{fig:rp1}. 
+
+Furthermore, since the wave equation is invariant under the transformation $\lambda \rightarrow -\lambda$, it follows that the distribution of poles in the left-half of the complex plane follows by reflection through the origin. Thus, for $\omega > 0$, the 4th and 2nd quadrants are devoid of poles, and the 3rd quadrant has the same structure as shown in Fig.~\ref{fig:rp1} and~\ref{fig:rp2}.
 Conversely, for $\omega < 0$, we may use the symmetry $\lambda_n(-\omega) = \lambda_n(\omega)^*$ to establish that there are poles in the 2nd and 4th quadrants only.
 
 \begin{figure}[htb]
@@ -682,9 +682,9 @@ Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which t
 \begin{equation}\label{Wronskian}
   W[\phireg, \phiout ]= 0 .
 \end{equation}
-It has been shown \cite{Zhang:2011pq} that asymptotic expressions of $\phireg$ and $\phiout$ can be derived in asymptotic regions, by using a WKB approximation. 
+It has been shown \cite{Zhang:2011pq} that asymptotic expressions of $\phireg$ and $\phiout$ can be derived in asymptotic regions, by using a WKB approximation.
 
-In the interior of the star, the radial function $f(r)$ is 
+In the interior of the star, the radial function $f(r)$ is
 \begin{equation}
 f(r) = f_0 \left(1 + O\left(\frac{M r^2}{R^3} \right) \right),
 \end{equation}
@@ -698,9 +698,9 @@ Now let us consider the radial equation (\ref{H_Radial_equation}) in the high-fr
 \end{equation}
 with the regular interior solution
 \begin{equation}\label{Approx_origin}
-  \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*),  
+  \phireg \underset{\omega \to \infty}{=} \omega r_* j_{\lambda-1/2} (\omega r_*),
 \end{equation}
-where $j_{\lambda-1/2}(\cdot)$ is the spherical Bessel function of the first kind. 
+where $j_{\lambda-1/2}(\cdot)$ is the spherical Bessel function of the first kind.
 
 Near the surface of the body, and in the exterior region, we use the asymptotic forms \cite{Zhang:2011pq}
 \begin{equation}
@@ -992,8 +992,8 @@ By applying a WKB method at lowest order, we have obtained a better understandin
 
 We can be confident that there are no additional branches of Regge poles in the first quadrant, for two reasons. First, we have scanned across the complex-$\lambda$ domains shown in Figs.~\ref{RP_R6_approx_2Mw_3_6_s_1} and \ref{RP_R226_approx_2Mw_3_6_s_1}, as detailed in Sec.~\ref{subsec:method}. Second, in our calculation of $d\sigma/d\Omega$, we find a precise numerical agreement between the CAM calculation and the partial-wave calculation; this would not be the case if poles in this domain had been missed.
 
-The CAM toolkit was applied here to gain a complementary method for calculating scattering amplitudes. In summary, we have shown that, for the intermediate and high angles, these scattering amplitudes can be reconstructed in terms of Regge poles with great precision in the intermediate and high frequency regimes. For compact objects ($R/M\sim6$), we observed that it is necessary to take into account the background integral contributions to describe the glory, and this is true regardless of the frequency. Conversely, this is not the case for UCOs ($R/M < 3$), where the sum over the Regge poles is sufficient to accurately describe the glory. Moreover, the sum over the Regge poles permitted us to overcome the difficulties linked to the lack of convergence from which the scattering amplitude suffers (\textit{i.e.} partial wave expansions) due to the long-range of the field propagating on the Schwarzschild spacetime outside the compact body. However, the existence of the broad resonance branch %(see also narrow resonance branch for the UCOs) 
-close to the real axis with an approximately uniform spacing, $\Delta\lambda\sim 2$, requires the calculation of a large number of poles. In the black-hole case, by contrast, there is only a single branch of surface-wave-type modes (see Fig.~\ref{RP_R6_approx_2Mw_3_6_s_1}), and in the high-frequency limit, a few poles ($<5$) capture both the orbiting and glory phenomena \cite{Folacci:2019cmc, Folacci:2019vtt}. 
+The CAM toolkit was applied here to gain a complementary method for calculating scattering amplitudes. In summary, we have shown that, for the intermediate and high angles, these scattering amplitudes can be reconstructed in terms of Regge poles with great precision in the intermediate and high frequency regimes. For compact objects ($R/M\sim6$), we observed that it is necessary to take into account the background integral contributions to describe the glory, and this is true regardless of the frequency. Conversely, this is not the case for UCOs ($R/M < 3$), where the sum over the Regge poles is sufficient to accurately describe the glory. Moreover, the sum over the Regge poles permitted us to overcome the difficulties linked to the lack of convergence from which the scattering amplitude suffers (\textit{i.e.} partial wave expansions) due to the long-range of the field propagating on the Schwarzschild spacetime outside the compact body. However, the existence of the broad resonance branch %(see also narrow resonance branch for the UCOs)
+close to the real axis with an approximately uniform spacing, $\Delta\lambda\sim 2$, requires the calculation of a large number of poles. In the black-hole case, by contrast, there is only a single branch of surface-wave-type modes (see Fig.~\ref{RP_R6_approx_2Mw_3_6_s_1}), and in the high-frequency limit, a few poles ($<5$) capture both the orbiting and glory phenomena \cite{Folacci:2019cmc, Folacci:2019vtt}.
 
 In the case of Mie scattering, a powerful extension of the CAM approach is to define the so-called Regge-Debye poles using the Debye expansion (see the chapter 9 of the monograph of Nussenzveig \cite{Nussenzveig:2006}), thereby eliminating the broad resonance branch entirely, and accelerating the convergence. This is a possible direction for a future investigation.
 
