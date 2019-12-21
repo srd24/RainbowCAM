@@ -150,7 +150,7 @@ Time-independent scattering by compact bodies generates (in principle) a \emph{r
 
 Other recent works on the theme of scattering by a compact body include studies of: scattering by compact objects with an absorbing surface \cite{Nambu:2019sqn}; time-domain simulations with finite-element-method methods \cite{He:2019orl}; gravitationally-induced interference patterns in flavour oscillations in neutrino astronomy \cite{Alexandre:2018crg}; and the use of continuous sources of gravitational waves to probe stellar structure \cite{Marchant:2019swq}.
 
-The remainder of this paper is organised as follows. Sec.~\ref{SecII} reviews the theory of scalar waves on a spherically-symmetric spacetime of a compact object. Here we describe our model spacetime (\ref{SecIIa}), the effective potentials for wave scattering (\ref{subsec:Potentials}) and the physical boundary conditions that define the $S$-matrix (\ref{subsec:bc}). Sec.~\ref{sec:RP} focusses on the Regge pole spectrum. Here we outline the link between Regge poles and QNMs (\ref{subsec:QNMs_RPs}), we describe the numerical method (\ref{subsec:method}), and we present new numerical results for the spectrum (\ref{subsec:results1}) which exhibits three distinct branches of Regge poles (see e.g.~Fig.~\ref{RP_R226_approx_2Mw_3_6_s_1}). In Sec.~\ref{subsec:WKB} we apply the WKB method to obtain an approximate formula for the ``broad resonance'' branch. Sec.~\ref{sec:CAM} concerns the application of CAM techniques to the calculation of the scattering cross section. Here we review the standard partial-wave expansion of the scattering amplitude (\ref{subsec:partial}), we apply CAM techniques to write this as the sum of a residue series and a background integral (\ref{SecIIc}), and we present a selection of numerical results for $d\sigma/d\Omega$ (\ref{subsec:results2}). We conclude with a discussion in Sec.~\ref{sec:conclusions}.
+The remainder of this paper is organised as follows. Sec.~\ref{SecII} reviews the theory of scalar waves on a spherically-symmetric spacetime of a compact object. Here we describe our model spacetime (\ref{SecIIa}), the effective potentials for wave scattering (\ref{subsec:Potentials}) and the physical boundary conditions that define the $S$-matrix (\ref{subsec:bc}). Sec.~\ref{sec:RP} focusses on the Regge pole spectrum. Here we outline the link between Regge poles and QNMs (\ref{subsec:QNMs_RPs}), we describe the numerical method (\ref{subsec:method}), and we present new numerical results for the spectrum (\ref{subsec:results1}) which exhibits three distinct branches of Regge poles (see e.g.~Fig.~\ref{RP_R226_approx_2Mw_3_6_s_1}). In Sec.~\ref{subsec:WKB} we apply the WKB method to obtain an approximate formula for the ``broad resonance'' branch. Sec.~\ref{sec:CAM} concerns the application of CAM techniques to the calculation of the scattering cross section. Here we review the standard partial-wave expansion of the scattering amplitude (\ref{subsec:partial}), we apply CAM techniques to write this as the sum of a residue series and a background integral (\ref{SecIIc}), and we present a selection of numerical results for $d\sigma/d\Omega$ (\ref{subsec:results2}). We conclude with a discussion in Sec.~\ref{sec:conclusions}. In an appendix, we show which quadrants of the complex $\lambda$-plan contain Regge poles of the $S$-matrix.
 
 
 
@@ -402,8 +402,8 @@ In this section we show numerical results for the Regge pole spectrum of a compa
 
 Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body ($R/M = 6$). We see that there are two branches of Regge poles in the first quadrant, which meet near $\text{Re}( \lambda_n(\omega) ) \sim \omega b_0$, where $b_0$ is the impact parameter for the null ray which grazes the surface of the compact body. The axial GW $s=2$ modes (filled markers) are typically close to their scalar-field $s=0$ counterparts (unfilled markers), as might be anticipated from the similarities in the effective potentials for the two cases (see Fig.~\ref{fig:Veff}).
 
-In Appendix \ref{appen} we present an argument for why no Regge poles are expected to be located in the fourth quadrant of the complex-$\lambda$ plane for $\omega>0$. As a consistency check, 
-we have scanned the fourth quadrant with the numerical method above, and have found no evidence for Regge poles. 
+In Appendix \ref{appen} we present an argument for why no Regge poles are expected to be located in the fourth quadrant of the complex-$\lambda$ plane for $\omega>0$. As a consistency check,
+we have scanned the fourth quadrant with the numerical method above, and have found no evidence for Regge poles.
 
 Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the $S$-matrix elements (see Ref.~\cite{Andersson:1994rk,Folacci:2019cmc}), viz.,
 \begin{equation}\label{Matrix_S_CAM_symm}
@@ -1014,14 +1014,14 @@ invitation to the University of Sheffield. T.S.~acknowledges financial support f
 \label{appen}
 
 %\moh{I have established some proprieties (symmetry relations) to connect different quadrants and I moved part of the paragraph from section III-c to the appendix.  Sam \& Tom : Please be critical and It is free to change.}
-%\tom{I have made a few minor rewordings. Agree with moving III C para to here.}. 
+%\tom{I have made a few minor rewordings. Agree with moving III C para to here.}.
 
 %In this appendix, we will show that, for $\omega$ real, the zeros of the $S$-matrix (\textit{i.e.}, the Regge poles), or in other words
 %the zeros of the coefficient $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~\eqref{Matrix_S_CAM}]
 %\begin{equation}\label{zeros_Am}
 %   A^{(-)}_{\lambda-1/2} (\omega)\Big{|}_{\lambda =\lambda_n} = 0
 %\end{equation}
-%are lying in the right-half of the complex $\lambda$-plan. 
+%are lying in the right-half of the complex $\lambda$-plan.
 
 In this appendix, we establish which quadrants of the complex $\lambda$-plane may contain Regge poles, for scalar and axial metric perturbations on a stellar background. In other words, we will constrain the possible locations of the zeros of the coefficient $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~\eqref{Matrix_S_CAM}],
 \begin{equation}\label{zeros_Am}
@@ -1033,11 +1033,11 @@ for $\omega$ real.
 To do this, it is convenient to write the boundary conditions \eqref{bc_1_in} and \eqref{bc_2_in} defining a solution that is regular at the origin in the following form:
 \begin{equation}
 \label{bc_CAM}
-\phi_{\lambda-\frac{1}{2}}(\omega) \sim
+\phi_{\omega,\lambda-\frac{1}{2}}(r) \sim
 \begin{cases}
 r^{\lambda+\frac{1}{2}}, &
 r \rightarrow 0, \\
-\phantom{+} A_{\lambda-1/2}^{(-)}(\omega) e^{-i\omega r_*} & \\ 
+\phantom{+} A_{\lambda-1/2}^{(-)}(\omega) e^{-i\omega r_*} & \\
  + A_{\lambda-1/2}^{(+)}(\omega) e^{+i\omega r_*} , &r_* \rightarrow +\infty.
 \end{cases}
 \end{equation}
@@ -1046,7 +1046,7 @@ We next consider the radial equation~\eqref{H_Radial_equation} for the regular s
 \begin{equation}\label{Wave_equation_reg}
    \frac{d^2}{dr_*^2}\phi_{\omega,\lambda-1/2}(r)+\left(\omega^2 -V_{\lambda-1/2}\right) \phi_{\omega,\lambda-1/2}(r) =0,
  \end{equation}
-and its complex conjugate, 
+and its complex conjugate,
  \begin{equation}\label{Wave_equation_reg_conjugate}
    \frac{d^2}{dr_*^2}\phi^*_{\omega,\lambda-1/2}(r)+ \left(\omega^2 -V_{\lambda^*-1/2}\right)\phi^*_{\omega,{\lambda-1/2}}(r) = 0 .
  \end{equation}
