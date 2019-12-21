@@ -1012,7 +1012,7 @@ invitation to the University of Sheffield. T.S.~acknowledges financial support f
 
 \moh{I have established some proprieties (symmetry relations) to connect different quadrants and I moved part of the paragraph from section III-c to the appendix.  Sam \& Tom : Please be critical and It is free to change.}
 
-In this appendix, we will show that, for $\omega$ real, the zeros of the $S$-matrix (\textit{i.e.}, the Regge poles), or in other words 
+In this appendix, we will show that, for $\omega$ real, the zeros of the $S$-matrix (\textit{i.e.}, the Regge poles), or in other words
 the zeros of the coefficient $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~\eqref{Matrix_S_CAM}]
 \begin{equation}\label{zeros_Am}
    A^{(-)}_{\lambda-1/2} (\omega)\Big{|}_{\lambda =\lambda_n} = 0
@@ -1035,29 +1035,29 @@ Let us consider the radial equation~\eqref{H_Radial_equation}, written for the r
  \end{equation}
 and its complex conjugate
  \begin{equation}\label{Wave_equation_reg_conjugate}
-   \frac{d^2}{dr_*^2}\overline{\phi}_{\omega,\lambda-1/2}(r)+ \left(\omega^2 -V_{\overline{\lambda}-1/2}\right)\overline{\phi}_{\omega,{\lambda-1/2}}(r) =0
+   \frac{d^2}{dr_*^2}\phi^*_{\omega,\lambda-1/2}(r)+ \left(\omega^2 -V_{\lambda^*-1/2}\right)\phi^*_{\omega,{\lambda-1/2}}(r) =0
  \end{equation}
-Multiplying \eqref{Wave_equation_reg} by $\overline{\phi}_{\omega,\lambda-1/2}(r)$ and \eqref{Wave_equation_reg_conjugate} by $\phi_{\omega,\lambda-1/2}(r)$ and subtracting, it follows,
+Multiplying \eqref{Wave_equation_reg} by $\phi^*_{\omega,\lambda-1/2}(r)$ and \eqref{Wave_equation_reg_conjugate} by $\phi_{\omega,\lambda-1/2}(r)$ and subtracting, it follows,
 \begin{widetext}
 \begin{equation}\label{Derivative_Wronskian}
 \begin{aligned}
- \overline{\phi}_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2}\phi_{\omega,\lambda-1/2}(r) - \phi_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2} \overline{\phi}_{\omega,\lambda-1/2}(r) &= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{2\text{Re}[\lambda]\text{Im}[\lambda]}{r^2} \\
-                           &= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{\text{Im}[\lambda^2]}{r^2} 
+ \phi^*_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2}\phi_{\omega,\lambda-1/2}(r) - \phi_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2} \phi^*_{\omega,\lambda-1/2}(r) &= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{2\text{Re}[\lambda]\text{Im}[\lambda]}{r^2} \\
+                           &= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{\text{Im}[\lambda^2]}{r^2}
  \end{aligned}
 \end{equation}
 \end{widetext}
-In Eq.~\eqref{Derivative_Wronskian}, the l.h.s is the derivative of the Wronskian, $W$, of the two solutions respect to $r_*$ and it is a constant (\textit{i.e.}, $d/dr_* W[\overline{\phi},\phi] = 0$) if $\lambda$ either real or purely imaginary. According to Eq.~\eqref{Derivative_Wronskian}, we can write
+In Eq.~\eqref{Derivative_Wronskian}, the l.h.s is the derivative of the Wronskian, $W$, of the two solutions respect to $r_*$ and it is a constant (\textit{i.e.}, $d/dr_* W[\phi^*,\phi] = 0$) if $\lambda$ either real or purely imaginary. According to Eq.~\eqref{Derivative_Wronskian}, we can write
 \begin{equation}\label{Derivative_Wronskian_bis}
-\frac{d}{dr_*}W[\overline{\phi},\phi]= 2i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{2\text{Re}[\lambda]\text{Im}[\lambda]}{r^2}
+\frac{d}{dr_*}W[\phi^*,\phi]= 2i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{2\text{Re}[\lambda]\text{Im}[\lambda]}{r^2}
 \end{equation}
 
 Integration of \eqref{Derivative_Wronskian_bis} gives
 \begin{equation}\label{Evaluation_W}
-\lim_{r_*\rightarrow \infty}  W[\overline{\phi},\phi] = 4i\, \text{Im}[\lambda]\, \text{Re}[\lambda] \int_{0}^{+\infty} \frac{|\phi_{\lambda-1/2}(\omega)|^2}{r^2}\,dr
+\lim_{r_*\rightarrow \infty}  W[\phi^*,\phi] = 4i\, \text{Im}[\lambda]\, \text{Re}[\lambda] \int_{0}^{+\infty} \frac{|\phi_{\lambda-1/2}(\omega)|^2}{r^2}\,dr
 \end{equation}
 where we have used $\frac{dr}{dr_*}=f(r)$ to transform the integration variable. In other hand,  By evaluating the  Wronskian from the boundary condition~\eqref{bc_CAM}, we obtain
 \begin{equation}\label{Evaluation_W_bis}
-\lim_{r_*\rightarrow \infty}  W[\overline{\phi},\phi] =-2i\, \omega\left(|A^{(-)}_{\lambda-1/2}|^2-|A^{(+)}_{\lambda-1/2}|^2\right)
+\lim_{r_*\rightarrow \infty}  W[\phi^*,\phi] =-2i\, \omega\left(|A^{(-)}_{\lambda-1/2}|^2-|A^{(+)}_{\lambda-1/2}|^2\right)
 \end{equation}
 hence we get (\textit{c.f.} \eqref{Evaluation_W} and  \eqref{Evaluation_W_bis})
 \begin{equation}\label{Evaluation_W_bis_1}
@@ -1068,7 +1068,7 @@ Since the integral is positive and $\omega$ is real, $A^{(-)}_{\lambda-1/2}$ can
 \begin{equation}
     \begin{dcases}
         \omega>0 \\
-        \text{Im}[\lambda]>0 
+        \text{Im}[\lambda]>0
      \end{dcases}
 \quad\text{or}\quad
     \begin{dcases}
@@ -1079,20 +1079,20 @@ Since the integral is positive and $\omega$ is real, $A^{(-)}_{\lambda-1/2}$ can
 
 Thus, in the right-half complex $\lambda$-plan, the Regge poles lie only in the first quadrant for $\omega > 0$, and only in the fourth quadrant for $\omega < 0$.
 
-It is important to note that we have, under transformation $\omega \rightarrow -\omega$, the coefficient $A^{(-)}_{\lambda-1/2}(\omega)$ defined by the problem  \eqref{H_Radial_equation}--\eqref{bc_1_in}--\eqref{bc_2_in}, satisfy
+It is important to note that we have, under transformation $\omega \rightarrow -\omega$, the coefficient $A^{(-)}_{\lambda-1/2}(\omega)$ defined by the problem  \eqref{H_Radial_equation}--\eqref{bc_1_in}--\eqref{bc_2_in}, satisfy the symmetry relation
 \begin{equation}\label{symmetry_relation}
  A^{(-)}_{\lambda-1/2}(-\omega) = \left[A^{(-)}_{\lambda^*-1/2}(\omega)\right]^*
 \end{equation}
-hence, due to this symmetry relation, we get 
+where, we have
 \begin{equation}\label{Relation_1st_4th}
-\lambda_n(-\omega) = \lambda_n(\omega)^*  
+\lambda_n(-\omega) = \lambda_n(\omega)^*
 \end{equation}
 
-Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the $S$-matrix elements (see Ref.~\cite{Andersson:1994rk,Folacci:2019cmc}), viz.,
+Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$~\eqref{bc_CAM}. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the $S$-matrix elements (see Ref.~\cite{Andersson:1994rk,Folacci:2019cmc}), viz.,
 \begin{equation}\label{Matrix_S_CAM_symm}
 S_{-\lambda -1/2}(\omega) =  e^{-2i \pi \lambda} \, S_{\lambda -1/2}(\omega)
 \end{equation}
-Furthermore, since the wave equation is invariant under the transformation $\lambda \rightarrow -\lambda$ and according to \eqref{Evaluation_W_bis_1} and \eqref{Relation_1st_4th}, it follows that the distribution of poles in the left-half of the complex plane follows by reflection through the origin. In the other words, in the left-half complex $\lambda$-plan (\text{i.e.} $\text{Re}[\lambda] < 0 $), the Regge poles occur for 
+Furthermore, since the wave equation is invariant under the transformation $\lambda \rightarrow -\lambda$ and according to \eqref{Evaluation_W_bis_1} and \eqref{Relation_1st_4th}, it follows that the distribution of poles in the left-half of the complex plane follows by reflection through the origin. In the other words, in the left-half complex $\lambda$-plan (\text{i.e.} $\text{Re}[\lambda] < 0 $), the Regge poles occur for
 \begin{equation}
     \begin{dcases}
         \omega>0 \\
@@ -1105,7 +1105,7 @@ Furthermore, since the wave equation is invariant under the transformation $\lam
     \end{dcases}
 \end{equation}\
 
-The results established here agree with the situation in non-relativistic wave and atom/particle scattering (see \textit{e.g.} \cite{Newton:1982qc,Bottino1962} and references therein), also with the Schwarzschild black hole scattering \cite{Andersson:1994rk}. 
+The results established here agree with the situation in non-relativistic wave and atom/particle scattering (see \textit{e.g.} \cite{Newton:1982qc,Bottino1962} and references therein), also with the Schwarzschild black hole scattering \cite{Andersson:1994rk,Decanini:2009mu}.
 
 
 \bibliography{rainbowCAM}
