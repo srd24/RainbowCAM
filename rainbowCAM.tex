@@ -402,7 +402,10 @@ In this section we show numerical results for the Regge pole spectrum of a compa
 
 Figure \ref{fig:rp1} shows the Regge pole spectrum for a neutron-star-like body ($R/M = 6$). We see that there are two branches of Regge poles in the first quadrant, which meet near $\text{Re}( \lambda_n(\omega) ) \sim \omega b_0$, where $b_0$ is the impact parameter for the null ray which grazes the surface of the compact body. The axial GW $s=2$ modes (filled markers) are typically close to their scalar-field $s=0$ counterparts (unfilled markers), as might be anticipated from the similarities in the effective potentials for the two cases (see Fig.~\ref{fig:Veff}).
 
-After scanning across the domain, we find no evidence of Regge poles in the fourth quadrant of the complex-$\lambda$ plane for $\omega>0$. Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the $S$-matrix elements (see Ref.~\cite{Andersson:1994rk,Folacci:2019cmc}), viz.,
+In Appendix \ref{appen} we present an argument for why no Regge poles are expected to be located in the fourth quadrant of the complex-$\lambda$ plane for $\omega>0$. As a consistency check, 
+we have scanned the fourth quadrant with the numerical method above, and have found no evidence for Regge poles. 
+
+Exploring the second and third quadrants, where $\text{Re}[{\lambda}] < 0$, requires a choice to be made on the form of the boundary condition imposed at $r=0$. A natural choice is to impose regularity, i.e.,~$\phi_{\omega\ell} \sim r^{-\lambda+1/2}$ as $r \rightarrow 0$ for $\text{Re} [\lambda] < 0$. An advantage of this choice is that it leads to the same symmetry as in the black hole case for the $S$-matrix elements (see Ref.~\cite{Andersson:1994rk,Folacci:2019cmc}), viz.,
 \begin{equation}\label{Matrix_S_CAM_symm}
 S_{-\lambda -1/2}(\omega) =  e^{-2i \pi \lambda} \, S_{\lambda -1/2}(\omega)
 \end{equation}
@@ -1010,66 +1013,66 @@ invitation to the University of Sheffield. T.S.~acknowledges financial support f
 \section{Location of the Regge poles in complex $\lambda$-plan}
 \label{appen}
 
-\moh{I have established some proprieties (symmetry relations) to connect different quadrants and I moved part of the paragraph from section III-c to the appendix.  Sam \& Tom : Please be critical and It is free to change.}
-\tom{I have made a few minor rewordings. Agree with moving III C para to here.}. 
+%\moh{I have established some proprieties (symmetry relations) to connect different quadrants and I moved part of the paragraph from section III-c to the appendix.  Sam \& Tom : Please be critical and It is free to change.}
+%\tom{I have made a few minor rewordings. Agree with moving III C para to here.}. 
 
-In this appendix, we will show that, for $\omega$ real, the zeros of the $S$-matrix (\textit{i.e.}, the Regge poles), or in other words
-the zeros of the coefficient $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~\eqref{Matrix_S_CAM}]
-\begin{equation}\label{zeros_Am}
-   A^{(-)}_{\lambda-1/2} (\omega)\Big{|}_{\lambda =\lambda_n} = 0
-\end{equation}
-are lying in the right-half of the complex $\lambda$-plan. 
+%In this appendix, we will show that, for $\omega$ real, the zeros of the $S$-matrix (\textit{i.e.}, the Regge poles), or in other words
+%the zeros of the coefficient $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~\eqref{Matrix_S_CAM}]
+%\begin{equation}\label{zeros_Am}
+%   A^{(-)}_{\lambda-1/2} (\omega)\Big{|}_{\lambda =\lambda_n} = 0
+%\end{equation}
+%are lying in the right-half of the complex $\lambda$-plan. 
 
-\tom{ rewording: In this appendix we will show which quadrants of the complex $\lambda$-plane may contain the Regge poles for scalar and axial metric perturbations on a stellar background. In other words, we will constrain the possible locations of the zeros of the coefficient $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~\eqref{Matrix_S_CAM}],
+In this appendix, we establish which quadrants of the complex $\lambda$-plane may contain Regge poles, for scalar and axial metric perturbations on a stellar background. In other words, we will constrain the possible locations of the zeros of the coefficient $A^{(-)}_{\lambda-1/2} (\omega)$ [see Eq.~\eqref{Matrix_S_CAM}],
 \begin{equation}\label{zeros_Am}
    A^{(-)}_{\lambda-1/2} (\omega)\Big{|}_{\lambda =\lambda_n} = 0,
 \end{equation}
 for $\omega$ real.
-}
 
-To do this, it is convenient to write the boundary conditions \eqref{bc_1_in} and \eqref{bc_2_in} in the following form:
+
+To do this, it is convenient to write the boundary conditions \eqref{bc_1_in} and \eqref{bc_2_in} defining a solution that is regular at the origin in the following form:
 \begin{equation}
 \label{bc_CAM}
 \phi_{\lambda-\frac{1}{2}}(\omega) \sim
-\left\{
-\begin{aligned}
-&r^{\lambda+\frac{1}{2}}\hspace{8em} \scriptstyle{r \rightarrow 0,} \quad \text{(regular solution)}\\
-&A_{\lambda-1/2}^{(-)}(\omega) e^{-i\omega r_*} + A_{\lambda-1/2}^{(+)}(\omega) e^{+i\omega r_*}  \hspace{0.2em}\scriptstyle{r_* \rightarrow +\infty.}
-\end{aligned}
-\right.
+\begin{cases}
+r^{\lambda+\frac{1}{2}}, &
+r \rightarrow 0, \\
+\phantom{+} A_{\lambda-1/2}^{(-)}(\omega) e^{-i\omega r_*} & \\ 
+ + A_{\lambda-1/2}^{(+)}(\omega) e^{+i\omega r_*} , &r_* \rightarrow +\infty.
+\end{cases}
 \end{equation}
-
-Let us consider the radial equation~\eqref{H_Radial_equation}, written for the regular solution
+%
+We next consider the radial equation~\eqref{H_Radial_equation} for the regular solution
 \begin{equation}\label{Wave_equation_reg}
-   \frac{d^2}{dr_*^2}\phi_{\omega,\lambda-1/2}(r)+\left(\omega^2 -V_{\lambda-1/2}\right) \phi_{\omega,\lambda-1/2}(r) =0
+   \frac{d^2}{dr_*^2}\phi_{\omega,\lambda-1/2}(r)+\left(\omega^2 -V_{\lambda-1/2}\right) \phi_{\omega,\lambda-1/2}(r) =0,
  \end{equation}
-and its complex conjugate
+and its complex conjugate, 
  \begin{equation}\label{Wave_equation_reg_conjugate}
-   \frac{d^2}{dr_*^2}\phi^*_{\omega,\lambda-1/2}(r)+ \left(\omega^2 -V_{\lambda^*-1/2}\right)\phi^*_{\omega,{\lambda-1/2}}(r) =0
+   \frac{d^2}{dr_*^2}\phi^*_{\omega,\lambda-1/2}(r)+ \left(\omega^2 -V_{\lambda^*-1/2}\right)\phi^*_{\omega,{\lambda-1/2}}(r) = 0 .
  \end{equation}
-Multiplying \eqref{Wave_equation_reg} by $\phi^*_{\omega,\lambda-1/2}(r)$ and \eqref{Wave_equation_reg_conjugate} by $\phi_{\omega,\lambda-1/2}(r)$ and subtracting, it follows that
+Multiplying \eqref{Wave_equation_reg} by $\phi^*_{\omega,\lambda-1/2}(r)$ and \eqref{Wave_equation_reg_conjugate} by $\phi_{\omega,\lambda-1/2}(r)$ and taking the difference, it follows that
 \begin{widetext}
 \begin{equation}\label{Derivative_Wronskian}
 \begin{aligned}
- \phi^*_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2}\phi_{\omega,\lambda-1/2}(r) - \phi_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2} \phi^*_{\omega,\lambda-1/2}(r) &= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{2\text{Re}[\lambda]\text{Im}[\lambda]}{r^2} \\
-                           &= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{\text{Im}[\lambda^2]}{r^2}
+ \phi^*_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2}\phi_{\omega,\lambda-1/2}(r) - \phi_{\omega,\lambda-1/2}(r) \frac{d^2}{dr_*^2} \phi^*_{\omega,\lambda-1/2}(r) %&= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{2\text{Re}[\lambda]\text{Im}[\lambda]}{r^2} \\
+                           &= 2 i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{\text{Im}[\lambda^2]}{r^2} .
  \end{aligned}
 \end{equation}
 \end{widetext}
-The LHS of Eq.~\eqref{Derivative_Wronskian} is the derivative of the Wronskian, $W$, of the two solutions with respect to $r_*$ and it is a constant (\textit{i.e.}, $d/dr_* W[\phi^*,\phi] = 0$) if $\lambda$ either real or purely imaginary. According to Eq.~\eqref{Derivative_Wronskian}, we can write
+The LHS of Eq.~\eqref{Derivative_Wronskian} is the derivative of $W$, the Wronskian of the two solutions with respect to $r_*$. The Wronskian is a constant (\textit{i.e.}, $d/dr_* W[\phi^*,\phi] = 0$) if $\lambda$ either real or purely imaginary. According to Eq.~\eqref{Derivative_Wronskian}, we can write
 \begin{equation}\label{Derivative_Wronskian_bis}
 \frac{d}{dr_*}W[\phi^*,\phi]= 2i|\phi_{\lambda-1/2}(\omega)|^2 f[r]\frac{2\text{Re}[\lambda]\text{Im}[\lambda]}{r^2}.
 \end{equation}
 
 Integration of \eqref{Derivative_Wronskian_bis} gives
 \begin{equation}\label{Evaluation_W}
-\lim_{r_*\rightarrow \infty}  W[\phi^*,\phi] = 4i\, \text{Im}[\lambda]\, \text{Re}[\lambda] \int_{0}^{+\infty} \frac{|\phi_{\lambda-1/2}(\omega)|^2}{r^2}\,dr
+\lim_{r_*\rightarrow \infty}  W[\phi^*,\phi] = 4i\, \text{Im}[\lambda]\, \text{Re}[\lambda] \int_{0}^{+\infty} \frac{|\phi_{\lambda-1/2}(\omega)|^2}{r^2}\,dr ,
 \end{equation}
 where we have used $\frac{dr}{dr_*}=f(r)$ to transform the integration variable. On the other hand,  by evaluating the  Wronskian from the boundary condition~\eqref{bc_CAM}, we obtain
 \begin{equation}\label{Evaluation_W_bis}
 \lim_{r_*\rightarrow \infty}  W[\phi^*,\phi] =-2i\, \omega\left(|A^{(-)}_{\lambda-1/2}|^2-|A^{(+)}_{\lambda-1/2}|^2\right),
 \end{equation}
-hence we get (\textit{c.f.} \eqref{Evaluation_W} and  \eqref{Evaluation_W_bis})
+hence we get (\textit{c.f.}~\eqref{Evaluation_W} and  \eqref{Evaluation_W_bis})
 \begin{equation}\label{Evaluation_W_bis_1}
   |A^{(-)}_{\lambda-1/2}|^2-|A^{(+)}_{\lambda-1/2}|^2 = -\frac{2}{\omega}\text{Re}[\lambda]\text{Im}[\lambda]\int_{0}^{+\infty} \frac{ |\phi_{\lambda-1/2}(\omega)|^2}{r^2}\,dr.
 \end{equation}
@@ -1115,7 +1118,7 @@ Furthermore, since the wave equation is invariant under the transformation $\lam
     \end{dcases}
 \end{equation}\
 
-The results established here agree with the situation in non-relativistic wave and atom/particle scattering (see \textit{e.g.} \cite{Newton:1982qc,Bottino1962} and references therein), also with the Schwarzschild black hole scattering \cite{Andersson:1994rk,Decanini:2009mu}.
+The results established here agree with the situation in non-relativistic wave and atom/particle scattering (see \textit{e.g.}~\cite{Newton:1982qc,Bottino1962} and references therein), and also with the results of Schwarzschild black hole scattering \cite{Andersson:1994rk,Decanini:2009mu}.
 
 
 \bibliography{rainbowCAM}
