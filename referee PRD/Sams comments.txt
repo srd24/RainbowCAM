@@ -1,0 +1,7 @@
+On this, our reply should distinguish between two separate questions:
+
+ (1)  in our model, alpha -> 0 iff M/R -> 0, e.g. a large dilute star. In this case the modes move close to the real axis.
+In the case alpha = 0, M/R = 0, there is no star at all and no modes at all. (cf. singular perturbation theory).
+
+ (2) as Tom has argued, in a different model in which the potential is C^n at the surface (n >= 0), 
+the imaginary part is proportional to (n+1) and in the large-n limit the associated modes have large imaginary parts and little physical consequence.
