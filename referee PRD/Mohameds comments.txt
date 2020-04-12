@@ -1,0 +1,7 @@
+Just a remark  for the 3rd response.  
+With Antoine , we have mentionned the negligeable role of the background integral 
+(see conclusion of our article PRD 99, 104079 (2019)) ansd we didn't expect that 
+at the beginning  because we know that the background integral in other domains 
+has a role and its asymptotically evaluation allows it to be interpreted as direct 
+reflected rays. it was a surprise for us in the case of black hole 
+(We must believe that black holes are special objects alos ECOs !!!!).
