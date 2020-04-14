@@ -3,16 +3,21 @@ In response to referee:
 (i) Three points: Limit of alpha -> 0, black hole case, 
 and smoothness of potential:
 
-	(a) Limit of alpha -> 0 iff M/R -> 0 (branch dissapears). 
-	(b) Black hole argument of Mohamed. Emphasise this is different case.
+	(a) Limit of alpha -> 0 iff M/R -> 0 (branch dissapears). SEE LINE 760
+	(b) Black hole argument of Mohamed. Emphasise this is different case. 
 	(c) Even if continuous, then may have non-zero R due to discontinous
-	nth derivitave of potential.
+	nth derivitave of potential. SEE LINE 762
 	
 	Make changes to text for (a-c). 
 
 (ii) Role of length scales in WKB expansion, magnitude of higher order terms
 
-	Yes M/R must be small. Make this more explicit in text.
+	Make this more explicit in text. ADDED SENTENCE LINE 671
+
+	also for response: note that although M/R does enter in eqs 30 and 31, the 
+	Wronskian can be evaluated at $r* \approx 1/\omega < R$, and thus O(M r*^2 / R^3 ) 
+	= O(M \omega)^-2 O(M/R)^3 and we are limited to M/R order 1 or smaller. 
+
 
 (iii) Qualitative argument for no. of RPs needed for accuracy. 
 And neglecting background integral.

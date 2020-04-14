@@ -667,7 +667,8 @@ $10$ & $3$  & $8.113848+12.876130 i $  & $/ $  & $/ $    \\
 
 To investigate the relationship between the qualitative features of the effective potential (Fig.~\ref{fig:Veff}) and the three branches of Regge poles revealed in Sec.~\ref{subsec:results1}, we now employ the WKB method, with a view to obtaining an approximation that is valid at high frequencies ($M\omega \rightarrow \infty$).
 
-Here we follow the approach of Zhang, Wu and Leung~\cite{Zhang:2011pq}, who applied the WKB method to determine the axial \textit{w}-modes of a variety of stellar models. We adapt their method to obtain analytical approximations for the ``broad resonances'' for massless waves on a stellar background. The starting point is the radial equation (\ref{H_Radial_equation}) with either the effective potential for the scalar field (\ref{Inside_Potentiel}), or for axial gravitational perturbations (\ref{RW_Potentiel_axialGW}).
+Here we follow the approach of Zhang, Wu and Leung~\cite{Zhang:2011pq}, who applied the WKB method to determine the axial \textit{w}-modes of a variety of stellar models. We adapt their method to obtain analytical approximations for the ``broad resonances'' for massless waves on a stellar background. The starting point is the radial equation (\ref{H_Radial_equation}) with either the effective potential for the scalar field (\ref{Inside_Potentiel}), or for axial gravitational perturbations (\ref{RW_Potentiel_axialGW}). 
+It is valid only for models with $R/M>3$. 
 
 Regge poles and quasinormal modes for relativistic stellar models (of which \textit{w}-modes are a sub-category for gravitational perturbations) both satisfy the same wave equation and the same boundary conditions, but with different interpretations for the angular momentum index and the frequency. Both types of pole satisfy the regularity condition at the origin~\eqref{bc_1_in} and the condition of a purely outgoing wave in the far field
 %
@@ -683,7 +684,7 @@ Thus, the Regge poles are solutions of Eq.~\eqref{H_Radial_equation} for which t
 It has been shown \cite{Zhang:2011pq} that asymptotic expressions of $\phireg$ and $\phiout$ can be derived in asymptotic regions, by using a WKB approximation.
 
 In the interior of the star, the radial function $f(r)$ is
-\begin{equation}
+\begin{equation}\label{eq:f_exp}
 f(r) = f_0 \left(1 + O\left(\frac{M r^2}{R^3} \right) \right),
 \end{equation}
 where $f_0$ is a constant, and $h(r) = 1 - 2Mr^2/R^3$. In the vicinity of $r=0$, we may solve Eq.~(\ref{eq:tortoise}) to obtain the tortoise coordinate $r_\ast(r)$, or inversely,
@@ -756,8 +757,13 @@ n \leq \left\lfloor \frac{\omega R_*}{\pi} \mp \frac{1}{4}\right\rfloor.
 %
 In other words, there are a finite number of the broad resonances in the first quadrant.
 
-Table \ref{tab:table5} compares the numerically-determined Regge poles with the WKB approximation in Eq.~(\ref{lambda_Approx}),  for the scalar-field case. The data shows that, while the leading-order WKB approximation captures the essential features of the broad resonance branch, it is not particularly accurate. Higher-order extensions are possible in principle, but not pursued here.
+As $M/R \rightarrow 0$ (a large dilute star), the poles move closer to the real axis. When $M/R=0$ (i.e. no star), the potential is $C^{\infty}$ and the branch does not exist. 
 
+For any stellar model (such as a polytropic fluid sphere), the potential may in general be $C^{N}$ at the surface (and $C^{\infty}$ elsewhere). In this case, $\mathcal{R}$ and thus the broad resonance branch depends on the discontinuity in the $N$-th derivative of the potential at $r=R$. We do not go into detail here, but see Eq.~4.5 of Ref. \cite{Zhang:2011pq}. 
+
+
+
+Table \ref{tab:table5} compares the numerically-determined Regge poles with the WKB approximation in Eq.~(\ref{lambda_Approx}),  for the scalar-field case. The data shows that, while the leading-order WKB approximation captures the essential features of the broad resonance branch, it is not particularly accurate. Higher-order extensions are possible in principle, but not pursued here.
 
 %\begin{equation}\label{lambda_Approx}
 %  \lambda_n \approx \frac{2 \omega R_*}{\pi}+ 2 \left(n-\frac{1}{4}\right)+ 2\left\lfloor \ \frac{1}{2} - \frac{\text{Im}[2 i\omega R_*]}{2\pi} \right\rfloor - \frac{i}{\pi} \ln\left(\frac{a}{\omega^2}\right)
