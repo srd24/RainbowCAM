@@ -4,11 +4,12 @@ In response to referee:
 and smoothness of potential:
 
 	(a) Limit of alpha -> 0 iff M/R -> 0 (branch dissapears). SEE LINE 760
-	(b) Black hole argument of Mohamed. Emphasise this is different case. 
+	(b) Emphasise black hole is different case/remove ambiguity. LINE 671 and 763.
 	(c) Even if continuous, then may have non-zero R due to discontinous
 	nth derivitave of potential. SEE LINE 762
 	
 	Make changes to text for (a-c). 
+	
 
 (ii) Role of length scales in WKB expansion, magnitude of higher order terms
 
@@ -29,11 +30,11 @@ And neglecting background integral.
 	We simply stop summation over RPs when it converges (quantitative argument). 
 	
 
-
+	ADDED PARAGRAPH LINE 987 
 
 
 Other:
 
-Add Voelkel reference
+Add Voelkel reference - DONE LINE 670
 
 Correct eq. 50(c) - DONE
