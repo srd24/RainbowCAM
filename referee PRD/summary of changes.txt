@@ -38,3 +38,10 @@ Other:
 Add Voelkel reference - DONE LINE 670
 
 Correct eq. 50(c) - DONE
+
+
+comments not put in for now:
+
+\tom{Speculatively, this could be related to the long range nature of gravitational scattering by compact bodies 
+(it is not just the body that is scattering, but the bodies extended gravitational field). By contrast, in acoustics, quantum mechanics, 
+and optics [\emph{find citations}] the scatterer generally has a short range influence.} 
